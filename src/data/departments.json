@@ -1,0 +1,3778 @@
+{
+  "national_reference": {
+    "season": "2025–26",
+    "vcr_65plus": 56.7,
+    "previous_season_vcr_65plus": 53.7,
+    "target_pct": 75,
+    "provenance": "public",
+    "source_ids": [
+      "spf_bulletin",
+      "has_policy"
+    ],
+    "scope": "France entière; default map is metropolitan France"
+  },
+  "departments": [
+    {
+      "code": "04",
+      "name": "Alpes-de-Haute-Provence",
+      "region_code": "93",
+      "region_name": "Provence-Alpes-Côte d'Azur",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 50.2,
+        "vcr_65_74": 42.4,
+        "vcr_75plus": 57.5,
+        "vcr_under65_atrisk": 24.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 35173,
+        "unvaccinated_opportunity": 17516,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -3.8,
+        "driver_indexes": {
+          "access_index": 62,
+          "hcp_engagement_index": 34,
+          "confidence_index": 58,
+          "availability_index": 81,
+          "recommendation_index": 41
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "05",
+      "name": "Hautes-Alpes",
+      "region_code": "93",
+      "region_name": "Provence-Alpes-Côte d'Azur",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.5,
+        "vcr_65_74": 46.3,
+        "vcr_75plus": 60.5,
+        "vcr_under65_atrisk": 26.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 50037,
+        "unvaccinated_opportunity": 23267,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -7.5,
+        "driver_indexes": {
+          "access_index": 76,
+          "hcp_engagement_index": 68,
+          "confidence_index": 69,
+          "availability_index": 73,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "09",
+      "name": "Ariège",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 50.3,
+        "vcr_65_74": 42.3,
+        "vcr_75plus": 58.0,
+        "vcr_under65_atrisk": 25.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 102499,
+        "unvaccinated_opportunity": 50942,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -10.7,
+        "driver_indexes": {
+          "access_index": 71,
+          "hcp_engagement_index": 61,
+          "confidence_index": 67,
+          "availability_index": 65,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "10",
+      "name": "Aube",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.4,
+        "vcr_65_74": 49.1,
+        "vcr_75plus": 61.4,
+        "vcr_under65_atrisk": 27.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 79851,
+        "unvaccinated_opportunity": 35614,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 1.4,
+        "driver_indexes": {
+          "access_index": 64,
+          "hcp_engagement_index": 35,
+          "confidence_index": 61,
+          "availability_index": 86,
+          "recommendation_index": 43
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "15",
+      "name": "Cantal",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 58.7,
+        "vcr_65_74": 51.8,
+        "vcr_75plus": 65.1,
+        "vcr_under65_atrisk": 34.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 149305,
+        "unvaccinated_opportunity": 61663,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 4.7,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 33,
+          "confidence_index": 63,
+          "availability_index": 85,
+          "recommendation_index": 37
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "16",
+      "name": "Charente",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.9,
+        "vcr_65_74": 50.6,
+        "vcr_75plus": 62.8,
+        "vcr_under65_atrisk": 29.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 151410,
+        "unvaccinated_opportunity": 65258,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 2.9,
+        "driver_indexes": {
+          "access_index": 64,
+          "hcp_engagement_index": 35,
+          "confidence_index": 58,
+          "availability_index": 86,
+          "recommendation_index": 43
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "19",
+      "name": "Corrèze",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.0,
+        "vcr_65_74": 49.6,
+        "vcr_75plus": 61.9,
+        "vcr_under65_atrisk": 29.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 176048,
+        "unvaccinated_opportunity": 77461,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -5.0,
+        "driver_indexes": {
+          "access_index": 72,
+          "hcp_engagement_index": 66,
+          "confidence_index": 65,
+          "availability_index": 72,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "2A",
+      "name": "Corse-du-Sud",
+      "region_code": "94",
+      "region_name": "Corse",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 48.4,
+        "vcr_65_74": 40.2,
+        "vcr_75plus": 56.5,
+        "vcr_under65_atrisk": 21.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 45744,
+        "unvaccinated_opportunity": 23604,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -12.6,
+        "driver_indexes": {
+          "access_index": 75,
+          "hcp_engagement_index": 63,
+          "confidence_index": 66,
+          "availability_index": 66,
+          "recommendation_index": 53
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "2B",
+      "name": "Haute-Corse",
+      "region_code": "94",
+      "region_name": "Corse",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 49.0,
+        "vcr_65_74": 40.2,
+        "vcr_75plus": 57.4,
+        "vcr_under65_atrisk": 20.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 84343,
+        "unvaccinated_opportunity": 43015,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -17.0,
+        "driver_indexes": {
+          "access_index": 78,
+          "hcp_engagement_index": 78,
+          "confidence_index": 78,
+          "availability_index": 93,
+          "recommendation_index": 81
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "21",
+      "name": "Côte-d'Or",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.5,
+        "vcr_65_74": 52.8,
+        "vcr_75plus": 65.8,
+        "vcr_under65_atrisk": 32.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 81933,
+        "unvaccinated_opportunity": 33183,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -1.5,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 60,
+          "confidence_index": 64,
+          "availability_index": 69,
+          "recommendation_index": 52
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "26",
+      "name": "Drôme",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.3,
+        "vcr_65_74": 46.8,
+        "vcr_75plus": 61.4,
+        "vcr_under65_atrisk": 28.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 109345,
+        "unvaccinated_opportunity": 49971,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -0.7,
+        "driver_indexes": {
+          "access_index": 34,
+          "hcp_engagement_index": 64,
+          "confidence_index": 69,
+          "availability_index": 73,
+          "recommendation_index": 48
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "27",
+      "name": "Eure",
+      "region_code": "28",
+      "region_name": "Normandie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.9,
+        "vcr_65_74": 51.9,
+        "vcr_75plus": 62.2,
+        "vcr_under65_atrisk": 30.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 125995,
+        "unvaccinated_opportunity": 54304,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 2.9,
+        "driver_indexes": {
+          "access_index": 63,
+          "hcp_engagement_index": 30,
+          "confidence_index": 61,
+          "availability_index": 79,
+          "recommendation_index": 43
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "29",
+      "name": "Finistère",
+      "region_code": "53",
+      "region_name": "Bretagne",
+      "featured": true,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 66.8,
+        "vcr_65_74": 61.5,
+        "vcr_75plus": 72.0,
+        "vcr_under65_atrisk": 35.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 230000,
+        "unvaccinated_opportunity": 76360,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": 0.8,
+        "driver_indexes": {
+          "access_index": 83,
+          "hcp_engagement_index": 81,
+          "confidence_index": 73,
+          "availability_index": 90,
+          "recommendation_index": 82
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "32",
+      "name": "Gers",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.4,
+        "vcr_65_74": 47.6,
+        "vcr_75plus": 60.6,
+        "vcr_under65_atrisk": 28.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 133271,
+        "unvaccinated_opportunity": 60772,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -0.6,
+        "driver_indexes": {
+          "access_index": 35,
+          "hcp_engagement_index": 60,
+          "confidence_index": 63,
+          "availability_index": 71,
+          "recommendation_index": 48
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "33",
+      "name": "Gironde",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 62.1,
+        "vcr_65_74": 55.4,
+        "vcr_75plus": 68.6,
+        "vcr_under65_atrisk": 31.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 119592,
+        "unvaccinated_opportunity": 45325,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -3.9,
+        "driver_indexes": {
+          "access_index": 79,
+          "hcp_engagement_index": 74,
+          "confidence_index": 75,
+          "availability_index": 91,
+          "recommendation_index": 78
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "37",
+      "name": "Indre-et-Loire",
+      "region_code": "24",
+      "region_name": "Centre-Val de Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 62.2,
+        "vcr_65_74": 56.1,
+        "vcr_75plus": 67.7,
+        "vcr_under65_atrisk": 35.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 152329,
+        "unvaccinated_opportunity": 57580,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -3.8,
+        "driver_indexes": {
+          "access_index": 83,
+          "hcp_engagement_index": 76,
+          "confidence_index": 76,
+          "availability_index": 92,
+          "recommendation_index": 77
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "42",
+      "name": "Loire",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.6,
+        "vcr_65_74": 47.9,
+        "vcr_75plus": 62.3,
+        "vcr_under65_atrisk": 28.4,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 145884,
+        "unvaccinated_opportunity": 64772,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 0.6,
+        "driver_indexes": {
+          "access_index": 39,
+          "hcp_engagement_index": 62,
+          "confidence_index": 70,
+          "availability_index": 72,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "48",
+      "name": "Lozère",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.1,
+        "vcr_65_74": 46.1,
+        "vcr_75plus": 59.7,
+        "vcr_under65_atrisk": 30.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 151234,
+        "unvaccinated_opportunity": 70929,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -0.9,
+        "driver_indexes": {
+          "access_index": 68,
+          "hcp_engagement_index": 37,
+          "confidence_index": 63,
+          "availability_index": 87,
+          "recommendation_index": 37
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "50",
+      "name": "Manche",
+      "region_code": "28",
+      "region_name": "Normandie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.8,
+        "vcr_65_74": 55.1,
+        "vcr_75plus": 66.1,
+        "vcr_under65_atrisk": 34.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 69469,
+        "unvaccinated_opportunity": 27232,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 6.8,
+        "driver_indexes": {
+          "access_index": 70,
+          "hcp_engagement_index": 38,
+          "confidence_index": 57,
+          "availability_index": 83,
+          "recommendation_index": 44
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "51",
+      "name": "Marne",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.8,
+        "vcr_65_74": 55.9,
+        "vcr_75plus": 65.7,
+        "vcr_under65_atrisk": 32.4,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 120020,
+        "unvaccinated_opportunity": 47048,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 6.8,
+        "driver_indexes": {
+          "access_index": 66,
+          "hcp_engagement_index": 36,
+          "confidence_index": 62,
+          "availability_index": 82,
+          "recommendation_index": 36
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "54",
+      "name": "Meurthe-et-Moselle",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 62.1,
+        "vcr_65_74": 56.1,
+        "vcr_75plus": 68.0,
+        "vcr_under65_atrisk": 33.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 76391,
+        "unvaccinated_opportunity": 28952,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 8.1,
+        "driver_indexes": {
+          "access_index": 67,
+          "hcp_engagement_index": 32,
+          "confidence_index": 62,
+          "availability_index": 80,
+          "recommendation_index": 37
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "55",
+      "name": "Meuse",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.6,
+        "vcr_65_74": 51.2,
+        "vcr_75plus": 62.2,
+        "vcr_under65_atrisk": 30.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 179735,
+        "unvaccinated_opportunity": 78005,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 2.6,
+        "driver_indexes": {
+          "access_index": 66,
+          "hcp_engagement_index": 36,
+          "confidence_index": 59,
+          "availability_index": 82,
+          "recommendation_index": 40
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "56",
+      "name": "Morbihan",
+      "region_code": "53",
+      "region_name": "Bretagne",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 61.1,
+        "vcr_65_74": 54.7,
+        "vcr_75plus": 67.5,
+        "vcr_under65_atrisk": 29.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 40167,
+        "unvaccinated_opportunity": 15625,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -4.9,
+        "driver_indexes": {
+          "access_index": 81,
+          "hcp_engagement_index": 75,
+          "confidence_index": 76,
+          "availability_index": 87,
+          "recommendation_index": 82
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "57",
+      "name": "Moselle",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.3,
+        "vcr_65_74": 49.5,
+        "vcr_75plus": 64.2,
+        "vcr_under65_atrisk": 27.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 94775,
+        "unvaccinated_opportunity": 41417,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 1.3,
+        "driver_indexes": {
+          "access_index": 38,
+          "hcp_engagement_index": 66,
+          "confidence_index": 64,
+          "availability_index": 74,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "58",
+      "name": "Nièvre",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.7,
+        "vcr_65_74": 49.1,
+        "vcr_75plus": 61.7,
+        "vcr_under65_atrisk": 28.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 103518,
+        "unvaccinated_opportunity": 45858,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -10.3,
+        "driver_indexes": {
+          "access_index": 78,
+          "hcp_engagement_index": 78,
+          "confidence_index": 72,
+          "availability_index": 93,
+          "recommendation_index": 76
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "61",
+      "name": "Orne",
+      "region_code": "28",
+      "region_name": "Normandie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.1,
+        "vcr_65_74": 48.5,
+        "vcr_75plus": 61.1,
+        "vcr_under65_atrisk": 29.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 52560,
+        "unvaccinated_opportunity": 23599,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -5.9,
+        "driver_indexes": {
+          "access_index": 74,
+          "hcp_engagement_index": 67,
+          "confidence_index": 62,
+          "availability_index": 68,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "62",
+      "name": "Pas-de-Calais",
+      "region_code": "32",
+      "region_name": "Hauts-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.5,
+        "vcr_65_74": 56.4,
+        "vcr_75plus": 65.3,
+        "vcr_under65_atrisk": 35.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 168421,
+        "unvaccinated_opportunity": 66526,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -5.5,
+        "driver_indexes": {
+          "access_index": 83,
+          "hcp_engagement_index": 76,
+          "confidence_index": 79,
+          "availability_index": 92,
+          "recommendation_index": 84
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "63",
+      "name": "Puy-de-Dôme",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.8,
+        "vcr_65_74": 53.4,
+        "vcr_75plus": 65.8,
+        "vcr_under65_atrisk": 32.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 126186,
+        "unvaccinated_opportunity": 50727,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 5.8,
+        "driver_indexes": {
+          "access_index": 64,
+          "hcp_engagement_index": 35,
+          "confidence_index": 55,
+          "availability_index": 86,
+          "recommendation_index": 43
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "65",
+      "name": "Hautes-Pyrénées",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.2,
+        "vcr_65_74": 47.4,
+        "vcr_75plus": 62.2,
+        "vcr_under65_atrisk": 28.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 108213,
+        "unvaccinated_opportunity": 48479,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -10.8,
+        "driver_indexes": {
+          "access_index": 85,
+          "hcp_engagement_index": 77,
+          "confidence_index": 74,
+          "availability_index": 88,
+          "recommendation_index": 81
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "66",
+      "name": "Pyrénées-Orientales",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 52.5,
+        "vcr_65_74": 44.6,
+        "vcr_75plus": 59.6,
+        "vcr_under65_atrisk": 23.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 117509,
+        "unvaccinated_opportunity": 55817,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -8.5,
+        "driver_indexes": {
+          "access_index": 76,
+          "hcp_engagement_index": 68,
+          "confidence_index": 63,
+          "availability_index": 73,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "68",
+      "name": "Haut-Rhin",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 47.9,
+        "vcr_65_74": 41.5,
+        "vcr_75plus": 54.8,
+        "vcr_under65_atrisk": 24.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 68726,
+        "unvaccinated_opportunity": 35806,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -13.1,
+        "driver_indexes": {
+          "access_index": 75,
+          "hcp_engagement_index": 63,
+          "confidence_index": 63,
+          "availability_index": 66,
+          "recommendation_index": 49
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "75",
+      "name": "Paris",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.9,
+        "vcr_65_74": 50.3,
+        "vcr_75plus": 62.9,
+        "vcr_under65_atrisk": 30.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 134186,
+        "unvaccinated_opportunity": 57834,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 2.9,
+        "driver_indexes": {
+          "access_index": 63,
+          "hcp_engagement_index": 30,
+          "confidence_index": 55,
+          "availability_index": 79,
+          "recommendation_index": 41
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "80",
+      "name": "Somme",
+      "region_code": "32",
+      "region_name": "Hauts-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 61.0,
+        "vcr_65_74": 56.2,
+        "vcr_75plus": 66.0,
+        "vcr_under65_atrisk": 33.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 168709,
+        "unvaccinated_opportunity": 65797,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 6.0,
+        "driver_indexes": {
+          "access_index": 36,
+          "hcp_engagement_index": 65,
+          "confidence_index": 63,
+          "availability_index": 78,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "86",
+      "name": "Vienne",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.4,
+        "vcr_65_74": 53.1,
+        "vcr_75plus": 65.3,
+        "vcr_under65_atrisk": 32.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 147706,
+        "unvaccinated_opportunity": 59969,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -1.6,
+        "driver_indexes": {
+          "access_index": 73,
+          "hcp_engagement_index": 62,
+          "confidence_index": 65,
+          "availability_index": 70,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 76,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "89",
+      "name": "Yonne",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.4,
+        "vcr_65_74": 49.0,
+        "vcr_75plus": 61.6,
+        "vcr_under65_atrisk": 27.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 78964,
+        "unvaccinated_opportunity": 35218,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 0.4,
+        "driver_indexes": {
+          "access_index": 32,
+          "hcp_engagement_index": 63,
+          "confidence_index": 65,
+          "availability_index": 77,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "92",
+      "name": "Hauts-de-Seine",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 57.8,
+        "vcr_65_74": 51.6,
+        "vcr_75plus": 63.7,
+        "vcr_under65_atrisk": 29.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 131530,
+        "unvaccinated_opportunity": 55506,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -3.2,
+        "driver_indexes": {
+          "access_index": 70,
+          "hcp_engagement_index": 65,
+          "confidence_index": 67,
+          "availability_index": 67,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "93",
+      "name": "Seine-Saint-Denis",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": true,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 46.4,
+        "vcr_65_74": 40.7,
+        "vcr_75plus": 53.7,
+        "vcr_under65_atrisk": 22.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 180000,
+        "unvaccinated_opportunity": 96480,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -7.6,
+        "driver_indexes": {
+          "access_index": 66,
+          "hcp_engagement_index": 34,
+          "confidence_index": 62,
+          "availability_index": 86,
+          "recommendation_index": 40
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "973",
+      "name": "Guyane",
+      "region_code": "03",
+      "region_name": "Guyane",
+      "featured": false,
+      "metropolitan": false,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 18.2,
+        "vcr_65_74": 16.0,
+        "vcr_75plus": 22.1,
+        "vcr_under65_atrisk": 10.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 26229,
+        "unvaccinated_opportunity": 21455,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -47.8,
+        "driver_indexes": {
+          "access_index": 81,
+          "hcp_engagement_index": 75,
+          "confidence_index": 79,
+          "availability_index": 87,
+          "recommendation_index": 83
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "01",
+      "name": "Ain",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.4,
+        "vcr_65_74": 47.9,
+        "vcr_75plus": 60.9,
+        "vcr_under65_atrisk": 28.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 184881,
+        "unvaccinated_opportunity": 84306,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 0.4,
+        "driver_indexes": {
+          "access_index": 63,
+          "hcp_engagement_index": 30,
+          "confidence_index": 55,
+          "availability_index": 79,
+          "recommendation_index": 41
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "02",
+      "name": "Aisne",
+      "region_code": "32",
+      "region_name": "Hauts-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 57.4,
+        "vcr_65_74": 51.9,
+        "vcr_75plus": 63.2,
+        "vcr_under65_atrisk": 31.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 94804,
+        "unvaccinated_opportunity": 40387,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -3.6,
+        "driver_indexes": {
+          "access_index": 70,
+          "hcp_engagement_index": 65,
+          "confidence_index": 64,
+          "availability_index": 67,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "07",
+      "name": "Ardèche",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 52.1,
+        "vcr_65_74": 44.7,
+        "vcr_75plus": 59.3,
+        "vcr_under65_atrisk": 26.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 128049,
+        "unvaccinated_opportunity": 61335,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -13.9,
+        "driver_indexes": {
+          "access_index": 82,
+          "hcp_engagement_index": 80,
+          "confidence_index": 76,
+          "availability_index": 94,
+          "recommendation_index": 78
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "11",
+      "name": "Aude",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.0,
+        "vcr_65_74": 46.5,
+        "vcr_75plus": 61.0,
+        "vcr_under65_atrisk": 26.4,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 50874,
+        "unvaccinated_opportunity": 23402,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -7.0,
+        "driver_indexes": {
+          "access_index": 75,
+          "hcp_engagement_index": 63,
+          "confidence_index": 63,
+          "availability_index": 66,
+          "recommendation_index": 48
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "12",
+      "name": "Aveyron",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.9,
+        "vcr_65_74": 46.6,
+        "vcr_75plus": 62.1,
+        "vcr_under65_atrisk": 28.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 174847,
+        "unvaccinated_opportunity": 78856,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 0.9,
+        "driver_indexes": {
+          "access_index": 67,
+          "hcp_engagement_index": 32,
+          "confidence_index": 59,
+          "availability_index": 80,
+          "recommendation_index": 38
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "22",
+      "name": "Côtes-d'Armor",
+      "region_code": "53",
+      "region_name": "Bretagne",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.4,
+        "vcr_65_74": 54.4,
+        "vcr_75plus": 66.2,
+        "vcr_under65_atrisk": 29.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 96692,
+        "unvaccinated_opportunity": 38290,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -5.6,
+        "driver_indexes": {
+          "access_index": 86,
+          "hcp_engagement_index": 82,
+          "confidence_index": 74,
+          "availability_index": 95,
+          "recommendation_index": 81
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "23",
+      "name": "Creuse",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.0,
+        "vcr_65_74": 47.2,
+        "vcr_75plus": 58.4,
+        "vcr_under65_atrisk": 29.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 188819,
+        "unvaccinated_opportunity": 88745,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -1.0,
+        "driver_indexes": {
+          "access_index": 62,
+          "hcp_engagement_index": 34,
+          "confidence_index": 58,
+          "availability_index": 81,
+          "recommendation_index": 37
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 76,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "30",
+      "name": "Gard",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.9,
+        "vcr_65_74": 48.4,
+        "vcr_75plus": 63.4,
+        "vcr_under65_atrisk": 27.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 137980,
+        "unvaccinated_opportunity": 60849,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 1.9,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 33,
+          "confidence_index": 57,
+          "availability_index": 85,
+          "recommendation_index": 39
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "34",
+      "name": "Hérault",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 57.2,
+        "vcr_65_74": 49.5,
+        "vcr_75plus": 64.3,
+        "vcr_under65_atrisk": 27.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 22444,
+        "unvaccinated_opportunity": 9606,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 3.2,
+        "driver_indexes": {
+          "access_index": 67,
+          "hcp_engagement_index": 32,
+          "confidence_index": 56,
+          "availability_index": 80,
+          "recommendation_index": 42
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "35",
+      "name": "Ille-et-Vilaine",
+      "region_code": "53",
+      "region_name": "Bretagne",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 63.0,
+        "vcr_65_74": 57.1,
+        "vcr_75plus": 68.6,
+        "vcr_under65_atrisk": 32.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 33839,
+        "unvaccinated_opportunity": 12520,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": 2.0,
+        "driver_indexes": {
+          "access_index": 70,
+          "hcp_engagement_index": 65,
+          "confidence_index": 64,
+          "availability_index": 67,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "38",
+      "name": "Isère",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 58.6,
+        "vcr_65_74": 52.1,
+        "vcr_75plus": 64.9,
+        "vcr_under65_atrisk": 31.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 103387,
+        "unvaccinated_opportunity": 42802,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -2.4,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 60,
+          "confidence_index": 61,
+          "availability_index": 69,
+          "recommendation_index": 52
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "40",
+      "name": "Landes",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.6,
+        "vcr_65_74": 53.0,
+        "vcr_75plus": 65.9,
+        "vcr_under65_atrisk": 28.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 154731,
+        "unvaccinated_opportunity": 62511,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 5.6,
+        "driver_indexes": {
+          "access_index": 65,
+          "hcp_engagement_index": 31,
+          "confidence_index": 62,
+          "availability_index": 84,
+          "recommendation_index": 40
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "43",
+      "name": "Haute-Loire",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": true,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 50.7,
+        "vcr_65_74": 43.5,
+        "vcr_75plus": 57.7,
+        "vcr_under65_atrisk": 27.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 42000,
+        "unvaccinated_opportunity": 20706,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -4.3,
+        "driver_indexes": {
+          "access_index": 35,
+          "hcp_engagement_index": 62,
+          "confidence_index": 67,
+          "availability_index": 48,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "44",
+      "name": "Loire-Atlantique",
+      "region_code": "52",
+      "region_name": "Pays de la Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 63.6,
+        "vcr_65_74": 57.4,
+        "vcr_75plus": 69.7,
+        "vcr_under65_atrisk": 32.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 30184,
+        "unvaccinated_opportunity": 10987,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -2.4,
+        "driver_indexes": {
+          "access_index": 82,
+          "hcp_engagement_index": 80,
+          "confidence_index": 79,
+          "availability_index": 94,
+          "recommendation_index": 78
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "46",
+      "name": "Lot",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 52.7,
+        "vcr_65_74": 45.3,
+        "vcr_75plus": 59.5,
+        "vcr_under65_atrisk": 26.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 92220,
+        "unvaccinated_opportunity": 43620,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -2.3,
+        "driver_indexes": {
+          "access_index": 38,
+          "hcp_engagement_index": 66,
+          "confidence_index": 70,
+          "availability_index": 74,
+          "recommendation_index": 49
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "47",
+      "name": "Lot-et-Garonne",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 52.4,
+        "vcr_65_74": 45.0,
+        "vcr_75plus": 58.9,
+        "vcr_under65_atrisk": 25.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 114533,
+        "unvaccinated_opportunity": 54518,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -8.6,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 60,
+          "confidence_index": 64,
+          "availability_index": 69,
+          "recommendation_index": 52
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "60",
+      "name": "Oise",
+      "region_code": "32",
+      "region_name": "Hauts-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.8,
+        "vcr_65_74": 50.4,
+        "vcr_75plus": 61.7,
+        "vcr_under65_atrisk": 28.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 20549,
+        "unvaccinated_opportunity": 9083,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 1.8,
+        "driver_indexes": {
+          "access_index": 66,
+          "hcp_engagement_index": 36,
+          "confidence_index": 56,
+          "availability_index": 82,
+          "recommendation_index": 38
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "64",
+      "name": "Pyrénées-Atlantiques",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.4,
+        "vcr_65_74": 52.8,
+        "vcr_75plus": 67.3,
+        "vcr_under65_atrisk": 29.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 188522,
+        "unvaccinated_opportunity": 74655,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 5.4,
+        "driver_indexes": {
+          "access_index": 34,
+          "hcp_engagement_index": 64,
+          "confidence_index": 66,
+          "availability_index": 73,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "67",
+      "name": "Bas-Rhin",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.6,
+        "vcr_65_74": 46.5,
+        "vcr_75plus": 61.3,
+        "vcr_under65_atrisk": 27.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 79916,
+        "unvaccinated_opportunity": 37081,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -1.4,
+        "driver_indexes": {
+          "access_index": 38,
+          "hcp_engagement_index": 66,
+          "confidence_index": 67,
+          "availability_index": 74,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "69",
+      "name": "Rhône",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": true,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.3,
+        "vcr_65_74": 52.2,
+        "vcr_75plus": 65.4,
+        "vcr_under65_atrisk": 30.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 300000,
+        "unvaccinated_opportunity": 122100,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -1.7,
+        "driver_indexes": {
+          "access_index": 73,
+          "hcp_engagement_index": 66,
+          "confidence_index": 62,
+          "availability_index": 69,
+          "recommendation_index": 49
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "72",
+      "name": "Sarthe",
+      "region_code": "52",
+      "region_name": "Pays de la Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.5,
+        "vcr_65_74": 52.7,
+        "vcr_75plus": 65.9,
+        "vcr_under65_atrisk": 30.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 84719,
+        "unvaccinated_opportunity": 34311,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -1.5,
+        "driver_indexes": {
+          "access_index": 73,
+          "hcp_engagement_index": 62,
+          "confidence_index": 62,
+          "availability_index": 70,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "74",
+      "name": "Haute-Savoie",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 52.1,
+        "vcr_65_74": 44.9,
+        "vcr_75plus": 59.0,
+        "vcr_under65_atrisk": 26.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 66251,
+        "unvaccinated_opportunity": 31734,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -8.9,
+        "driver_indexes": {
+          "access_index": 75,
+          "hcp_engagement_index": 63,
+          "confidence_index": 66,
+          "availability_index": 66,
+          "recommendation_index": 48
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "76",
+      "name": "Seine-Maritime",
+      "region_code": "28",
+      "region_name": "Normandie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 63.5,
+        "vcr_65_74": 58.3,
+        "vcr_75plus": 68.7,
+        "vcr_under65_atrisk": 35.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 145300,
+        "unvaccinated_opportunity": 53034,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": 2.5,
+        "driver_indexes": {
+          "access_index": 72,
+          "hcp_engagement_index": 66,
+          "confidence_index": 62,
+          "availability_index": 72,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "78",
+      "name": "Yvelines",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.0,
+        "vcr_65_74": 52.2,
+        "vcr_75plus": 65.4,
+        "vcr_under65_atrisk": 28.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 130617,
+        "unvaccinated_opportunity": 53553,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 4.0,
+        "driver_indexes": {
+          "access_index": 36,
+          "hcp_engagement_index": 65,
+          "confidence_index": 63,
+          "availability_index": 78,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "83",
+      "name": "Var",
+      "region_code": "93",
+      "region_name": "Provence-Alpes-Côte d'Azur",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.1,
+        "vcr_65_74": 44.7,
+        "vcr_75plus": 60.4,
+        "vcr_under65_atrisk": 24.4,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 32082,
+        "unvaccinated_opportunity": 15046,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -12.9,
+        "driver_indexes": {
+          "access_index": 83,
+          "hcp_engagement_index": 76,
+          "confidence_index": 73,
+          "availability_index": 92,
+          "recommendation_index": 78
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "84",
+      "name": "Vaucluse",
+      "region_code": "93",
+      "region_name": "Provence-Alpes-Côte d'Azur",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 51.5,
+        "vcr_65_74": 43.7,
+        "vcr_75plus": 58.9,
+        "vcr_under65_atrisk": 24.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 172274,
+        "unvaccinated_opportunity": 83553,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -3.5,
+        "driver_indexes": {
+          "access_index": 36,
+          "hcp_engagement_index": 65,
+          "confidence_index": 66,
+          "availability_index": 78,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "90",
+      "name": "Territoire de Belfort",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 50.7,
+        "vcr_65_74": 45.4,
+        "vcr_75plus": 55.9,
+        "vcr_under65_atrisk": 25.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 34099,
+        "unvaccinated_opportunity": 16811,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -15.3,
+        "driver_indexes": {
+          "access_index": 86,
+          "hcp_engagement_index": 82,
+          "confidence_index": 80,
+          "availability_index": 95,
+          "recommendation_index": 83
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "95",
+      "name": "Val-d'Oise",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.4,
+        "vcr_65_74": 46.9,
+        "vcr_75plus": 60.8,
+        "vcr_under65_atrisk": 23.4,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 66242,
+        "unvaccinated_opportunity": 30869,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -0.6,
+        "driver_indexes": {
+          "access_index": 67,
+          "hcp_engagement_index": 32,
+          "confidence_index": 56,
+          "availability_index": 80,
+          "recommendation_index": 40
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "03",
+      "name": "Allier",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.4,
+        "vcr_65_74": 48.3,
+        "vcr_75plus": 61.6,
+        "vcr_under65_atrisk": 29.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 78501,
+        "unvaccinated_opportunity": 35011,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -5.6,
+        "driver_indexes": {
+          "access_index": 76,
+          "hcp_engagement_index": 68,
+          "confidence_index": 66,
+          "availability_index": 73,
+          "recommendation_index": 53
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "06",
+      "name": "Alpes-Maritimes",
+      "region_code": "93",
+      "region_name": "Provence-Alpes-Côte d'Azur",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 51.7,
+        "vcr_65_74": 43.0,
+        "vcr_75plus": 58.8,
+        "vcr_under65_atrisk": 23.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 179292,
+        "unvaccinated_opportunity": 86598,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -14.3,
+        "driver_indexes": {
+          "access_index": 86,
+          "hcp_engagement_index": 82,
+          "confidence_index": 80,
+          "availability_index": 95,
+          "recommendation_index": 81
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "08",
+      "name": "Ardennes",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 58.8,
+        "vcr_65_74": 53.0,
+        "vcr_75plus": 64.9,
+        "vcr_under65_atrisk": 31.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 114326,
+        "unvaccinated_opportunity": 47102,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -2.2,
+        "driver_indexes": {
+          "access_index": 75,
+          "hcp_engagement_index": 63,
+          "confidence_index": 69,
+          "availability_index": 66,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "13",
+      "name": "Bouches-du-Rhône",
+      "region_code": "93",
+      "region_name": "Provence-Alpes-Côte d'Azur",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.9,
+        "vcr_65_74": 46.0,
+        "vcr_75plus": 61.4,
+        "vcr_under65_atrisk": 25.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 192864,
+        "unvaccinated_opportunity": 88910,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -12.1,
+        "driver_indexes": {
+          "access_index": 81,
+          "hcp_engagement_index": 75,
+          "confidence_index": 73,
+          "availability_index": 87,
+          "recommendation_index": 82
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "14",
+      "name": "Calvados",
+      "region_code": "28",
+      "region_name": "Normandie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 62.3,
+        "vcr_65_74": 56.5,
+        "vcr_75plus": 68.0,
+        "vcr_under65_atrisk": 34.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 176375,
+        "unvaccinated_opportunity": 66493,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 8.3,
+        "driver_indexes": {
+          "access_index": 70,
+          "hcp_engagement_index": 38,
+          "confidence_index": 60,
+          "availability_index": 83,
+          "recommendation_index": 43
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "17",
+      "name": "Charente-Maritime",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 58.5,
+        "vcr_65_74": 51.9,
+        "vcr_75plus": 64.6,
+        "vcr_under65_atrisk": 30.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 36739,
+        "unvaccinated_opportunity": 15247,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -7.5,
+        "driver_indexes": {
+          "access_index": 86,
+          "hcp_engagement_index": 82,
+          "confidence_index": 77,
+          "availability_index": 95,
+          "recommendation_index": 77
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "18",
+      "name": "Cher",
+      "region_code": "24",
+      "region_name": "Centre-Val de Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.8,
+        "vcr_65_74": 49.5,
+        "vcr_75plus": 61.6,
+        "vcr_under65_atrisk": 29.8,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 91184,
+        "unvaccinated_opportunity": 40303,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -10.2,
+        "driver_indexes": {
+          "access_index": 80,
+          "hcp_engagement_index": 79,
+          "confidence_index": 78,
+          "availability_index": 89,
+          "recommendation_index": 76
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "24",
+      "name": "Dordogne",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.4,
+        "vcr_65_74": 46.6,
+        "vcr_75plus": 59.8,
+        "vcr_under65_atrisk": 28.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 99892,
+        "unvaccinated_opportunity": 46550,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -0.6,
+        "driver_indexes": {
+          "access_index": 63,
+          "hcp_engagement_index": 30,
+          "confidence_index": 61,
+          "availability_index": 79,
+          "recommendation_index": 41
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "25",
+      "name": "Doubs",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.4,
+        "vcr_65_74": 47.2,
+        "vcr_75plus": 61.1,
+        "vcr_under65_atrisk": 27.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 193591,
+        "unvaccinated_opportunity": 88277,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -11.6,
+        "driver_indexes": {
+          "access_index": 84,
+          "hcp_engagement_index": 81,
+          "confidence_index": 80,
+          "availability_index": 90,
+          "recommendation_index": 84
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "28",
+      "name": "Eure-et-Loir",
+      "region_code": "24",
+      "region_name": "Centre-Val de Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 57.8,
+        "vcr_65_74": 51.8,
+        "vcr_75plus": 63.5,
+        "vcr_under65_atrisk": 29.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 108109,
+        "unvaccinated_opportunity": 45622,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -3.2,
+        "driver_indexes": {
+          "access_index": 75,
+          "hcp_engagement_index": 63,
+          "confidence_index": 63,
+          "availability_index": 66,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "31",
+      "name": "Haute-Garonne",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.5,
+        "vcr_65_74": 52.2,
+        "vcr_75plus": 66.5,
+        "vcr_under65_atrisk": 29.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 103214,
+        "unvaccinated_opportunity": 41802,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 4.5,
+        "driver_indexes": {
+          "access_index": 39,
+          "hcp_engagement_index": 62,
+          "confidence_index": 70,
+          "availability_index": 72,
+          "recommendation_index": 45
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "36",
+      "name": "Indre",
+      "region_code": "24",
+      "region_name": "Centre-Val de Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 52.5,
+        "vcr_65_74": 45.9,
+        "vcr_75plus": 58.3,
+        "vcr_under65_atrisk": 29.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 96053,
+        "unvaccinated_opportunity": 45625,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -13.5,
+        "driver_indexes": {
+          "access_index": 78,
+          "hcp_engagement_index": 78,
+          "confidence_index": 75,
+          "availability_index": 93,
+          "recommendation_index": 83
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "39",
+      "name": "Jura",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 51.4,
+        "vcr_65_74": 44.3,
+        "vcr_75plus": 58.1,
+        "vcr_under65_atrisk": 26.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 66157,
+        "unvaccinated_opportunity": 32152,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -14.6,
+        "driver_indexes": {
+          "access_index": 81,
+          "hcp_engagement_index": 75,
+          "confidence_index": 73,
+          "availability_index": 87,
+          "recommendation_index": 82
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "41",
+      "name": "Loir-et-Cher",
+      "region_code": "24",
+      "region_name": "Centre-Val de Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 57.9,
+        "vcr_65_74": 52.0,
+        "vcr_75plus": 63.3,
+        "vcr_under65_atrisk": 31.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 107529,
+        "unvaccinated_opportunity": 45270,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -8.1,
+        "driver_indexes": {
+          "access_index": 78,
+          "hcp_engagement_index": 78,
+          "confidence_index": 78,
+          "availability_index": 93,
+          "recommendation_index": 81
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "45",
+      "name": "Loiret",
+      "region_code": "24",
+      "region_name": "Centre-Val de Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.5,
+        "vcr_65_74": 53.6,
+        "vcr_75plus": 66.9,
+        "vcr_under65_atrisk": 30.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 50637,
+        "unvaccinated_opportunity": 20002,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 6.5,
+        "driver_indexes": {
+          "access_index": 62,
+          "hcp_engagement_index": 34,
+          "confidence_index": 61,
+          "availability_index": 81,
+          "recommendation_index": 37
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "49",
+      "name": "Maine-et-Loire",
+      "region_code": "52",
+      "region_name": "Pays de la Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 61.3,
+        "vcr_65_74": 54.7,
+        "vcr_75plus": 67.6,
+        "vcr_under65_atrisk": 31.4,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 123049,
+        "unvaccinated_opportunity": 47620,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": 0.3,
+        "driver_indexes": {
+          "access_index": 76,
+          "hcp_engagement_index": 68,
+          "confidence_index": 66,
+          "availability_index": 73,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "52",
+      "name": "Haute-Marne",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 53.7,
+        "vcr_65_74": 47.1,
+        "vcr_75plus": 59.9,
+        "vcr_under65_atrisk": 28.2,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 28219,
+        "unvaccinated_opportunity": 13065,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": -0.3,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 33,
+          "confidence_index": 63,
+          "availability_index": 85,
+          "recommendation_index": 44
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "53",
+      "name": "Mayenne",
+      "region_code": "52",
+      "region_name": "Pays de la Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.2,
+        "vcr_65_74": 49.9,
+        "vcr_75plus": 62.1,
+        "vcr_under65_atrisk": 29.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 128577,
+        "unvaccinated_opportunity": 56317,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 2.2,
+        "driver_indexes": {
+          "access_index": 70,
+          "hcp_engagement_index": 38,
+          "confidence_index": 57,
+          "availability_index": 83,
+          "recommendation_index": 39
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "59",
+      "name": "Nord",
+      "region_code": "32",
+      "region_name": "Hauts-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.1,
+        "vcr_65_74": 54.4,
+        "vcr_75plus": 64.2,
+        "vcr_under65_atrisk": 32.7,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 186209,
+        "unvaccinated_opportunity": 76159,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -1.9,
+        "driver_indexes": {
+          "access_index": 77,
+          "hcp_engagement_index": 64,
+          "confidence_index": 66,
+          "availability_index": 71,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "70",
+      "name": "Haute-Saône",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 51.0,
+        "vcr_65_74": 44.6,
+        "vcr_75plus": 57.5,
+        "vcr_under65_atrisk": 27.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 91400,
+        "unvaccinated_opportunity": 44786,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -4.0,
+        "driver_indexes": {
+          "access_index": 38,
+          "hcp_engagement_index": 66,
+          "confidence_index": 67,
+          "availability_index": 74,
+          "recommendation_index": 49
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "71",
+      "name": "Saône-et-Loire",
+      "region_code": "27",
+      "region_name": "Bourgogne et Franche-Comté",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.2,
+        "vcr_65_74": 49.6,
+        "vcr_75plus": 62.1,
+        "vcr_under65_atrisk": 30.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 144270,
+        "unvaccinated_opportunity": 63190,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -9.8,
+        "driver_indexes": {
+          "access_index": 81,
+          "hcp_engagement_index": 75,
+          "confidence_index": 79,
+          "availability_index": 87,
+          "recommendation_index": 83
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "73",
+      "name": "Savoie",
+      "region_code": "84",
+      "region_name": "Auvergne et Rhône-Alpes",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.6,
+        "vcr_65_74": 48.2,
+        "vcr_75plus": 62.7,
+        "vcr_under65_atrisk": 29.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 49459,
+        "unvaccinated_opportunity": 21960,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -5.4,
+        "driver_indexes": {
+          "access_index": 77,
+          "hcp_engagement_index": 64,
+          "confidence_index": 69,
+          "availability_index": 71,
+          "recommendation_index": 48
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "77",
+      "name": "Seine-et-Marne",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.9,
+        "vcr_65_74": 50.4,
+        "vcr_75plus": 64.1,
+        "vcr_under65_atrisk": 26.3,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 31525,
+        "unvaccinated_opportunity": 13587,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -4.1,
+        "driver_indexes": {
+          "access_index": 69,
+          "hcp_engagement_index": 60,
+          "confidence_index": 64,
+          "availability_index": 69,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "79",
+      "name": "Deux-Sèvres",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.7,
+        "vcr_65_74": 51.0,
+        "vcr_75plus": 62.1,
+        "vcr_under65_atrisk": 30.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 188874,
+        "unvaccinated_opportunity": 81782,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 1.7,
+        "driver_indexes": {
+          "access_index": 35,
+          "hcp_engagement_index": 60,
+          "confidence_index": 66,
+          "availability_index": 71,
+          "recommendation_index": 52
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "81",
+      "name": "Tarn",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.4,
+        "vcr_65_74": 47.7,
+        "vcr_75plus": 62.3,
+        "vcr_under65_atrisk": 28.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 94716,
+        "unvaccinated_opportunity": 42243,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 0.4,
+        "driver_indexes": {
+          "access_index": 33,
+          "hcp_engagement_index": 59,
+          "confidence_index": 68,
+          "availability_index": 75,
+          "recommendation_index": 48
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "82",
+      "name": "Tarn-et-Garonne",
+      "region_code": "76",
+      "region_name": "Occitanie",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 54.3,
+        "vcr_65_74": 47.6,
+        "vcr_75plus": 60.8,
+        "vcr_under65_atrisk": 28.0,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 191238,
+        "unvaccinated_opportunity": 87396,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -11.7,
+        "driver_indexes": {
+          "access_index": 80,
+          "hcp_engagement_index": 79,
+          "confidence_index": 75,
+          "availability_index": 89,
+          "recommendation_index": 83
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "85",
+      "name": "Vendée",
+      "region_code": "52",
+      "region_name": "Pays de la Loire",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 60.4,
+        "vcr_65_74": 54.0,
+        "vcr_75plus": 66.7,
+        "vcr_under65_atrisk": 30.6,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 40944,
+        "unvaccinated_opportunity": 16214,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -5.6,
+        "driver_indexes": {
+          "access_index": 80,
+          "hcp_engagement_index": 79,
+          "confidence_index": 78,
+          "availability_index": 89,
+          "recommendation_index": 80
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "87",
+      "name": "Haute-Vienne",
+      "region_code": "75",
+      "region_name": "Nouvelle Aquitaine",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 59.8,
+        "vcr_65_74": 54.1,
+        "vcr_75plus": 64.9,
+        "vcr_under65_atrisk": 33.1,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 152883,
+        "unvaccinated_opportunity": 61459,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -6.2,
+        "driver_indexes": {
+          "access_index": 83,
+          "hcp_engagement_index": 76,
+          "confidence_index": 76,
+          "availability_index": 92,
+          "recommendation_index": 77
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "88",
+      "name": "Vosges",
+      "region_code": "44",
+      "region_name": "Grand Est",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 55.3,
+        "vcr_65_74": 49.4,
+        "vcr_75plus": 61.2,
+        "vcr_under65_atrisk": 31.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "strong",
+        "eligible_population_65plus": 122390,
+        "unvaccinated_opportunity": 54708,
+        "expected_vcr_65plus": 66.0,
+        "observed_minus_expected_pp": -10.7,
+        "driver_indexes": {
+          "access_index": 79,
+          "hcp_engagement_index": 74,
+          "confidence_index": 78,
+          "availability_index": 91,
+          "recommendation_index": 79
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "91",
+      "name": "Essonne",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 58.3,
+        "vcr_65_74": 50.8,
+        "vcr_75plus": 65.7,
+        "vcr_under65_atrisk": 26.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "activation",
+        "eligible_population_65plus": 36994,
+        "unvaccinated_opportunity": 15426,
+        "expected_vcr_65plus": 54.0,
+        "observed_minus_expected_pp": 4.3,
+        "driver_indexes": {
+          "access_index": 64,
+          "hcp_engagement_index": 35,
+          "confidence_index": 61,
+          "availability_index": 86,
+          "recommendation_index": 36
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "94",
+      "name": "Val-de-Marne",
+      "region_code": "11",
+      "region_name": "Île-de-France",
+      "featured": false,
+      "metropolitan": true,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 56.4,
+        "vcr_65_74": 50.0,
+        "vcr_75plus": 63.0,
+        "vcr_under65_atrisk": 27.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 21888,
+        "unvaccinated_opportunity": 9543,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": 1.4,
+        "driver_indexes": {
+          "access_index": 34,
+          "hcp_engagement_index": 64,
+          "confidence_index": 69,
+          "availability_index": 73,
+          "recommendation_index": 51
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "971",
+      "name": "Guadeloupe",
+      "region_code": "01",
+      "region_name": "Guadeloupe",
+      "featured": false,
+      "metropolitan": false,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 16.5,
+        "vcr_65_74": 13.9,
+        "vcr_75plus": 19.7,
+        "vcr_under65_atrisk": 8.5,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "access",
+        "eligible_population_65plus": 32886,
+        "unvaccinated_opportunity": 27460,
+        "expected_vcr_65plus": 55.0,
+        "observed_minus_expected_pp": -38.5,
+        "driver_indexes": {
+          "access_index": 31,
+          "hcp_engagement_index": 58,
+          "confidence_index": 65,
+          "availability_index": 70,
+          "recommendation_index": 47
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    },
+    {
+      "code": "972",
+      "name": "Martinique",
+      "region_code": "02",
+      "region_name": "Martinique",
+      "featured": false,
+      "metropolitan": false,
+      "historical": {
+        "season": "2025–26",
+        "vcr_65plus": 12.5,
+        "vcr_65_74": 10.2,
+        "vcr_75plus": 15.1,
+        "vcr_under65_atrisk": 5.9,
+        "provenance": "public",
+        "source_id": "spf_vcr"
+      },
+      "illustrative": {
+        "cluster_id": "enhanced",
+        "eligible_population_65plus": 107057,
+        "unvaccinated_opportunity": 93675,
+        "expected_vcr_65plus": 61.0,
+        "observed_minus_expected_pp": -48.5,
+        "driver_indexes": {
+          "access_index": 76,
+          "hcp_engagement_index": 68,
+          "confidence_index": 66,
+          "availability_index": 73,
+          "recommendation_index": 46
+        },
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "provenance": "synthetic",
+        "source_ids": [
+          "synthetic_model",
+          "synthetic_commercial"
+        ]
+      }
+    }
+  ]
+}

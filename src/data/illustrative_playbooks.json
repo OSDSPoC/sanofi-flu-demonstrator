@@ -1,0 +1,28 @@
+[
+  {
+    "id": "playbook_access",
+    "title": "Illustrative access and Public Affairs playbook",
+    "status": "OpenSky-authored example; not a Sanofi document",
+    "rules": [
+      "Validate the barrier with local partners before choosing an intervention.",
+      "Use existing delivery and stakeholder relationships for short in-season activity.",
+      "Assign owners across Public Affairs, Medical, Market Access and providers.",
+      "Distinguish execution from outcome, and agree baseline and comparison before starting.",
+      "Capture data-through dates and known parallel campaigns.",
+      "Escalate longer-term structural barriers into the out-of-season planning cycle."
+    ]
+  },
+  {
+    "id": "playbook_commercial",
+    "title": "Illustrative commercial and marketing playbook",
+    "status": "OpenSky-authored example; not a Sanofi document",
+    "rules": [
+      "Separate total market uptake, enhanced-category adoption and Efluelda share.",
+      "Check availability and dispensing before inferring weak demand.",
+      "Evaluate Sanofi franchise movement including Vaxigrip.",
+      "Keep medical/policy interpretation consistent with equivalent HAS positioning.",
+      "Do not interpret shipments as administration or reimbursement values as net revenue.",
+      "Use prospective hypotheses and team review rather than automated recommendations."
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "provenance": "synthetic",
+  "assignment_method": "Deterministic illustrative assignment, not fitted clustering",
+  "clusters": [
+    {
+      "id": "access",
+      "name": "Access-constrained",
+      "color": "#7652C5",
+      "description": "Illustrative delivery friction with room to improve access and follow-through.",
+      "defining_features": [
+        "Lower access index",
+        "Lower local availability",
+        "Below-reference historical coverage"
+      ],
+      "potentially_influenceable": [
+        "Appointment information",
+        "Existing delivery coordination",
+        "Availability investigation"
+      ],
+      "context": [
+        "Rurality and travel conditions",
+        "Population age mix"
+      ],
+      "default_package": "P1",
+      "expected_vcr": 55.0,
+      "driver_template": [
+        35,
+        62,
+        66,
+        74,
+        48
+      ],
+      "interpretation": "Delivery conditions warrant investigation before assuming unwillingness to vaccinate."
+    },
+    {
+      "id": "activation",
+      "name": "Activation gap",
+      "color": "#00A6A6",
+      "description": "Illustrative adequate access with uneven recommendation and follow-through.",
+      "defining_features": [
+        "Moderate access index",
+        "Low engagement index",
+        "Lower recommendation index"
+      ],
+      "potentially_influenceable": [
+        "Proactive recommendation",
+        "Trusted outreach",
+        "Locally managed reminders"
+      ],
+      "context": [
+        "Previous uptake",
+        "Population vulnerability"
+      ],
+      "default_package": "P2",
+      "expected_vcr": 54.0,
+      "driver_template": [
+        66,
+        34,
+        59,
+        83,
+        40
+      ],
+      "interpretation": "Access alone may not explain the gap; investigate recommendation, relevance and follow-through."
+    },
+    {
+      "id": "enhanced",
+      "name": "Enhanced-vaccine adoption gap",
+      "color": "#E7A33E",
+      "description": "Illustrative reasonable flu coverage with uneven adoption of the enhanced category.",
+      "defining_features": [
+        "Reasonable overall coverage",
+        "Lower enhanced-category adoption",
+        "Uncertain recommendation implementation"
+      ],
+      "potentially_influenceable": [
+        "Recommendation education",
+        "Pathway clarity",
+        "Product availability review"
+      ],
+      "context": [
+        "Age-cohort mix",
+        "Established channel patterns"
+      ],
+      "default_package": "P3",
+      "expected_vcr": 61.0,
+      "driver_template": [
+        73,
+        64,
+        65,
+        69,
+        49
+      ],
+      "interpretation": "Distinguish implementation of the category recommendation from Efluelda brand performance."
+    },
+    {
+      "id": "strong",
+      "name": "Strong delivery",
+      "color": "#4777B6",
+      "description": "Illustrative stronger uptake and delivery conditions with residual cohort gaps.",
+      "defining_features": [
+        "Higher historical coverage",
+        "Stronger engagement index",
+        "Stronger delivery index"
+      ],
+      "potentially_influenceable": [
+        "Sharing practices",
+        "Remaining cohort follow-through"
+      ],
+      "context": [
+        "Existing infrastructure",
+        "Historical uptake"
+      ],
+      "default_package": null,
+      "expected_vcr": 66.0,
+      "driver_template": [
+        82,
+        78,
+        76,
+        91,
+        80
+      ],
+      "interpretation": "Explore transferable practices while checking whether they would work in different local conditions."
+    }
+  ],
+  "driver_scale": "0–100 illustrative index; higher means stronger enabling conditions"
+}

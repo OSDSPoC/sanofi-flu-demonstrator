@@ -1,0 +1,302 @@
+{
+  "scenario": "Simulated 2026–27 campaign",
+  "start_date": "2026-10-27",
+  "checkpoints": [
+    {
+      "week": 0,
+      "review_date": "2026-10-27",
+      "data_through": "2026-10-24"
+    },
+    {
+      "week": 2,
+      "review_date": "2026-11-10",
+      "data_through": "2026-11-07"
+    },
+    {
+      "week": 4,
+      "review_date": "2026-11-24",
+      "data_through": "2026-11-21"
+    },
+    {
+      "week": 6,
+      "review_date": "2026-12-08",
+      "data_through": "2026-12-05"
+    }
+  ],
+  "packages": [
+    {
+      "id": "P1",
+      "title": "Improve local delivery",
+      "department_code": "43",
+      "cluster_id": "access",
+      "lead": "Market Access",
+      "support": [
+        "Public Affairs",
+        "Local providers",
+        "Commercial — separate availability review"
+      ],
+      "target_population_65plus": 20000,
+      "target_sites": 12,
+      "hypothesis": "Coordinating existing capacity and making vaccination access clearer may improve uptake in participating catchments.",
+      "actions": [
+        "Confirm appointment capacity with participating providers",
+        "Distribute clear local appointment information through existing channels",
+        "Review availability at participating pharmacies",
+        "Discuss unresolved delivery barriers with local stakeholders"
+      ],
+      "rationale": "Illustrative access index 35/100 and availability index 48/100 warrant delivery investigation; historical 65+ VCR is 50.7%.",
+      "primary_metric": "Pharmacy-dispensing proxy per 10,000 people aged 65+ in fixed participating catchments",
+      "metric_type": "dose_rate",
+      "final_decision": "Retain the delivery work, resolve the remaining site barrier, and collect administration evidence before attributing uptake gains.",
+      "source_ids": [
+        "spf_vcr",
+        "synthetic_model",
+        "synthetic_commercial",
+        "synthetic_activity",
+        "playbook_access"
+      ],
+      "budget_eur": null,
+      "provenance": "synthetic",
+      "comparator": "Illustrative matched, non-participating catchments; matching includes baseline trajectory and relevant characteristics, not cluster alone.",
+      "footprint_note": "Synthetic participating catchments within the department; not the entire department. Package target populations are disjoint in this scenario.",
+      "checkpoints": [
+        {
+          "week": 0,
+          "review_date": "2026-10-27",
+          "data_through": "2026-10-24",
+          "treated_level": 1600,
+          "comparison_level": 1600,
+          "treated_change": 0,
+          "comparison_change": 0,
+          "comparative_change_difference": 0,
+          "sites_active": 0,
+          "sites_total": 12,
+          "execution": "Draft activity; no rollout has occurred."
+        },
+        {
+          "week": 2,
+          "review_date": "2026-11-10",
+          "data_through": "2026-11-07",
+          "treated_level": 1740,
+          "comparison_level": 1730,
+          "treated_change": 140,
+          "comparison_change": 130,
+          "comparative_change_difference": 10,
+          "sites_active": 7,
+          "sites_total": 12,
+          "execution": "7 of 12 sites active; availability problems delay two sites."
+        },
+        {
+          "week": 4,
+          "review_date": "2026-11-24",
+          "data_through": "2026-11-21",
+          "treated_level": 1880,
+          "comparison_level": 1820,
+          "treated_change": 280,
+          "comparison_change": 220,
+          "comparative_change_difference": 60,
+          "sites_active": 10,
+          "sites_total": 12,
+          "execution": "10 sites active; appointment information is consistent, but one locality remains difficult to reach."
+        },
+        {
+          "week": 6,
+          "review_date": "2026-12-08",
+          "data_through": "2026-12-05",
+          "treated_level": 2000,
+          "comparison_level": 1900,
+          "treated_change": 400,
+          "comparison_change": 300,
+          "comparative_change_difference": 100,
+          "sites_active": 11,
+          "sites_total": 12,
+          "execution": "11 sites active; one site remains delayed and availability still warrants follow-up."
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Activate eligible older adults",
+      "department_code": "93",
+      "cluster_id": "activation",
+      "lead": "Public Affairs / community partners",
+      "support": [
+        "Medical",
+        "Participating pharmacies and practices"
+      ],
+      "target_population_65plus": 40000,
+      "target_sites": 20,
+      "hypothesis": "Trusted outreach plus proactive recommendation and locally managed reminders may improve follow-through.",
+      "actions": [
+        "Adapt existing 65+ education materials with Medical input",
+        "Brief an existing local partner network",
+        "Support a consistent proactive recommendation at participating sites",
+        "Use locally managed reminders and track execution without transferring patient data to Sanofi"
+      ],
+      "rationale": "Historical 65+ VCR is 46.4%; synthetic engagement and recommendation indexes suggest questions for local validation, not proven causes.",
+      "primary_metric": "Pharmacy-dispensing proxy per 10,000 people aged 65+ in fixed participating catchments",
+      "metric_type": "dose_rate",
+      "final_decision": "Continue the package where delivery is established; improve partner reach and examine concurrent activity before making causal claims.",
+      "source_ids": [
+        "spf_vcr",
+        "sanofi_pharmacy",
+        "sanofi_community",
+        "synthetic_model",
+        "synthetic_activity",
+        "playbook_access"
+      ],
+      "budget_eur": null,
+      "provenance": "synthetic",
+      "comparator": "Illustrative matched, non-participating catchments; matching includes baseline trajectory and relevant characteristics, not cluster alone.",
+      "footprint_note": "Synthetic participating catchments within the department; not the entire department. Package target populations are disjoint in this scenario.",
+      "checkpoints": [
+        {
+          "week": 0,
+          "review_date": "2026-10-27",
+          "data_through": "2026-10-24",
+          "treated_level": 1500,
+          "comparison_level": 1500,
+          "treated_change": 0,
+          "comparison_change": 0,
+          "comparative_change_difference": 0,
+          "sites_active": 0,
+          "sites_total": 20,
+          "execution": "Draft activity; no rollout has occurred."
+        },
+        {
+          "week": 2,
+          "review_date": "2026-11-10",
+          "data_through": "2026-11-07",
+          "treated_level": 1660,
+          "comparison_level": 1660,
+          "treated_change": 160,
+          "comparison_change": 160,
+          "comparative_change_difference": 0,
+          "sites_active": 10,
+          "sites_total": 20,
+          "execution": "10 of 20 sites active; outreach is underway but the proxy has not separated from comparison catchments."
+        },
+        {
+          "week": 4,
+          "review_date": "2026-11-24",
+          "data_through": "2026-11-21",
+          "treated_level": 1880,
+          "comparison_level": 1780,
+          "treated_change": 380,
+          "comparison_change": 280,
+          "comparative_change_difference": 100,
+          "sites_active": 17,
+          "sites_total": 20,
+          "execution": "17 sites active; an early relative signal has emerged, with uneven partner reach."
+        },
+        {
+          "week": 6,
+          "review_date": "2026-12-08",
+          "data_through": "2026-12-05",
+          "treated_level": 2100,
+          "comparison_level": 1950,
+          "treated_change": 600,
+          "comparison_change": 450,
+          "comparative_change_difference": 150,
+          "sites_active": 19,
+          "sites_total": 20,
+          "execution": "19 sites active; directional comparative improvement is present, while one site and some audiences remain under-reached."
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "Implement the 65+ recommendation",
+      "department_code": "69",
+      "cluster_id": "enhanced",
+      "lead": "Medical / Market Access",
+      "support": [
+        "Public Affairs",
+        "Commercial — separate brand and availability investigation"
+      ],
+      "target_population_65plus": 30000,
+      "target_sites": 15,
+      "hypothesis": "Clearer implementation of the French recommendation may increase enhanced-category adoption; brand performance needs a separate assessment.",
+      "actions": [
+        "Brief participating teams on equivalent HAS positioning of Efluelda and Fluad",
+        "Review the local pathway and availability of recommended options",
+        "Record questions that prevent consistent implementation",
+        "Investigate Efluelda account availability separately through Commercial"
+      ],
+      "rationale": "Historical 65+ VCR is 59.3%; synthetic enhanced-category adoption is 40% of observed 65+ dispensing at baseline.",
+      "primary_metric": "Enhanced-vaccine share of observed 65+ flu dispensing (%)",
+      "metric_type": "share_pct",
+      "final_decision": "Retain useful category education; ask Commercial to investigate product availability and account execution. Category growth alone does not establish a brand-share gain.",
+      "source_ids": [
+        "has_policy",
+        "synthetic_model",
+        "synthetic_commercial",
+        "synthetic_activity",
+        "playbook_commercial"
+      ],
+      "budget_eur": null,
+      "provenance": "synthetic",
+      "comparator": "Illustrative matched, non-participating catchments; matching includes baseline trajectory and relevant characteristics, not cluster alone.",
+      "footprint_note": "Synthetic participating catchments within the department; not the entire department. Package target populations are disjoint in this scenario.",
+      "checkpoints": [
+        {
+          "week": 0,
+          "review_date": "2026-10-27",
+          "data_through": "2026-10-24",
+          "treated_level": 40,
+          "comparison_level": 40,
+          "treated_change": 0,
+          "comparison_change": 0,
+          "comparative_change_difference": 0,
+          "sites_active": 0,
+          "sites_total": 15,
+          "execution": "Draft activity; no rollout has occurred.",
+          "efluelda_share_within_enhanced_pct": 70
+        },
+        {
+          "week": 2,
+          "review_date": "2026-11-10",
+          "data_through": "2026-11-07",
+          "treated_level": 42,
+          "comparison_level": 42,
+          "treated_change": 2,
+          "comparison_change": 2,
+          "comparative_change_difference": 0,
+          "sites_active": 9,
+          "sites_total": 15,
+          "execution": "9 of 15 sites briefed; both participating and comparison sites show category movement.",
+          "efluelda_share_within_enhanced_pct": 70
+        },
+        {
+          "week": 4,
+          "review_date": "2026-11-24",
+          "data_through": "2026-11-21",
+          "treated_level": 45,
+          "comparison_level": 43,
+          "treated_change": 5,
+          "comparison_change": 3,
+          "comparative_change_difference": 2,
+          "sites_active": 13,
+          "sites_total": 15,
+          "execution": "13 sites active; category adoption is improving more quickly, while Efluelda share is flat.",
+          "efluelda_share_within_enhanced_pct": 70
+        },
+        {
+          "week": 6,
+          "review_date": "2026-12-08",
+          "data_through": "2026-12-05",
+          "treated_level": 48,
+          "comparison_level": 45,
+          "treated_change": 8,
+          "comparison_change": 5,
+          "comparative_change_difference": 3,
+          "sites_active": 14,
+          "sites_total": 15,
+          "execution": "14 sites active; category implementation progresses, but Efluelda share within the category remains unchanged.",
+          "efluelda_share_within_enhanced_pct": 70
+        }
+      ]
+    }
+  ],
+  "aggregation": "For P1/P2 use fixed target-population weighted average of dose-rate changes. Keep P3 share-change separately. No causal attribution."
+}

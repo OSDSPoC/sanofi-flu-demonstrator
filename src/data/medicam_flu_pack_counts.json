@@ -1,0 +1,2270 @@
+[
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 41,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 32,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 19,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 22,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 3296,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 1236,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 8,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 2,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 2,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 28,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 22,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 38,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": -2,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 3,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 33,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 196,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 102,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 111,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 123,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 155,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 44,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 29,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 17,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 3,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 366,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 156,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 112,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 68,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 10,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 49,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": -2,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": -3,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 56070,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 14879,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 2826,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 760,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 458,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 493,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 25148,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 3280,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 583,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 104,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 59,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 70,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 7726,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 1748,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 251,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 51,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 18,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 44,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 2,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 22439,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 4021,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 1011,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 329,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 99,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 201,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 71139,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 13165,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 2463,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 637,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 884,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 681,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-01",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-02",
+    "reimbursed_packs": 2,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-03",
+    "reimbursed_packs": 1,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-04",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-05",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2026-06",
+    "reimbursed_packs": 0,
+    "source_file": "2026-01-a-06_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2026_cip_total"
+  },
+  {
+    "cip13": "3400927442599",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCI 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCI",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442599",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCI 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCI",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442599",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCI 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCI",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442599",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCI 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCI",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 2,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442599",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCI 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCI",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442599",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCI 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCI",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442650",
+    "presentation": "FLUARIXTETRA SUSP INJ SER 1",
+    "product": "FLUARIXTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442650",
+    "presentation": "FLUARIXTETRA SUSP INJ SER 1",
+    "product": "FLUARIXTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442650",
+    "presentation": "FLUARIXTETRA SUSP INJ SER 1",
+    "product": "FLUARIXTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442650",
+    "presentation": "FLUARIXTETRA SUSP INJ SER 1",
+    "product": "FLUARIXTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442650",
+    "presentation": "FLUARIXTETRA SUSP INJ SER 1",
+    "product": "FLUARIXTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400927442650",
+    "presentation": "FLUARIXTETRA SUSP INJ SER 1",
+    "product": "FLUARIXTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 6615,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 2525,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 1300,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 931,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 355,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099761",
+    "presentation": "VAXIGRIPTETRA HS SUSP INJ DOSE 1",
+    "product": "VAXIGRIPTETRA HS SUSP INJ DOSE",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 81,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099846",
+    "presentation": "INFLUSPLIT TETRA INJ S0,5ML SA 10",
+    "product": "INFLUSPLIT TETRA INJ S",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099846",
+    "presentation": "INFLUSPLIT TETRA INJ S0,5ML SA 10",
+    "product": "INFLUSPLIT TETRA INJ S",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099846",
+    "presentation": "INFLUSPLIT TETRA INJ S0,5ML SA 10",
+    "product": "INFLUSPLIT TETRA INJ S",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099846",
+    "presentation": "INFLUSPLIT TETRA INJ S0,5ML SA 10",
+    "product": "INFLUSPLIT TETRA INJ S",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099846",
+    "presentation": "INFLUSPLIT TETRA INJ S0,5ML SA 10",
+    "product": "INFLUSPLIT TETRA INJ S",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099846",
+    "presentation": "INFLUSPLIT TETRA INJ S0,5ML SA 10",
+    "product": "INFLUSPLIT TETRA INJ S",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099853",
+    "presentation": "FLUENZ TETRA VACCIN GRIPPE NASAL 10",
+    "product": "FLUENZ TETRA VACCIN GRIPPE NASAL",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099853",
+    "presentation": "FLUENZ TETRA VACCIN GRIPPE NASAL 10",
+    "product": "FLUENZ TETRA VACCIN GRIPPE NASAL",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099853",
+    "presentation": "FLUENZ TETRA VACCIN GRIPPE NASAL 10",
+    "product": "FLUENZ TETRA VACCIN GRIPPE NASAL",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099853",
+    "presentation": "FLUENZ TETRA VACCIN GRIPPE NASAL 10",
+    "product": "FLUENZ TETRA VACCIN GRIPPE NASAL",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099853",
+    "presentation": "FLUENZ TETRA VACCIN GRIPPE NASAL 10",
+    "product": "FLUENZ TETRA VACCIN GRIPPE NASAL",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099853",
+    "presentation": "FLUENZ TETRA VACCIN GRIPPE NASAL 10",
+    "product": "FLUENZ TETRA VACCIN GRIPPE NASAL",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099860",
+    "presentation": "FLUZONE HD INJ SRG0,7ML S/A 10",
+    "product": "FLUZONE HD INJ SRG",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099860",
+    "presentation": "FLUZONE HD INJ SRG0,7ML S/A 10",
+    "product": "FLUZONE HD INJ SRG",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099860",
+    "presentation": "FLUZONE HD INJ SRG0,7ML S/A 10",
+    "product": "FLUZONE HD INJ SRG",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099860",
+    "presentation": "FLUZONE HD INJ SRG0,7ML S/A 10",
+    "product": "FLUZONE HD INJ SRG",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099860",
+    "presentation": "FLUZONE HD INJ SRG0,7ML S/A 10",
+    "product": "FLUZONE HD INJ SRG",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099860",
+    "presentation": "FLUZONE HD INJ SRG0,7ML S/A 10",
+    "product": "FLUZONE HD INJ SRG",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 2,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 11,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 10,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400928099877",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 10",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 11,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029190",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 117,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 115,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 63,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 78,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 39,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930029220",
+    "presentation": "FLUARIXTETRA SUSP INJ SER VACCIN 1",
+    "product": "FLUARIXTETRA SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 56,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 487,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 371,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 343,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 2443,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 2082,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067727",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 753,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 9,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 6,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 5,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 139,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 97,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930067758",
+    "presentation": "VAXIGRIPTETRA SUSP INJ SER 0.5ML A/A 1",
+    "product": "VAXIGRIPTETRA SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 94,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 397,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 635,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 327,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 11469,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 11505,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930117712",
+    "presentation": "INFLUVAC TETRA INJ SER + AIG 1",
+    "product": "INFLUVAC TETRA INJ SER + AIG",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 3852,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930176603",
+    "presentation": "FLUCELVAX TETRA SUSP INJ SER 1",
+    "product": "FLUCELVAX TETRA SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 3,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 18,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 25,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 10,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 4,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 6,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930205402",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 4,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 100,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 2158113,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 2795690,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296165",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 963880,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296172",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296172",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296172",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296172",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 2,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296172",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 6,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930296172",
+    "presentation": "INFLUVAC SUSP INJ SER 1",
+    "product": "INFLUVAC SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 7,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 42386,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 67502,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304686",
+    "presentation": "FLUCELVAX  SUSP INJ SER 1",
+    "product": "FLUCELVAX  SUSP INJ SER",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 178239,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 102021,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 101934,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304716",
+    "presentation": "FLUAD SUSP INJ SER VACCIN 1",
+    "product": "FLUAD SUSP INJ SER VACCIN",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 84098,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 49,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 23,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930304983",
+    "presentation": "EFLUELDA SUSP INJ SER SS AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER SS AIG TRIV",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 10,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 5,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 984778,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 976571,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305010",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 286150,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305058",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305058",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305058",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305058",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305058",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 2,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930305058",
+    "presentation": "EFLUELDA SUSP INJ SER AVEC AIG TRIV 1",
+    "product": "EFLUELDA SUSP INJ SER AVEC AIG TRIV",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 2,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 127,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 683914,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 956359,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306000",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 496529,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 3,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 7,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306024",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 3,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 4,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 8,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400930306048",
+    "presentation": "VAXIGRIP SUSP INJ TRIV 1",
+    "product": "VAXIGRIP SUSP INJ TRIV",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 19,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400932129904",
+    "presentation": "VAXIGRIP SUSP INJ 1",
+    "product": "VAXIGRIP SUSP INJ",
+    "reimbursement_month": "2025-07",
+    "reimbursed_packs": 2,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400932129904",
+    "presentation": "VAXIGRIP SUSP INJ 1",
+    "product": "VAXIGRIP SUSP INJ",
+    "reimbursement_month": "2025-08",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400932129904",
+    "presentation": "VAXIGRIP SUSP INJ 1",
+    "product": "VAXIGRIP SUSP INJ",
+    "reimbursement_month": "2025-09",
+    "reimbursed_packs": -1,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400932129904",
+    "presentation": "VAXIGRIP SUSP INJ 1",
+    "product": "VAXIGRIP SUSP INJ",
+    "reimbursement_month": "2025-10",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400932129904",
+    "presentation": "VAXIGRIP SUSP INJ 1",
+    "product": "VAXIGRIP SUSP INJ",
+    "reimbursement_month": "2025-11",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  },
+  {
+    "cip13": "3400932129904",
+    "presentation": "VAXIGRIP SUSP INJ 1",
+    "product": "VAXIGRIP SUSP INJ",
+    "reimbursement_month": "2025-12",
+    "reimbursed_packs": 0,
+    "source_file": "2025-07-a-12_medic-am-par-classe-atc_serie-mensuelle.xlsx",
+    "source_sheet": "2025_cip_total"
+  }
+]

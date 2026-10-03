@@ -1,0 +1,37 @@
+{
+  "title": "France Influenza Uptake Intelligence",
+  "subtitle": "Efluelda and the 65+ vaccination programme",
+  "language": "en",
+  "default_mode": "plan",
+  "default_context": "france",
+  "default_map_view": "clusters",
+  "default_week": 0,
+  "prototype_label": "Demonstrator · public + synthetic data",
+  "advisor_footer": "Scripted demonstration responses · human review",
+  "monitor_label": "Simulated 2026–27 campaign",
+  "optional_free_text_fallback": "This demonstration includes prepared questions for the selected area. Choose one below to explore the evidence or plan.",
+  "prompts": {
+    "plan": {
+      "profile": "What distinguishes this profile?",
+      "explain_gap": "What could explain this gap?",
+      "public_affairs": "What can Public Affairs influence?",
+      "commercial": "How should we examine Efluelda performance?",
+      "design_plan": "Help us design an intervention.",
+      "sources": "Which evidence informs this interpretation?"
+    },
+    "monitor": {
+      "change": "What has changed this season?",
+      "performance": "How did the package perform?",
+      "uncertainty": "What remains uncertain?",
+      "adapt": "What should the team change?",
+      "commercial": "How is Efluelda performing?",
+      "sources": "Which sources support this review?"
+    }
+  },
+  "featured_department_codes": [
+    "43",
+    "93",
+    "69",
+    "29"
+  ]
+}
