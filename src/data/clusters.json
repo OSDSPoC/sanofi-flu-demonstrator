@@ -1,76 +1,92 @@
 {
   "provenance": "synthetic",
-  "assignment_method": "Deterministic illustrative assignment, not fitted clustering",
+  "assignment_method": "Authored rule-based assignment (coverage, age profile and a rural flag), with synthetic driver profiles. Not fitted clustering. See docs/CLUSTER_RULES.md.",
   "clusters": [
     {
       "id": "access",
       "name": "Access-constrained",
       "color": "#7652C5",
-      "description": "Illustrative delivery friction with room to improve access and follow-through.",
+      "description": "Weaker access and availability conditions, often in lower-density areas, with provider engagement close to average.",
       "defining_features": [
-        "Lower access index",
-        "Lower local availability",
-        "Below-reference historical coverage"
+        "Lower access and availability indexes",
+        "Provider engagement close to average",
+        "Coverage below the national level"
       ],
       "potentially_influenceable": [
         "Appointment information",
-        "Existing delivery coordination",
-        "Availability investigation"
+        "Delivery coordination",
+        "Availability review"
       ],
       "context": [
         "Rurality and travel conditions",
-        "Population age mix"
+        "Age mix of the 65+ population"
       ],
       "default_package": "P1",
-      "expected_vcr": 55.0,
+      "expected_vcr": 55,
       "driver_template": [
-        35,
+        39,
         62,
         66,
-        74,
-        48
+        50,
+        49
       ],
-      "interpretation": "Delivery conditions warrant investigation before assuming unwillingness to vaccinate."
+      "interpretation": "Check delivery conditions before assuming reluctance to vaccinate.",
+      "shared_approach": [
+        "Confirm delivery capacity and appointment information with local providers",
+        "Review pharmacy availability and travel barriers",
+        "Use existing local channels to communicate where and when to vaccinate"
+      ],
+      "common_pattern": "Access and availability are the weakest enabling conditions; engagement and recommendation are closer to average.",
+      "featured_department": "43",
+      "member_count": 31
     },
     {
       "id": "activation",
       "name": "Activation gap",
       "color": "#00A6A6",
-      "description": "Illustrative adequate access with uneven recommendation and follow-through.",
+      "description": "Stronger access and availability, with weaker provider engagement and proactive recommendation.",
       "defining_features": [
-        "Moderate access index",
-        "Low engagement index",
+        "Stronger access and availability",
+        "Lower provider engagement",
         "Lower recommendation index"
       ],
       "potentially_influenceable": [
         "Proactive recommendation",
-        "Trusted outreach",
-        "Locally managed reminders"
+        "Trusted community information",
+        "Provider-managed reminders"
       ],
       "context": [
-        "Previous uptake",
-        "Population vulnerability"
+        "Population density and diversity",
+        "Previous uptake"
       ],
       "default_package": "P2",
-      "expected_vcr": 54.0,
+      "expected_vcr": 54.7,
       "driver_template": [
-        66,
+        67,
         34,
-        59,
+        61,
         83,
-        40
+        39
       ],
-      "interpretation": "Access alone may not explain the gap; investigate recommendation, relevance and follow-through."
+      "interpretation": "Access alone may not explain the gap; look at recommendation, relevance and follow-through.",
+      "shared_approach": [
+        "Brief providers on proactive recommendation to eligible adults",
+        "Share clear information through existing community partners",
+        "Support provider-managed reminders and follow-through"
+      ],
+      "common_pattern": "Access and availability are relatively strong, while provider engagement and recommendation are weak.",
+      "featured_department": "93",
+      "member_count": 21
     },
     {
       "id": "enhanced",
       "name": "Enhanced-vaccine adoption gap",
       "color": "#E7A33E",
-      "description": "Illustrative reasonable flu coverage with uneven adoption of the enhanced category.",
+      "description": "Reasonable coverage and delivery conditions, with lower adoption of enhanced vaccines among adults aged 65+.",
       "defining_features": [
         "Reasonable overall coverage",
-        "Lower enhanced-category adoption",
-        "Uncertain recommendation implementation"
+        "Lower enhanced-vaccine share of dispensing",
+        "Recommendation implementation uncertain"
       ],
       "potentially_influenceable": [
         "Recommendation education",
@@ -78,32 +94,40 @@
         "Product availability review"
       ],
       "context": [
-        "Age-cohort mix",
+        "Age mix of the 65+ population",
         "Established channel patterns"
       ],
       "default_package": "P3",
-      "expected_vcr": 61.0,
+      "expected_vcr": 60.1,
       "driver_template": [
-        73,
-        64,
+        72,
         65,
+        64,
         69,
-        49
+        50
       ],
-      "interpretation": "Distinguish implementation of the category recommendation from Efluelda brand performance."
+      "interpretation": "Separate implementation of the category recommendation from Efluelda brand performance.",
+      "shared_approach": [
+        "Brief teams on the equivalent HAS positioning of Efluelda and Fluad",
+        "Review the local pathway and availability of recommended options",
+        "Record what prevents consistent implementation; Commercial reviews brand questions separately"
+      ],
+      "common_pattern": "Access and engagement are reasonable, but recommendation is mixed and the enhanced-vaccine share of dispensing is the lowest of the four profiles.",
+      "featured_department": "69",
+      "member_count": 29
     },
     {
       "id": "strong",
       "name": "Strong delivery",
       "color": "#4777B6",
-      "description": "Illustrative stronger uptake and delivery conditions with residual cohort gaps.",
+      "description": "Favourable enabling conditions and generally stronger observed uptake.",
       "defining_features": [
-        "Higher historical coverage",
-        "Stronger engagement index",
-        "Stronger delivery index"
+        "Stronger access and availability",
+        "Stronger engagement and recommendation",
+        "Coverage at or above 60%"
       ],
       "potentially_influenceable": [
-        "Sharing practices",
+        "Sharing delivery practices",
         "Remaining cohort follow-through"
       ],
       "context": [
@@ -111,16 +135,24 @@
         "Historical uptake"
       ],
       "default_package": null,
-      "expected_vcr": 66.0,
+      "expected_vcr": 63.7,
       "driver_template": [
-        82,
-        78,
+        81,
+        77,
         76,
-        91,
+        90,
         80
       ],
-      "interpretation": "Explore transferable practices while checking whether they would work in different local conditions."
+      "interpretation": "Look for transferable practices, and test whether they would work in different local conditions.",
+      "shared_approach": [
+        "Document the delivery practices behind stronger uptake",
+        "Test whether they transfer to areas with different conditions",
+        "Monitor remaining cohort gaps"
+      ],
+      "common_pattern": "Access, availability, engagement and recommendation are all favourable.",
+      "featured_department": "29",
+      "member_count": 15
     }
   ],
-  "driver_scale": "0–100 illustrative index; higher means stronger enabling conditions"
+  "driver_scale": "0–100 index; higher means stronger enabling conditions"
 }

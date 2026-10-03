@@ -1,10 +1,8 @@
 import { useEffect } from 'react';
 import Header from './components/Header';
-import KpiStrip from './components/KpiStrip';
-import MapPanel, { ClusterCards } from './components/MapPanel';
-import EvidencePanel from './components/EvidencePanel';
+import PlanWorkspace from './components/PlanViews';
 import Advisor from './components/Advisor';
-import Monitor, { MonitorBar } from './components/Monitor';
+import MonitorWorkspace from './components/Monitor';
 import PrintViews from './components/PrintViews';
 import { HistoryDrawer, ModelDrawer, PlanDrawer, ReviewDrawer, SourcesDrawer, StatusDrawer } from './components/Drawers';
 import { useApp, useDispatch } from './state';
@@ -58,13 +56,8 @@ export default function App() {
         <Header />
         <main className="layout">
           <div className="left">
-            {s.mode === 'monitor' && <MonitorBar />}
-            <KpiStrip />
-            <MapPanel />
-            <ClusterCards />
-            {s.mode === 'monitor' && <Monitor />}
-            <EvidencePanel />
-            <footer className="app-footer">Demonstrator developed by OpenSky · public data plus synthetic scenarios · not a Sanofi system</footer>
+            {s.mode === 'monitor' && s.snapshot ? <MonitorWorkspace /> : <PlanWorkspace />}
+            <footer className="app-footer">Demonstrator developed by OpenSky</footer>
           </div>
           <Advisor />
         </main>

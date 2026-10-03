@@ -21,7 +21,7 @@ export default function Header() {
             type="button"
             className={s.mode === 'plan' ? 'active' : ''}
             aria-pressed={s.mode === 'plan'}
-            title="Plan the season"
+            title="Prepare the campaign"
             onClick={() => dispatch({ type: 'setMode', mode: 'plan' })}
           >
             Plan
@@ -31,7 +31,7 @@ export default function Header() {
             className={s.mode === 'monitor' ? 'active' : ''}
             aria-pressed={s.mode === 'monitor'}
             aria-disabled={!canMonitor}
-            title={canMonitor ? 'Monitor the season: review the simulated 2026–27 campaign' : 'Select an intervention package and start simulated follow-up from the plan'}
+            title={canMonitor ? 'Review in-season delivery' : 'Add an intervention to the plan and start follow-up first'}
             onClick={() => dispatch({ type: 'setMode', mode: 'monitor' })}
           >
             Monitor

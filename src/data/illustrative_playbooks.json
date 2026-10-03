@@ -1,7 +1,7 @@
 [
   {
     "id": "playbook_access",
-    "title": "Illustrative access and Public Affairs playbook",
+    "title": "Access and Public Affairs playbook (OpenSky example)",
     "status": "OpenSky-authored example; not a Sanofi document",
     "rules": [
       "Validate the barrier with local partners before choosing an intervention.",
@@ -14,7 +14,7 @@
   },
   {
     "id": "playbook_commercial",
-    "title": "Illustrative commercial and marketing playbook",
+    "title": "Commercial and marketing playbook (OpenSky example)",
     "status": "OpenSky-authored example; not a Sanofi document",
     "rules": [
       "Separate total market uptake, enhanced-category adoption and Efluelda share.",

@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
 await new Promise((r) => server.listen(PORT, r));
 const origin = `http://localhost:${PORT}`;
 const html = await (await fetch(origin + BASE)).text();
-const refs = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map((m) => m[1]);
+const refs = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map((m) => m[1]).filter((r) => !r.startsWith('data:'));
 let failed = 0;
 for (const ref of refs) {
   const abs = new URL(ref, origin + BASE).pathname;

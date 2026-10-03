@@ -42,7 +42,7 @@ export function SourceChips({ ids }: { ids: string[] }) {
           <button
             key={id}
             type="button"
-            className={`chip ${s?.provenance === 'synthetic' ? 'synthetic' : s?.provenance === 'not_acquired' ? 'future' : 'public'}`}
+            className="chip"
             onClick={() => dispatch({ type: 'drawer', drawer: 'sources', sourceFocus: id })}
             title={s ? `${s.title} (${s.provenance === 'synthetic' ? 'synthetic' : s.provenance === 'not_acquired' ? 'not acquired' : 'public'})` : id}
           >

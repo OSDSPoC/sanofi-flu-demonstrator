@@ -28,6 +28,12 @@ export function fmtSigned(v: number, digits = 0): string {
 export function fmtInt(v: number | null | undefined): string {
   return v == null ? 'Unavailable' : Math.round(v).toLocaleString('en-GB');
 }
+/** Estimated populations and opportunity are shown to a sensible precision (hundreds, then thousands). */
+export function fmtEst(v: number | null | undefined): string {
+  if (v == null) return 'Unavailable';
+  const step = v >= 10000 ? 1000 : v >= 1000 ? 100 : 10;
+  return (Math.round(v / step) * step).toLocaleString('en-GB');
+}
 export function fmtDate(iso: string): string {
   const [y, m, d] = iso.split('-').map(Number);
   return `${d} ${MONTHS[m - 1]} ${y}`;

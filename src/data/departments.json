@@ -29,20 +29,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 35173,
         "unvaccinated_opportunity": 17516,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": -3.8,
+        "expected_vcr_65plus": 55.5,
+        "observed_minus_expected_pp": -5.3,
         "driver_indexes": {
-          "access_index": 62,
-          "hcp_engagement_index": 34,
-          "confidence_index": 58,
-          "availability_index": 81,
-          "recommendation_index": 41
+          "access_index": 44,
+          "hcp_engagement_index": 58,
+          "confidence_index": 66,
+          "availability_index": 53,
+          "recommendation_index": 53
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 48,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -67,20 +67,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 50037,
         "unvaccinated_opportunity": 23267,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -7.5,
+        "expected_vcr_65plus": 55.3,
+        "observed_minus_expected_pp": -1.8,
         "driver_indexes": {
-          "access_index": 76,
-          "hcp_engagement_index": 68,
-          "confidence_index": 69,
-          "availability_index": 73,
-          "recommendation_index": 51
+          "access_index": 43,
+          "hcp_engagement_index": 64,
+          "confidence_index": 65,
+          "availability_index": 46,
+          "recommendation_index": 53
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -99,26 +99,26 @@
         "season": "2025–26",
         "vcr_65plus": 50.3,
         "vcr_65_74": 42.3,
-        "vcr_75plus": 58.0,
+        "vcr_75plus": 58,
         "vcr_under65_atrisk": 25.1,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 102499,
         "unvaccinated_opportunity": 50942,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -10.7,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": -4.8,
         "driver_indexes": {
-          "access_index": 71,
-          "hcp_engagement_index": 61,
-          "confidence_index": 67,
-          "availability_index": 65,
-          "recommendation_index": 47
+          "access_index": 37,
+          "hcp_engagement_index": 59,
+          "confidence_index": 71,
+          "availability_index": 52,
+          "recommendation_index": 48
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -143,19 +143,19 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 79851,
         "unvaccinated_opportunity": 35614,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 1.4,
+        "expected_vcr_65plus": 54.5,
+        "observed_minus_expected_pp": 0.9,
         "driver_indexes": {
-          "access_index": 64,
-          "hcp_engagement_index": 35,
-          "confidence_index": 61,
-          "availability_index": 86,
-          "recommendation_index": 43
+          "access_index": 38,
+          "hcp_engagement_index": 59,
+          "confidence_index": 60,
+          "availability_index": 53,
+          "recommendation_index": 47
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "enhanced_share_of_65plus_dispensing_pct": 44,
         "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
@@ -181,20 +181,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 149305,
         "unvaccinated_opportunity": 61663,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 4.7,
+        "expected_vcr_65plus": 59.9,
+        "observed_minus_expected_pp": -1.2,
         "driver_indexes": {
-          "access_index": 69,
-          "hcp_engagement_index": 33,
-          "confidence_index": 63,
-          "availability_index": 85,
-          "recommendation_index": 37
+          "access_index": 73,
+          "hcp_engagement_index": 69,
+          "confidence_index": 59,
+          "availability_index": 67,
+          "recommendation_index": 50
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "enhanced_share_of_65plus_dispensing_pct": 35,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -219,20 +219,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 151410,
         "unvaccinated_opportunity": 65258,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 2.9,
+        "expected_vcr_65plus": 60.1,
+        "observed_minus_expected_pp": -3.2,
         "driver_indexes": {
-          "access_index": 64,
-          "hcp_engagement_index": 35,
-          "confidence_index": 58,
-          "availability_index": 86,
-          "recommendation_index": 43
+          "access_index": 71,
+          "hcp_engagement_index": 61,
+          "confidence_index": 69,
+          "availability_index": 71,
+          "recommendation_index": 49
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "enhanced_share_of_65plus_dispensing_pct": 34,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -249,7 +249,7 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 56.0,
+        "vcr_65plus": 56,
         "vcr_65_74": 49.6,
         "vcr_75plus": 61.9,
         "vcr_under65_atrisk": 29.6,
@@ -257,20 +257,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 176048,
         "unvaccinated_opportunity": 77461,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -5.0,
+        "expected_vcr_65plus": 54.6,
+        "observed_minus_expected_pp": 1.4,
         "driver_indexes": {
-          "access_index": 72,
-          "hcp_engagement_index": 66,
-          "confidence_index": 65,
-          "availability_index": 72,
-          "recommendation_index": 47
+          "access_index": 38,
+          "hcp_engagement_index": 65,
+          "confidence_index": 60,
+          "availability_index": 47,
+          "recommendation_index": 49
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "enhanced_share_of_65plus_dispensing_pct": 46,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -295,19 +295,19 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 45744,
         "unvaccinated_opportunity": 23604,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -12.6,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": -6.3,
         "driver_indexes": {
-          "access_index": 75,
-          "hcp_engagement_index": 63,
-          "confidence_index": 66,
-          "availability_index": 66,
-          "recommendation_index": 53
+          "access_index": 34,
+          "hcp_engagement_index": 67,
+          "confidence_index": 68,
+          "availability_index": 49,
+          "recommendation_index": 43
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "enhanced_share_of_65plus_dispensing_pct": 49,
         "efluelda_share_of_enhanced_dispensing_pct": 63,
         "provenance": "synthetic",
         "source_ids": [
@@ -325,7 +325,7 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 49.0,
+        "vcr_65plus": 49,
         "vcr_65_74": 40.2,
         "vcr_75plus": 57.4,
         "vcr_under65_atrisk": 20.9,
@@ -333,19 +333,19 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 84343,
         "unvaccinated_opportunity": 43015,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -17.0,
+        "expected_vcr_65plus": 54.9,
+        "observed_minus_expected_pp": -5.9,
         "driver_indexes": {
-          "access_index": 78,
-          "hcp_engagement_index": 78,
-          "confidence_index": 78,
-          "availability_index": 93,
-          "recommendation_index": 81
+          "access_index": 37,
+          "hcp_engagement_index": 63,
+          "confidence_index": 71,
+          "availability_index": 46,
+          "recommendation_index": 47
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
         "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
@@ -366,7 +366,7 @@
         "vcr_65plus": 59.5,
         "vcr_65_74": 52.8,
         "vcr_75plus": 65.8,
-        "vcr_under65_atrisk": 32.0,
+        "vcr_under65_atrisk": 32,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
@@ -374,17 +374,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 81933,
         "unvaccinated_opportunity": 33183,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -1.5,
+        "expected_vcr_65plus": 59.8,
+        "observed_minus_expected_pp": -0.3,
         "driver_indexes": {
-          "access_index": 69,
-          "hcp_engagement_index": 60,
-          "confidence_index": 64,
-          "availability_index": 69,
+          "access_index": 75,
+          "hcp_engagement_index": 65,
+          "confidence_index": 61,
+          "availability_index": 63,
           "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 32,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -404,7 +404,7 @@
         "vcr_65plus": 54.3,
         "vcr_65_74": 46.8,
         "vcr_75plus": 61.4,
-        "vcr_under65_atrisk": 28.0,
+        "vcr_under65_atrisk": 28,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
@@ -412,17 +412,17 @@
         "cluster_id": "access",
         "eligible_population_65plus": 109345,
         "unvaccinated_opportunity": 49971,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -0.7,
+        "expected_vcr_65plus": 55.3,
+        "observed_minus_expected_pp": -1,
         "driver_indexes": {
-          "access_index": 34,
-          "hcp_engagement_index": 64,
-          "confidence_index": 69,
-          "availability_index": 73,
-          "recommendation_index": 48
+          "access_index": 43,
+          "hcp_engagement_index": 58,
+          "confidence_index": 65,
+          "availability_index": 52,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "enhanced_share_of_65plus_dispensing_pct": 48,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -447,20 +447,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 125995,
         "unvaccinated_opportunity": 54304,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 2.9,
+        "expected_vcr_65plus": 60.2,
+        "observed_minus_expected_pp": -3.3,
         "driver_indexes": {
-          "access_index": 63,
-          "hcp_engagement_index": 30,
-          "confidence_index": 61,
-          "availability_index": 79,
-          "recommendation_index": 43
+          "access_index": 74,
+          "hcp_engagement_index": 64,
+          "confidence_index": 60,
+          "availability_index": 74,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 64,
+        "enhanced_share_of_65plus_dispensing_pct": 39,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -479,7 +479,7 @@
         "season": "2025–26",
         "vcr_65plus": 66.8,
         "vcr_65_74": 61.5,
-        "vcr_75plus": 72.0,
+        "vcr_75plus": 72,
         "vcr_under65_atrisk": 35.1,
         "provenance": "public",
         "source_id": "spf_vcr"
@@ -488,7 +488,7 @@
         "cluster_id": "strong",
         "eligible_population_65plus": 230000,
         "unvaccinated_opportunity": 76360,
-        "expected_vcr_65plus": 66.0,
+        "expected_vcr_65plus": 66,
         "observed_minus_expected_pp": 0.8,
         "driver_indexes": {
           "access_index": 83,
@@ -526,17 +526,17 @@
         "cluster_id": "access",
         "eligible_population_65plus": 133271,
         "unvaccinated_opportunity": 60772,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -0.6,
+        "expected_vcr_65plus": 54.3,
+        "observed_minus_expected_pp": 0.1,
         "driver_indexes": {
-          "access_index": 35,
-          "hcp_engagement_index": 60,
-          "confidence_index": 63,
-          "availability_index": 71,
-          "recommendation_index": 48
+          "access_index": 32,
+          "hcp_engagement_index": 65,
+          "confidence_index": 66,
+          "availability_index": 48,
+          "recommendation_index": 43
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 42,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -564,17 +564,17 @@
         "cluster_id": "strong",
         "eligible_population_65plus": 119592,
         "unvaccinated_opportunity": 45325,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -3.9,
+        "expected_vcr_65plus": 63.7,
+        "observed_minus_expected_pp": -1.6,
         "driver_indexes": {
-          "access_index": 79,
-          "hcp_engagement_index": 74,
-          "confidence_index": 75,
+          "access_index": 86,
+          "hcp_engagement_index": 73,
+          "confidence_index": 74,
           "availability_index": 91,
-          "recommendation_index": 78
+          "recommendation_index": 84
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 58,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -602,17 +602,17 @@
         "cluster_id": "strong",
         "eligible_population_65plus": 152329,
         "unvaccinated_opportunity": 57580,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -3.8,
+        "expected_vcr_65plus": 63.2,
+        "observed_minus_expected_pp": -1,
         "driver_indexes": {
-          "access_index": 83,
-          "hcp_engagement_index": 76,
-          "confidence_index": 76,
-          "availability_index": 92,
-          "recommendation_index": 77
+          "access_index": 80,
+          "hcp_engagement_index": 79,
+          "confidence_index": 79,
+          "availability_index": 84,
+          "recommendation_index": 78
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "enhanced_share_of_65plus_dispensing_pct": 57,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -637,20 +637,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "activation",
         "eligible_population_65plus": 145884,
         "unvaccinated_opportunity": 64772,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 0.6,
+        "expected_vcr_65plus": 54.5,
+        "observed_minus_expected_pp": 1.1,
         "driver_indexes": {
-          "access_index": 39,
-          "hcp_engagement_index": 62,
-          "confidence_index": 70,
-          "availability_index": 72,
-          "recommendation_index": 45
+          "access_index": 64,
+          "hcp_engagement_index": 34,
+          "confidence_index": 61,
+          "availability_index": 86,
+          "recommendation_index": 35
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -675,20 +675,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 151234,
         "unvaccinated_opportunity": 70929,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": -0.9,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": -2,
         "driver_indexes": {
-          "access_index": 68,
-          "hcp_engagement_index": 37,
-          "confidence_index": 63,
-          "availability_index": 87,
-          "recommendation_index": 37
+          "access_index": 33,
+          "hcp_engagement_index": 59,
+          "confidence_index": 67,
+          "availability_index": 54,
+          "recommendation_index": 54
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -713,20 +713,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "strong",
         "eligible_population_65plus": 69469,
         "unvaccinated_opportunity": 27232,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 6.8,
+        "expected_vcr_65plus": 63.5,
+        "observed_minus_expected_pp": -2.7,
         "driver_indexes": {
-          "access_index": 70,
-          "hcp_engagement_index": 38,
-          "confidence_index": 57,
-          "availability_index": 83,
-          "recommendation_index": 44
+          "access_index": 78,
+          "hcp_engagement_index": 83,
+          "confidence_index": 78,
+          "availability_index": 89,
+          "recommendation_index": 77
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "enhanced_share_of_65plus_dispensing_pct": 58,
+        "efluelda_share_of_enhanced_dispensing_pct": 63,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -751,20 +751,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "strong",
         "eligible_population_65plus": 120020,
         "unvaccinated_opportunity": 47048,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 6.8,
+        "expected_vcr_65plus": 63.4,
+        "observed_minus_expected_pp": -2.6,
         "driver_indexes": {
-          "access_index": 66,
-          "hcp_engagement_index": 36,
-          "confidence_index": 62,
-          "availability_index": 82,
-          "recommendation_index": 36
+          "access_index": 85,
+          "hcp_engagement_index": 72,
+          "confidence_index": 73,
+          "availability_index": 90,
+          "recommendation_index": 83
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "enhanced_share_of_65plus_dispensing_pct": 57,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -783,26 +783,26 @@
         "season": "2025–26",
         "vcr_65plus": 62.1,
         "vcr_65_74": 56.1,
-        "vcr_75plus": 68.0,
+        "vcr_75plus": 68,
         "vcr_under65_atrisk": 33.7,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "strong",
         "eligible_population_65plus": 76391,
         "unvaccinated_opportunity": 28952,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 8.1,
+        "expected_vcr_65plus": 63.1,
+        "observed_minus_expected_pp": -1,
         "driver_indexes": {
-          "access_index": 67,
-          "hcp_engagement_index": 32,
-          "confidence_index": 62,
-          "availability_index": 80,
-          "recommendation_index": 37
+          "access_index": 77,
+          "hcp_engagement_index": 82,
+          "confidence_index": 77,
+          "availability_index": 88,
+          "recommendation_index": 74
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 64,
+        "enhanced_share_of_65plus_dispensing_pct": 57,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -827,20 +827,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 179735,
         "unvaccinated_opportunity": 78005,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 2.6,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": -3.4,
         "driver_indexes": {
-          "access_index": 66,
-          "hcp_engagement_index": 36,
+          "access_index": 73,
+          "hcp_engagement_index": 69,
           "confidence_index": 59,
-          "availability_index": 82,
-          "recommendation_index": 40
+          "availability_index": 67,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "enhanced_share_of_65plus_dispensing_pct": 37,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -868,17 +868,17 @@
         "cluster_id": "strong",
         "eligible_population_65plus": 40167,
         "unvaccinated_opportunity": 15625,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -4.9,
+        "expected_vcr_65plus": 64.2,
+        "observed_minus_expected_pp": -3.1,
         "driver_indexes": {
-          "access_index": 81,
-          "hcp_engagement_index": 75,
-          "confidence_index": 76,
-          "availability_index": 87,
-          "recommendation_index": 82
+          "access_index": 85,
+          "hcp_engagement_index": 78,
+          "confidence_index": 73,
+          "availability_index": 96,
+          "recommendation_index": 84
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "enhanced_share_of_65plus_dispensing_pct": 55,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -903,20 +903,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "activation",
         "eligible_population_65plus": 94775,
         "unvaccinated_opportunity": 41417,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 1.3,
+        "expected_vcr_65plus": 54.6,
+        "observed_minus_expected_pp": 1.7,
         "driver_indexes": {
-          "access_index": 38,
-          "hcp_engagement_index": 66,
-          "confidence_index": 64,
-          "availability_index": 74,
-          "recommendation_index": 47
+          "access_index": 63,
+          "hcp_engagement_index": 34,
+          "confidence_index": 62,
+          "availability_index": 86,
+          "recommendation_index": 36
         },
         "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -941,20 +941,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 103518,
         "unvaccinated_opportunity": 45858,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -10.3,
+        "expected_vcr_65plus": 55.6,
+        "observed_minus_expected_pp": 0.1,
         "driver_indexes": {
-          "access_index": 78,
-          "hcp_engagement_index": 78,
-          "confidence_index": 72,
-          "availability_index": 93,
-          "recommendation_index": 76
+          "access_index": 43,
+          "hcp_engagement_index": 65,
+          "confidence_index": 66,
+          "availability_index": 47,
+          "recommendation_index": 54
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -979,20 +979,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 52560,
         "unvaccinated_opportunity": 23599,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -5.9,
+        "expected_vcr_65plus": 55.2,
+        "observed_minus_expected_pp": -0.1,
         "driver_indexes": {
-          "access_index": 74,
-          "hcp_engagement_index": 67,
-          "confidence_index": 62,
-          "availability_index": 68,
-          "recommendation_index": 51
+          "access_index": 42,
+          "hcp_engagement_index": 63,
+          "confidence_index": 64,
+          "availability_index": 46,
+          "recommendation_index": 53
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "enhanced_share_of_65plus_dispensing_pct": 48,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1020,17 +1020,17 @@
         "cluster_id": "strong",
         "eligible_population_65plus": 168421,
         "unvaccinated_opportunity": 66526,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -5.5,
+        "expected_vcr_65plus": 63.7,
+        "observed_minus_expected_pp": -3.2,
         "driver_indexes": {
-          "access_index": 83,
-          "hcp_engagement_index": 76,
-          "confidence_index": 79,
-          "availability_index": 92,
-          "recommendation_index": 84
+          "access_index": 81,
+          "hcp_engagement_index": 80,
+          "confidence_index": 82,
+          "availability_index": 86,
+          "recommendation_index": 79
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "enhanced_share_of_65plus_dispensing_pct": 58,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1055,20 +1055,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 126186,
         "unvaccinated_opportunity": 50727,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 5.8,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": -0.2,
         "driver_indexes": {
-          "access_index": 64,
-          "hcp_engagement_index": 35,
-          "confidence_index": 55,
-          "availability_index": 86,
-          "recommendation_index": 43
+          "access_index": 76,
+          "hcp_engagement_index": 66,
+          "confidence_index": 61,
+          "availability_index": 63,
+          "recommendation_index": 53
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 73,
+        "enhanced_share_of_65plus_dispensing_pct": 35,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1093,20 +1093,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 108213,
         "unvaccinated_opportunity": 48479,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -10.8,
+        "expected_vcr_65plus": 55.2,
+        "observed_minus_expected_pp": 0,
         "driver_indexes": {
-          "access_index": 85,
-          "hcp_engagement_index": 77,
-          "confidence_index": 74,
-          "availability_index": 88,
-          "recommendation_index": 81
+          "access_index": 33,
+          "hcp_engagement_index": 66,
+          "confidence_index": 67,
+          "availability_index": 48,
+          "recommendation_index": 54
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1131,20 +1131,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "activation",
         "eligible_population_65plus": 117509,
         "unvaccinated_opportunity": 55817,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -8.5,
+        "expected_vcr_65plus": 54.8,
+        "observed_minus_expected_pp": -2.3,
         "driver_indexes": {
-          "access_index": 76,
-          "hcp_engagement_index": 68,
-          "confidence_index": 63,
-          "availability_index": 73,
-          "recommendation_index": 51
+          "access_index": 73,
+          "hcp_engagement_index": 32,
+          "confidence_index": 60,
+          "availability_index": 85,
+          "recommendation_index": 34
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1169,20 +1169,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "activation",
         "eligible_population_65plus": 68726,
         "unvaccinated_opportunity": 35806,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -13.1,
+        "expected_vcr_65plus": 55,
+        "observed_minus_expected_pp": -7.1,
         "driver_indexes": {
-          "access_index": 75,
-          "hcp_engagement_index": 63,
-          "confidence_index": 63,
-          "availability_index": 66,
-          "recommendation_index": 49
+          "access_index": 72,
+          "hcp_engagement_index": 31,
+          "confidence_index": 58,
+          "availability_index": 83,
+          "recommendation_index": 44
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1207,20 +1207,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 134186,
         "unvaccinated_opportunity": 57834,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 2.9,
+        "expected_vcr_65plus": 60.3,
+        "observed_minus_expected_pp": -3.4,
         "driver_indexes": {
-          "access_index": 63,
-          "hcp_engagement_index": 30,
-          "confidence_index": 55,
-          "availability_index": 79,
-          "recommendation_index": 41
+          "access_index": 74,
+          "hcp_engagement_index": 70,
+          "confidence_index": 61,
+          "availability_index": 68,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "enhanced_share_of_65plus_dispensing_pct": 34,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1237,28 +1237,28 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 61.0,
+        "vcr_65plus": 61,
         "vcr_65_74": 56.2,
-        "vcr_75plus": 66.0,
+        "vcr_75plus": 66,
         "vcr_under65_atrisk": 33.7,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "strong",
         "eligible_population_65plus": 168709,
         "unvaccinated_opportunity": 65797,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 6.0,
+        "expected_vcr_65plus": 63.9,
+        "observed_minus_expected_pp": -2.9,
         "driver_indexes": {
-          "access_index": 36,
-          "hcp_engagement_index": 65,
-          "confidence_index": 63,
-          "availability_index": 78,
-          "recommendation_index": 46
+          "access_index": 86,
+          "hcp_engagement_index": 73,
+          "confidence_index": 75,
+          "availability_index": 92,
+          "recommendation_index": 85
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 70,
+        "enhanced_share_of_65plus_dispensing_pct": 53,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1286,17 +1286,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 147706,
         "unvaccinated_opportunity": 59969,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -1.6,
+        "expected_vcr_65plus": 60.2,
+        "observed_minus_expected_pp": -0.8,
         "driver_indexes": {
-          "access_index": 73,
-          "hcp_engagement_index": 62,
-          "confidence_index": 65,
-          "availability_index": 70,
-          "recommendation_index": 47
+          "access_index": 69,
+          "hcp_engagement_index": 65,
+          "confidence_index": 67,
+          "availability_index": 75,
+          "recommendation_index": 46
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 76,
+        "enhanced_share_of_65plus_dispensing_pct": 32,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1314,7 +1314,7 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 55.4,
-        "vcr_65_74": 49.0,
+        "vcr_65_74": 49,
         "vcr_75plus": 61.6,
         "vcr_under65_atrisk": 27.2,
         "provenance": "public",
@@ -1324,17 +1324,17 @@
         "cluster_id": "access",
         "eligible_population_65plus": 78964,
         "unvaccinated_opportunity": 35218,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 0.4,
+        "expected_vcr_65plus": 55.5,
+        "observed_minus_expected_pp": -0.1,
         "driver_indexes": {
-          "access_index": 32,
-          "hcp_engagement_index": 63,
-          "confidence_index": 65,
-          "availability_index": 77,
-          "recommendation_index": 51
+          "access_index": 41,
+          "hcp_engagement_index": 62,
+          "confidence_index": 63,
+          "availability_index": 56,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "enhanced_share_of_65plus_dispensing_pct": 46,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1354,7 +1354,7 @@
         "vcr_65plus": 57.8,
         "vcr_65_74": 51.6,
         "vcr_75plus": 63.7,
-        "vcr_under65_atrisk": 29.0,
+        "vcr_under65_atrisk": 29,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
@@ -1362,17 +1362,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 131530,
         "unvaccinated_opportunity": 55506,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -3.2,
+        "expected_vcr_65plus": 59.9,
+        "observed_minus_expected_pp": -2.1,
         "driver_indexes": {
           "access_index": 70,
-          "hcp_engagement_index": 65,
-          "confidence_index": 67,
-          "availability_index": 67,
-          "recommendation_index": 47
+          "hcp_engagement_index": 60,
+          "confidence_index": 68,
+          "availability_index": 70,
+          "recommendation_index": 49
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 33,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1400,7 +1400,7 @@
         "cluster_id": "activation",
         "eligible_population_65plus": 180000,
         "unvaccinated_opportunity": 96480,
-        "expected_vcr_65plus": 54.0,
+        "expected_vcr_65plus": 54,
         "observed_minus_expected_pp": -7.6,
         "driver_indexes": {
           "access_index": 66,
@@ -1428,27 +1428,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 18.2,
-        "vcr_65_74": 16.0,
+        "vcr_65_74": 16,
         "vcr_75plus": 22.1,
-        "vcr_under65_atrisk": 10.0,
+        "vcr_under65_atrisk": 10,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 26229,
         "unvaccinated_opportunity": 21455,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -47.8,
+        "expected_vcr_65plus": 55.4,
+        "observed_minus_expected_pp": -37.2,
         "driver_indexes": {
-          "access_index": 81,
-          "hcp_engagement_index": 75,
-          "confidence_index": 79,
-          "availability_index": 87,
-          "recommendation_index": 83
+          "access_index": 71,
+          "hcp_engagement_index": 36,
+          "confidence_index": 57,
+          "availability_index": 88,
+          "recommendation_index": 42
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "enhanced_share_of_65plus_dispensing_pct": 46,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1476,17 +1476,17 @@
         "cluster_id": "activation",
         "eligible_population_65plus": 184881,
         "unvaccinated_opportunity": 84306,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 0.4,
+        "expected_vcr_65plus": 54.2,
+        "observed_minus_expected_pp": 0.2,
         "driver_indexes": {
-          "access_index": 63,
-          "hcp_engagement_index": 30,
-          "confidence_index": 55,
+          "access_index": 62,
+          "hcp_engagement_index": 39,
+          "confidence_index": 60,
           "availability_index": 79,
-          "recommendation_index": 41
+          "recommendation_index": 35
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "enhanced_share_of_65plus_dispensing_pct": 41,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1514,17 +1514,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 94804,
         "unvaccinated_opportunity": 40387,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -3.6,
+        "expected_vcr_65plus": 59.7,
+        "observed_minus_expected_pp": -2.3,
         "driver_indexes": {
-          "access_index": 70,
-          "hcp_engagement_index": 65,
-          "confidence_index": 64,
-          "availability_index": 67,
-          "recommendation_index": 45
+          "access_index": 67,
+          "hcp_engagement_index": 63,
+          "confidence_index": 65,
+          "availability_index": 73,
+          "recommendation_index": 46
         },
         "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1549,20 +1549,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 128049,
         "unvaccinated_opportunity": 61335,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -13.9,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": -2.6,
         "driver_indexes": {
-          "access_index": 82,
-          "hcp_engagement_index": 80,
-          "confidence_index": 76,
-          "availability_index": 94,
-          "recommendation_index": 78
+          "access_index": 36,
+          "hcp_engagement_index": 57,
+          "confidence_index": 70,
+          "availability_index": 51,
+          "recommendation_index": 46
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1579,28 +1579,28 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 54.0,
+        "vcr_65plus": 54,
         "vcr_65_74": 46.5,
-        "vcr_75plus": 61.0,
+        "vcr_75plus": 61,
         "vcr_under65_atrisk": 26.4,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "activation",
         "eligible_population_65plus": 50874,
         "unvaccinated_opportunity": 23402,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -7.0,
+        "expected_vcr_65plus": 54.8,
+        "observed_minus_expected_pp": -0.8,
         "driver_indexes": {
-          "access_index": 75,
-          "hcp_engagement_index": 63,
-          "confidence_index": 63,
-          "availability_index": 66,
-          "recommendation_index": 48
+          "access_index": 67,
+          "hcp_engagement_index": 38,
+          "confidence_index": 64,
+          "availability_index": 77,
+          "recommendation_index": 39
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1625,19 +1625,19 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 174847,
         "unvaccinated_opportunity": 78856,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 0.9,
+        "expected_vcr_65plus": 54.4,
+        "observed_minus_expected_pp": 0.5,
         "driver_indexes": {
-          "access_index": 67,
-          "hcp_engagement_index": 32,
-          "confidence_index": 59,
-          "availability_index": 80,
-          "recommendation_index": 38
+          "access_index": 35,
+          "hcp_engagement_index": 56,
+          "confidence_index": 69,
+          "availability_index": 50,
+          "recommendation_index": 46
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "enhanced_share_of_65plus_dispensing_pct": 48,
         "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
@@ -1663,20 +1663,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 96692,
         "unvaccinated_opportunity": 38290,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -5.6,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": 0.4,
         "driver_indexes": {
-          "access_index": 86,
-          "hcp_engagement_index": 82,
-          "confidence_index": 74,
-          "availability_index": 95,
-          "recommendation_index": 81
+          "access_index": 75,
+          "hcp_engagement_index": 59,
+          "confidence_index": 62,
+          "availability_index": 69,
+          "recommendation_index": 54
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 38,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1693,7 +1693,7 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 53.0,
+        "vcr_65plus": 53,
         "vcr_65_74": 47.2,
         "vcr_75plus": 58.4,
         "vcr_under65_atrisk": 29.5,
@@ -1701,20 +1701,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 188819,
         "unvaccinated_opportunity": 88745,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": -1.0,
+        "expected_vcr_65plus": 55,
+        "observed_minus_expected_pp": -2,
         "driver_indexes": {
-          "access_index": 62,
-          "hcp_engagement_index": 34,
-          "confidence_index": 58,
-          "availability_index": 81,
-          "recommendation_index": 37
+          "access_index": 37,
+          "hcp_engagement_index": 58,
+          "confidence_index": 71,
+          "availability_index": 52,
+          "recommendation_index": 48
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 76,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1742,17 +1742,17 @@
         "cluster_id": "activation",
         "eligible_population_65plus": 137980,
         "unvaccinated_opportunity": 60849,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 1.9,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": 1.2,
         "driver_indexes": {
           "access_index": 69,
-          "hcp_engagement_index": 33,
-          "confidence_index": 57,
+          "hcp_engagement_index": 34,
+          "confidence_index": 54,
           "availability_index": 85,
-          "recommendation_index": 39
+          "recommendation_index": 40
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "enhanced_share_of_65plus_dispensing_pct": 42,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1777,20 +1777,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 22444,
         "unvaccinated_opportunity": 9606,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 3.2,
+        "expected_vcr_65plus": 59.8,
+        "observed_minus_expected_pp": -2.6,
         "driver_indexes": {
-          "access_index": 67,
-          "hcp_engagement_index": 32,
-          "confidence_index": 56,
-          "availability_index": 80,
-          "recommendation_index": 42
+          "access_index": 70,
+          "hcp_engagement_index": 60,
+          "confidence_index": 68,
+          "availability_index": 70,
+          "recommendation_index": 48
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "enhanced_share_of_65plus_dispensing_pct": 37,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1807,7 +1807,7 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 63.0,
+        "vcr_65plus": 63,
         "vcr_65_74": 57.1,
         "vcr_75plus": 68.6,
         "vcr_under65_atrisk": 32.8,
@@ -1815,20 +1815,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "strong",
         "eligible_population_65plus": 33839,
         "unvaccinated_opportunity": 12520,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": 2.0,
+        "expected_vcr_65plus": 63.7,
+        "observed_minus_expected_pp": -0.7,
         "driver_indexes": {
-          "access_index": 70,
-          "hcp_engagement_index": 65,
-          "confidence_index": 64,
-          "availability_index": 67,
-          "recommendation_index": 45
+          "access_index": 78,
+          "hcp_engagement_index": 77,
+          "confidence_index": 79,
+          "availability_index": 96,
+          "recommendation_index": 77
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 53,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1856,17 +1856,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 103387,
         "unvaccinated_opportunity": 42802,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -2.4,
+        "expected_vcr_65plus": 59.6,
+        "observed_minus_expected_pp": -1,
         "driver_indexes": {
           "access_index": 69,
           "hcp_engagement_index": 60,
-          "confidence_index": 61,
+          "confidence_index": 67,
           "availability_index": 69,
-          "recommendation_index": 52
+          "recommendation_index": 47
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 38,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1884,27 +1884,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 59.6,
-        "vcr_65_74": 53.0,
+        "vcr_65_74": 53,
         "vcr_75plus": 65.9,
         "vcr_under65_atrisk": 28.8,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 154731,
         "unvaccinated_opportunity": 62511,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 5.6,
+        "expected_vcr_65plus": 60.3,
+        "observed_minus_expected_pp": -0.7,
         "driver_indexes": {
-          "access_index": 65,
-          "hcp_engagement_index": 31,
-          "confidence_index": 62,
-          "availability_index": 84,
-          "recommendation_index": 40
+          "access_index": 72,
+          "hcp_engagement_index": 67,
+          "confidence_index": 70,
+          "availability_index": 66,
+          "recommendation_index": 49
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "enhanced_share_of_65plus_dispensing_pct": 38,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -1932,7 +1932,7 @@
         "cluster_id": "access",
         "eligible_population_65plus": 42000,
         "unvaccinated_opportunity": 20706,
-        "expected_vcr_65plus": 55.0,
+        "expected_vcr_65plus": 55,
         "observed_minus_expected_pp": -4.3,
         "driver_indexes": {
           "access_index": 35,
@@ -1970,17 +1970,17 @@
         "cluster_id": "strong",
         "eligible_population_65plus": 30184,
         "unvaccinated_opportunity": 10987,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -2.4,
+        "expected_vcr_65plus": 62.9,
+        "observed_minus_expected_pp": 0.7,
         "driver_indexes": {
-          "access_index": 82,
-          "hcp_engagement_index": 80,
-          "confidence_index": 79,
-          "availability_index": 94,
-          "recommendation_index": 78
+          "access_index": 76,
+          "hcp_engagement_index": 75,
+          "confidence_index": 76,
+          "availability_index": 93,
+          "recommendation_index": 75
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "enhanced_share_of_65plus_dispensing_pct": 53,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2008,17 +2008,17 @@
         "cluster_id": "access",
         "eligible_population_65plus": 92220,
         "unvaccinated_opportunity": 43620,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -2.3,
+        "expected_vcr_65plus": 54.9,
+        "observed_minus_expected_pp": -2.2,
         "driver_indexes": {
-          "access_index": 38,
+          "access_index": 39,
           "hcp_engagement_index": 66,
-          "confidence_index": 70,
-          "availability_index": 74,
-          "recommendation_index": 49
+          "confidence_index": 61,
+          "availability_index": 48,
+          "recommendation_index": 50
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2036,27 +2036,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 52.4,
-        "vcr_65_74": 45.0,
+        "vcr_65_74": 45,
         "vcr_75plus": 58.9,
         "vcr_under65_atrisk": 25.5,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 114533,
         "unvaccinated_opportunity": 54518,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -8.6,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": -2.7,
         "driver_indexes": {
-          "access_index": 69,
-          "hcp_engagement_index": 60,
-          "confidence_index": 64,
-          "availability_index": 69,
-          "recommendation_index": 52
+          "access_index": 32,
+          "hcp_engagement_index": 66,
+          "confidence_index": 67,
+          "availability_index": 48,
+          "recommendation_index": 54
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 73,
+        "enhanced_share_of_65plus_dispensing_pct": 42,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2076,7 +2076,7 @@
         "vcr_65plus": 55.8,
         "vcr_65_74": 50.4,
         "vcr_75plus": 61.7,
-        "vcr_under65_atrisk": 28.0,
+        "vcr_under65_atrisk": 28,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
@@ -2084,17 +2084,17 @@
         "cluster_id": "activation",
         "eligible_population_65plus": 20549,
         "unvaccinated_opportunity": 9083,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 1.8,
+        "expected_vcr_65plus": 54.3,
+        "observed_minus_expected_pp": 1.5,
         "driver_indexes": {
-          "access_index": 66,
-          "hcp_engagement_index": 36,
-          "confidence_index": 56,
+          "access_index": 62,
+          "hcp_engagement_index": 33,
+          "confidence_index": 57,
           "availability_index": 82,
-          "recommendation_index": 38
+          "recommendation_index": 42
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2119,19 +2119,19 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 188522,
         "unvaccinated_opportunity": 74655,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 5.4,
+        "expected_vcr_65plus": 60.3,
+        "observed_minus_expected_pp": 0.1,
         "driver_indexes": {
-          "access_index": 34,
-          "hcp_engagement_index": 64,
-          "confidence_index": 66,
-          "availability_index": 73,
-          "recommendation_index": 51
+          "access_index": 77,
+          "hcp_engagement_index": 61,
+          "confidence_index": 62,
+          "availability_index": 70,
+          "recommendation_index": 55
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "enhanced_share_of_65plus_dispensing_pct": 36,
         "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
@@ -2157,20 +2157,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "activation",
         "eligible_population_65plus": 79916,
         "unvaccinated_opportunity": 37081,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -1.4,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": -1.1,
         "driver_indexes": {
-          "access_index": 38,
-          "hcp_engagement_index": 66,
-          "confidence_index": 67,
-          "availability_index": 74,
-          "recommendation_index": 47
+          "access_index": 66,
+          "hcp_engagement_index": 31,
+          "confidence_index": 64,
+          "availability_index": 83,
+          "recommendation_index": 39
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 41,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2190,7 +2190,7 @@
         "vcr_65plus": 59.3,
         "vcr_65_74": 52.2,
         "vcr_75plus": 65.4,
-        "vcr_under65_atrisk": 30.0,
+        "vcr_under65_atrisk": 30,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
@@ -2198,7 +2198,7 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 300000,
         "unvaccinated_opportunity": 122100,
-        "expected_vcr_65plus": 61.0,
+        "expected_vcr_65plus": 61,
         "observed_minus_expected_pp": -1.7,
         "driver_indexes": {
           "access_index": 73,
@@ -2236,16 +2236,16 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 84719,
         "unvaccinated_opportunity": 34311,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -1.5,
+        "expected_vcr_65plus": 60.1,
+        "observed_minus_expected_pp": -0.6,
         "driver_indexes": {
           "access_index": 73,
-          "hcp_engagement_index": 62,
-          "confidence_index": 62,
-          "availability_index": 70,
-          "recommendation_index": 45
+          "hcp_engagement_index": 63,
+          "confidence_index": 60,
+          "availability_index": 74,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "enhanced_share_of_65plus_dispensing_pct": 36,
         "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
@@ -2265,26 +2265,26 @@
         "season": "2025–26",
         "vcr_65plus": 52.1,
         "vcr_65_74": 44.9,
-        "vcr_75plus": 59.0,
+        "vcr_75plus": 59,
         "vcr_under65_atrisk": 26.1,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "activation",
         "eligible_population_65plus": 66251,
         "unvaccinated_opportunity": 31734,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -8.9,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": -3,
         "driver_indexes": {
-          "access_index": 75,
-          "hcp_engagement_index": 63,
-          "confidence_index": 66,
-          "availability_index": 66,
-          "recommendation_index": 48
+          "access_index": 68,
+          "hcp_engagement_index": 33,
+          "confidence_index": 65,
+          "availability_index": 84,
+          "recommendation_index": 39
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "enhanced_share_of_65plus_dispensing_pct": 46,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2304,25 +2304,25 @@
         "vcr_65plus": 63.5,
         "vcr_65_74": 58.3,
         "vcr_75plus": 68.7,
-        "vcr_under65_atrisk": 35.0,
+        "vcr_under65_atrisk": 35,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "strong",
         "eligible_population_65plus": 145300,
-        "unvaccinated_opportunity": 53034,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": 2.5,
+        "unvaccinated_opportunity": 53035,
+        "expected_vcr_65plus": 63.8,
+        "observed_minus_expected_pp": -0.3,
         "driver_indexes": {
-          "access_index": 72,
-          "hcp_engagement_index": 66,
-          "confidence_index": 62,
-          "availability_index": 72,
-          "recommendation_index": 51
+          "access_index": 86,
+          "hcp_engagement_index": 79,
+          "confidence_index": 74,
+          "availability_index": 86,
+          "recommendation_index": 85
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 56,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2339,7 +2339,7 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 59.0,
+        "vcr_65plus": 59,
         "vcr_65_74": 52.2,
         "vcr_75plus": 65.4,
         "vcr_under65_atrisk": 28.2,
@@ -2347,20 +2347,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 130617,
         "unvaccinated_opportunity": 53553,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 4.0,
+        "expected_vcr_65plus": 59.6,
+        "observed_minus_expected_pp": -0.6,
         "driver_indexes": {
-          "access_index": 36,
-          "hcp_engagement_index": 65,
-          "confidence_index": 63,
-          "availability_index": 78,
+          "access_index": 67,
+          "hcp_engagement_index": 69,
+          "confidence_index": 64,
+          "availability_index": 67,
           "recommendation_index": 45
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 36,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2385,20 +2385,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 32082,
         "unvaccinated_opportunity": 15046,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -12.9,
+        "expected_vcr_65plus": 55,
+        "observed_minus_expected_pp": -1.9,
         "driver_indexes": {
-          "access_index": 83,
-          "hcp_engagement_index": 76,
-          "confidence_index": 73,
-          "availability_index": 92,
-          "recommendation_index": 78
+          "access_index": 67,
+          "hcp_engagement_index": 32,
+          "confidence_index": 65,
+          "availability_index": 85,
+          "recommendation_index": 39
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2423,19 +2423,19 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "activation",
         "eligible_population_65plus": 172274,
         "unvaccinated_opportunity": 83553,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -3.5,
+        "expected_vcr_65plus": 54.4,
+        "observed_minus_expected_pp": -2.9,
         "driver_indexes": {
-          "access_index": 36,
-          "hcp_engagement_index": 65,
-          "confidence_index": 66,
-          "availability_index": 78,
-          "recommendation_index": 46
+          "access_index": 63,
+          "hcp_engagement_index": 34,
+          "confidence_index": 61,
+          "availability_index": 86,
+          "recommendation_index": 34
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "enhanced_share_of_65plus_dispensing_pct": 39,
         "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
@@ -2461,20 +2461,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 34099,
         "unvaccinated_opportunity": 16811,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -15.3,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": -4,
         "driver_indexes": {
-          "access_index": 86,
-          "hcp_engagement_index": 82,
-          "confidence_index": 80,
-          "availability_index": 95,
-          "recommendation_index": 83
+          "access_index": 71,
+          "hcp_engagement_index": 36,
+          "confidence_index": 57,
+          "availability_index": 76,
+          "recommendation_index": 42
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2502,17 +2502,17 @@
         "cluster_id": "activation",
         "eligible_population_65plus": 66242,
         "unvaccinated_opportunity": 30869,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": -0.6,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": -1.3,
         "driver_indexes": {
-          "access_index": 67,
-          "hcp_engagement_index": 32,
-          "confidence_index": 56,
-          "availability_index": 80,
-          "recommendation_index": 40
+          "access_index": 64,
+          "hcp_engagement_index": 35,
+          "confidence_index": 62,
+          "availability_index": 86,
+          "recommendation_index": 35
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 69,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2537,20 +2537,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "access",
         "eligible_population_65plus": 78501,
         "unvaccinated_opportunity": 35011,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -5.6,
+        "expected_vcr_65plus": 55,
+        "observed_minus_expected_pp": 0.4,
         "driver_indexes": {
-          "access_index": 76,
-          "hcp_engagement_index": 68,
-          "confidence_index": 66,
-          "availability_index": 73,
-          "recommendation_index": 53
+          "access_index": 42,
+          "hcp_engagement_index": 63,
+          "confidence_index": 64,
+          "availability_index": 45,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 43,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2568,26 +2568,26 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 51.7,
-        "vcr_65_74": 43.0,
+        "vcr_65_74": 43,
         "vcr_75plus": 58.8,
         "vcr_under65_atrisk": 23.8,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 179292,
         "unvaccinated_opportunity": 86598,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -14.3,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": -3.4,
         "driver_indexes": {
-          "access_index": 86,
-          "hcp_engagement_index": 82,
-          "confidence_index": 80,
-          "availability_index": 95,
-          "recommendation_index": 81
+          "access_index": 68,
+          "hcp_engagement_index": 39,
+          "confidence_index": 65,
+          "availability_index": 78,
+          "recommendation_index": 39
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 40,
         "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
@@ -2606,7 +2606,7 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 58.8,
-        "vcr_65_74": 53.0,
+        "vcr_65_74": 53,
         "vcr_75plus": 64.9,
         "vcr_under65_atrisk": 31.5,
         "provenance": "public",
@@ -2616,17 +2616,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 114326,
         "unvaccinated_opportunity": 47102,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -2.2,
+        "expected_vcr_65plus": 60.3,
+        "observed_minus_expected_pp": -1.5,
         "driver_indexes": {
-          "access_index": 75,
-          "hcp_engagement_index": 63,
-          "confidence_index": 69,
-          "availability_index": 66,
-          "recommendation_index": 46
+          "access_index": 76,
+          "hcp_engagement_index": 60,
+          "confidence_index": 63,
+          "availability_index": 71,
+          "recommendation_index": 55
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 39,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2644,27 +2644,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 53.9,
-        "vcr_65_74": 46.0,
+        "vcr_65_74": 46,
         "vcr_75plus": 61.4,
-        "vcr_under65_atrisk": 25.0,
+        "vcr_under65_atrisk": 25,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 192864,
         "unvaccinated_opportunity": 88910,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -12.1,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": -1.2,
         "driver_indexes": {
-          "access_index": 81,
-          "hcp_engagement_index": 75,
-          "confidence_index": 73,
-          "availability_index": 87,
-          "recommendation_index": 82
+          "access_index": 67,
+          "hcp_engagement_index": 38,
+          "confidence_index": 66,
+          "availability_index": 79,
+          "recommendation_index": 40
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "enhanced_share_of_65plus_dispensing_pct": 42,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2683,26 +2683,26 @@
         "season": "2025–26",
         "vcr_65plus": 62.3,
         "vcr_65_74": 56.5,
-        "vcr_75plus": 68.0,
+        "vcr_75plus": 68,
         "vcr_under65_atrisk": 34.1,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "strong",
         "eligible_population_65plus": 176375,
         "unvaccinated_opportunity": 66493,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 8.3,
+        "expected_vcr_65plus": 63.2,
+        "observed_minus_expected_pp": -0.9,
         "driver_indexes": {
-          "access_index": 70,
-          "hcp_engagement_index": 38,
-          "confidence_index": 60,
-          "availability_index": 83,
-          "recommendation_index": 43
+          "access_index": 82,
+          "hcp_engagement_index": 75,
+          "confidence_index": 70,
+          "availability_index": 93,
+          "recommendation_index": 80
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "enhanced_share_of_65plus_dispensing_pct": 53,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2722,25 +2722,25 @@
         "vcr_65plus": 58.5,
         "vcr_65_74": 51.9,
         "vcr_75plus": 64.6,
-        "vcr_under65_atrisk": 30.0,
+        "vcr_under65_atrisk": 30,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 36739,
         "unvaccinated_opportunity": 15247,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -7.5,
+        "expected_vcr_65plus": 59.6,
+        "observed_minus_expected_pp": -1.1,
         "driver_indexes": {
-          "access_index": 86,
-          "hcp_engagement_index": 82,
-          "confidence_index": 77,
-          "availability_index": 95,
-          "recommendation_index": 77
+          "access_index": 69,
+          "hcp_engagement_index": 65,
+          "confidence_index": 68,
+          "availability_index": 63,
+          "recommendation_index": 47
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 34,
+        "efluelda_share_of_enhanced_dispensing_pct": 70,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2765,20 +2765,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 91184,
         "unvaccinated_opportunity": 40303,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -10.2,
+        "expected_vcr_65plus": 55.2,
+        "observed_minus_expected_pp": 0.6,
         "driver_indexes": {
-          "access_index": 80,
-          "hcp_engagement_index": 79,
-          "confidence_index": 78,
-          "availability_index": 89,
-          "recommendation_index": 76
+          "access_index": 40,
+          "hcp_engagement_index": 61,
+          "confidence_index": 62,
+          "availability_index": 56,
+          "recommendation_index": 50
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2798,25 +2798,25 @@
         "vcr_65plus": 53.4,
         "vcr_65_74": 46.6,
         "vcr_75plus": 59.8,
-        "vcr_under65_atrisk": 28.0,
+        "vcr_under65_atrisk": 28,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 99892,
         "unvaccinated_opportunity": 46550,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": -0.6,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": -1.3,
         "driver_indexes": {
-          "access_index": 63,
-          "hcp_engagement_index": 30,
-          "confidence_index": 61,
-          "availability_index": 79,
-          "recommendation_index": 41
+          "access_index": 34,
+          "hcp_engagement_index": 61,
+          "confidence_index": 68,
+          "availability_index": 54,
+          "recommendation_index": 43
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "enhanced_share_of_65plus_dispensing_pct": 41,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2841,20 +2841,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 193591,
         "unvaccinated_opportunity": 88277,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -11.6,
+        "expected_vcr_65plus": 54.8,
+        "observed_minus_expected_pp": -0.4,
         "driver_indexes": {
-          "access_index": 84,
-          "hcp_engagement_index": 81,
-          "confidence_index": 80,
-          "availability_index": 90,
-          "recommendation_index": 84
+          "access_index": 69,
+          "hcp_engagement_index": 34,
+          "confidence_index": 55,
+          "availability_index": 86,
+          "recommendation_index": 41
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 68,
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2882,17 +2882,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 108109,
         "unvaccinated_opportunity": 45622,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -3.2,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": -2.2,
         "driver_indexes": {
-          "access_index": 75,
-          "hcp_engagement_index": 63,
-          "confidence_index": 63,
-          "availability_index": 66,
-          "recommendation_index": 46
+          "access_index": 68,
+          "hcp_engagement_index": 64,
+          "confidence_index": 66,
+          "availability_index": 74,
+          "recommendation_index": 47
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "enhanced_share_of_65plus_dispensing_pct": 38,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2917,20 +2917,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 103214,
         "unvaccinated_opportunity": 41802,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 4.5,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": -0.5,
         "driver_indexes": {
-          "access_index": 39,
-          "hcp_engagement_index": 62,
-          "confidence_index": 70,
-          "availability_index": 72,
-          "recommendation_index": 45
+          "access_index": 71,
+          "hcp_engagement_index": 67,
+          "confidence_index": 69,
+          "availability_index": 65,
+          "recommendation_index": 48
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "enhanced_share_of_65plus_dispensing_pct": 38,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2955,20 +2955,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 96053,
         "unvaccinated_opportunity": 45625,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -13.5,
+        "expected_vcr_65plus": 54.8,
+        "observed_minus_expected_pp": -2.3,
         "driver_indexes": {
-          "access_index": 78,
-          "hcp_engagement_index": 78,
-          "confidence_index": 75,
-          "availability_index": 93,
-          "recommendation_index": 83
+          "access_index": 41,
+          "hcp_engagement_index": 62,
+          "confidence_index": 63,
+          "availability_index": 45,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 63,
+        "enhanced_share_of_65plus_dispensing_pct": 44,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -2993,20 +2993,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 66157,
         "unvaccinated_opportunity": 32152,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -14.6,
+        "expected_vcr_65plus": 55.3,
+        "observed_minus_expected_pp": -3.9,
         "driver_indexes": {
-          "access_index": 81,
-          "hcp_engagement_index": 75,
-          "confidence_index": 73,
-          "availability_index": 87,
-          "recommendation_index": 82
+          "access_index": 43,
+          "hcp_engagement_index": 58,
+          "confidence_index": 65,
+          "availability_index": 52,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3024,26 +3024,26 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 57.9,
-        "vcr_65_74": 52.0,
+        "vcr_65_74": 52,
         "vcr_75plus": 63.3,
         "vcr_under65_atrisk": 31.6,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 107529,
         "unvaccinated_opportunity": 45270,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -8.1,
+        "expected_vcr_65plus": 60.2,
+        "observed_minus_expected_pp": -2.3,
         "driver_indexes": {
-          "access_index": 78,
-          "hcp_engagement_index": 78,
-          "confidence_index": 78,
-          "availability_index": 93,
-          "recommendation_index": 81
+          "access_index": 77,
+          "hcp_engagement_index": 67,
+          "confidence_index": 63,
+          "availability_index": 65,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 33,
         "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
@@ -3069,20 +3069,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "strong",
         "eligible_population_65plus": 50637,
         "unvaccinated_opportunity": 20002,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 6.5,
+        "expected_vcr_65plus": 63.1,
+        "observed_minus_expected_pp": -2.6,
         "driver_indexes": {
-          "access_index": 62,
-          "hcp_engagement_index": 34,
-          "confidence_index": 61,
-          "availability_index": 81,
-          "recommendation_index": 37
+          "access_index": 79,
+          "hcp_engagement_index": 72,
+          "confidence_index": 79,
+          "availability_index": 90,
+          "recommendation_index": 78
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 55,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3107,20 +3107,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "strong",
         "eligible_population_65plus": 123049,
         "unvaccinated_opportunity": 47620,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": 0.3,
+        "expected_vcr_65plus": 63.4,
+        "observed_minus_expected_pp": -2.1,
         "driver_indexes": {
-          "access_index": 76,
-          "hcp_engagement_index": 68,
-          "confidence_index": 66,
-          "availability_index": 73,
-          "recommendation_index": 46
+          "access_index": 78,
+          "hcp_engagement_index": 83,
+          "confidence_index": 77,
+          "availability_index": 89,
+          "recommendation_index": 75
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "enhanced_share_of_65plus_dispensing_pct": 58,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3145,20 +3145,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 28219,
         "unvaccinated_opportunity": 13065,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": -0.3,
+        "expected_vcr_65plus": 55.6,
+        "observed_minus_expected_pp": -1.9,
         "driver_indexes": {
-          "access_index": 69,
-          "hcp_engagement_index": 33,
-          "confidence_index": 63,
-          "availability_index": 85,
-          "recommendation_index": 44
+          "access_index": 44,
+          "hcp_engagement_index": 65,
+          "confidence_index": 66,
+          "availability_index": 47,
+          "recommendation_index": 53
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 72,
+        "enhanced_share_of_65plus_dispensing_pct": 45,
+        "efluelda_share_of_enhanced_dispensing_pct": 68,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3183,20 +3183,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "access",
         "eligible_population_65plus": 128577,
         "unvaccinated_opportunity": 56317,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 2.2,
+        "expected_vcr_65plus": 54.5,
+        "observed_minus_expected_pp": 1.7,
         "driver_indexes": {
-          "access_index": 70,
-          "hcp_engagement_index": 38,
-          "confidence_index": 57,
-          "availability_index": 83,
-          "recommendation_index": 39
+          "access_index": 38,
+          "hcp_engagement_index": 65,
+          "confidence_index": 60,
+          "availability_index": 47,
+          "recommendation_index": 47
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 75,
+        "enhanced_share_of_65plus_dispensing_pct": 48,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3224,17 +3224,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 186209,
         "unvaccinated_opportunity": 76159,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -1.9,
+        "expected_vcr_65plus": 60.3,
+        "observed_minus_expected_pp": -1.2,
         "driver_indexes": {
-          "access_index": 77,
-          "hcp_engagement_index": 64,
-          "confidence_index": 66,
-          "availability_index": 71,
-          "recommendation_index": 46
+          "access_index": 75,
+          "hcp_engagement_index": 70,
+          "confidence_index": 60,
+          "availability_index": 68,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 73,
+        "enhanced_share_of_65plus_dispensing_pct": 37,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3251,7 +3251,7 @@
       "metropolitan": true,
       "historical": {
         "season": "2025–26",
-        "vcr_65plus": 51.0,
+        "vcr_65plus": 51,
         "vcr_65_74": 44.6,
         "vcr_75plus": 57.5,
         "vcr_under65_atrisk": 27.3,
@@ -3262,17 +3262,17 @@
         "cluster_id": "access",
         "eligible_population_65plus": 91400,
         "unvaccinated_opportunity": 44786,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -4.0,
+        "expected_vcr_65plus": 55,
+        "observed_minus_expected_pp": -4,
         "driver_indexes": {
-          "access_index": 38,
-          "hcp_engagement_index": 66,
-          "confidence_index": 67,
-          "availability_index": 74,
-          "recommendation_index": 49
+          "access_index": 35,
+          "hcp_engagement_index": 68,
+          "confidence_index": 68,
+          "availability_index": 50,
+          "recommendation_index": 45
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3297,20 +3297,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "activation",
         "eligible_population_65plus": 144270,
         "unvaccinated_opportunity": 63190,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -9.8,
+        "expected_vcr_65plus": 55.1,
+        "observed_minus_expected_pp": 1.1,
         "driver_indexes": {
-          "access_index": 81,
-          "hcp_engagement_index": 75,
-          "confidence_index": 79,
-          "availability_index": 87,
-          "recommendation_index": 83
+          "access_index": 72,
+          "hcp_engagement_index": 31,
+          "confidence_index": 58,
+          "availability_index": 83,
+          "recommendation_index": 45
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 62,
+        "enhanced_share_of_65plus_dispensing_pct": 39,
+        "efluelda_share_of_enhanced_dispensing_pct": 69,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3335,20 +3335,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "activation",
         "eligible_population_65plus": 49459,
         "unvaccinated_opportunity": 21960,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -5.4,
+        "expected_vcr_65plus": 54.7,
+        "observed_minus_expected_pp": 0.9,
         "driver_indexes": {
-          "access_index": 77,
-          "hcp_engagement_index": 64,
-          "confidence_index": 69,
-          "availability_index": 71,
-          "recommendation_index": 48
+          "access_index": 64,
+          "hcp_engagement_index": 35,
+          "confidence_index": 61,
+          "availability_index": 86,
+          "recommendation_index": 36
         },
         "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 71,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3376,17 +3376,17 @@
         "cluster_id": "enhanced",
         "eligible_population_65plus": 31525,
         "unvaccinated_opportunity": 13587,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -4.1,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": -3.1,
         "driver_indexes": {
-          "access_index": 69,
-          "hcp_engagement_index": 60,
-          "confidence_index": 64,
-          "availability_index": 69,
-          "recommendation_index": 46
+          "access_index": 74,
+          "hcp_engagement_index": 69,
+          "confidence_index": 59,
+          "availability_index": 67,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 66,
+        "enhanced_share_of_65plus_dispensing_pct": 33,
+        "efluelda_share_of_enhanced_dispensing_pct": 72,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3404,27 +3404,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 56.7,
-        "vcr_65_74": 51.0,
+        "vcr_65_74": 51,
         "vcr_75plus": 62.1,
         "vcr_under65_atrisk": 30.9,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 188874,
         "unvaccinated_opportunity": 81782,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 1.7,
+        "expected_vcr_65plus": 60.6,
+        "observed_minus_expected_pp": -3.9,
         "driver_indexes": {
-          "access_index": 35,
-          "hcp_engagement_index": 60,
-          "confidence_index": 66,
-          "availability_index": 71,
-          "recommendation_index": 52
+          "access_index": 75,
+          "hcp_engagement_index": 71,
+          "confidence_index": 61,
+          "availability_index": 69,
+          "recommendation_index": 53
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 77,
+        "enhanced_share_of_65plus_dispensing_pct": 36,
+        "efluelda_share_of_enhanced_dispensing_pct": 73,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3452,17 +3452,17 @@
         "cluster_id": "access",
         "eligible_population_65plus": 94716,
         "unvaccinated_opportunity": 42243,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": 0.4,
+        "expected_vcr_65plus": 54.9,
+        "observed_minus_expected_pp": 0.5,
         "driver_indexes": {
-          "access_index": 33,
-          "hcp_engagement_index": 59,
-          "confidence_index": 68,
-          "availability_index": 75,
-          "recommendation_index": 48
+          "access_index": 44,
+          "hcp_engagement_index": 65,
+          "confidence_index": 66,
+          "availability_index": 47,
+          "recommendation_index": 42
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "enhanced_share_of_65plus_dispensing_pct": 47,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3482,25 +3482,25 @@
         "vcr_65plus": 54.3,
         "vcr_65_74": 47.6,
         "vcr_75plus": 60.8,
-        "vcr_under65_atrisk": 28.0,
+        "vcr_under65_atrisk": 28,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 191238,
         "unvaccinated_opportunity": 87396,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -11.7,
+        "expected_vcr_65plus": 55.2,
+        "observed_minus_expected_pp": -0.9,
         "driver_indexes": {
-          "access_index": 80,
-          "hcp_engagement_index": 79,
-          "confidence_index": 75,
-          "availability_index": 89,
-          "recommendation_index": 83
+          "access_index": 40,
+          "hcp_engagement_index": 67,
+          "confidence_index": 62,
+          "availability_index": 49,
+          "recommendation_index": 51
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 49,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3518,27 +3518,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 60.4,
-        "vcr_65_74": 54.0,
+        "vcr_65_74": 54,
         "vcr_75plus": 66.7,
         "vcr_under65_atrisk": 30.6,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 40944,
         "unvaccinated_opportunity": 16214,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -5.6,
+        "expected_vcr_65plus": 60,
+        "observed_minus_expected_pp": 0.4,
         "driver_indexes": {
-          "access_index": 80,
-          "hcp_engagement_index": 79,
-          "confidence_index": 78,
-          "availability_index": 89,
-          "recommendation_index": 80
+          "access_index": 69,
+          "hcp_engagement_index": 71,
+          "confidence_index": 66,
+          "availability_index": 68,
+          "recommendation_index": 46
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "enhanced_share_of_65plus_dispensing_pct": 36,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3563,20 +3563,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 152883,
         "unvaccinated_opportunity": 61459,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -6.2,
+        "expected_vcr_65plus": 60.1,
+        "observed_minus_expected_pp": -0.3,
         "driver_indexes": {
-          "access_index": 83,
-          "hcp_engagement_index": 76,
-          "confidence_index": 76,
-          "availability_index": 92,
-          "recommendation_index": 77
+          "access_index": 71,
+          "hcp_engagement_index": 61,
+          "confidence_index": 69,
+          "availability_index": 71,
+          "recommendation_index": 49
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 65,
+        "enhanced_share_of_65plus_dispensing_pct": 33,
+        "efluelda_share_of_enhanced_dispensing_pct": 71,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3601,20 +3601,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "strong",
+        "cluster_id": "access",
         "eligible_population_65plus": 122390,
         "unvaccinated_opportunity": 54708,
-        "expected_vcr_65plus": 66.0,
-        "observed_minus_expected_pp": -10.7,
+        "expected_vcr_65plus": 54.8,
+        "observed_minus_expected_pp": 0.5,
         "driver_indexes": {
-          "access_index": 79,
-          "hcp_engagement_index": 74,
-          "confidence_index": 78,
-          "availability_index": 91,
-          "recommendation_index": 79
+          "access_index": 41,
+          "hcp_engagement_index": 56,
+          "confidence_index": 63,
+          "availability_index": 50,
+          "recommendation_index": 52
         },
-        "enhanced_share_of_65plus_dispensing_pct": 65,
-        "efluelda_share_of_enhanced_dispensing_pct": 64,
+        "enhanced_share_of_65plus_dispensing_pct": 48,
+        "efluelda_share_of_enhanced_dispensing_pct": 67,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3639,20 +3639,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "activation",
+        "cluster_id": "enhanced",
         "eligible_population_65plus": 36994,
         "unvaccinated_opportunity": 15426,
-        "expected_vcr_65plus": 54.0,
-        "observed_minus_expected_pp": 4.3,
+        "expected_vcr_65plus": 59.9,
+        "observed_minus_expected_pp": -1.6,
         "driver_indexes": {
-          "access_index": 64,
-          "hcp_engagement_index": 35,
-          "confidence_index": 61,
-          "availability_index": 86,
-          "recommendation_index": 36
+          "access_index": 70,
+          "hcp_engagement_index": 66,
+          "confidence_index": 68,
+          "availability_index": 64,
+          "recommendation_index": 49
         },
-        "enhanced_share_of_65plus_dispensing_pct": 43,
-        "efluelda_share_of_enhanced_dispensing_pct": 67,
+        "enhanced_share_of_65plus_dispensing_pct": 38,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3670,27 +3670,27 @@
       "historical": {
         "season": "2025–26",
         "vcr_65plus": 56.4,
-        "vcr_65_74": 50.0,
-        "vcr_75plus": 63.0,
+        "vcr_65_74": 50,
+        "vcr_75plus": 63,
         "vcr_under65_atrisk": 27.5,
         "provenance": "public",
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "activation",
         "eligible_population_65plus": 21888,
         "unvaccinated_opportunity": 9543,
-        "expected_vcr_65plus": 55.0,
+        "expected_vcr_65plus": 55,
         "observed_minus_expected_pp": 1.4,
         "driver_indexes": {
-          "access_index": 34,
-          "hcp_engagement_index": 64,
-          "confidence_index": 69,
-          "availability_index": 73,
-          "recommendation_index": 51
+          "access_index": 71,
+          "hcp_engagement_index": 37,
+          "confidence_index": 58,
+          "availability_index": 77,
+          "recommendation_index": 44
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 46,
+        "efluelda_share_of_enhanced_dispensing_pct": 66,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3715,20 +3715,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "access",
+        "cluster_id": "activation",
         "eligible_population_65plus": 32886,
         "unvaccinated_opportunity": 27460,
-        "expected_vcr_65plus": 55.0,
-        "observed_minus_expected_pp": -38.5,
+        "expected_vcr_65plus": 55.3,
+        "observed_minus_expected_pp": -38.8,
         "driver_indexes": {
-          "access_index": 31,
-          "hcp_engagement_index": 58,
-          "confidence_index": 65,
-          "availability_index": 70,
-          "recommendation_index": 47
+          "access_index": 72,
+          "hcp_engagement_index": 38,
+          "confidence_index": 59,
+          "availability_index": 78,
+          "recommendation_index": 45
         },
-        "enhanced_share_of_65plus_dispensing_pct": 44,
-        "efluelda_share_of_enhanced_dispensing_pct": 78,
+        "enhanced_share_of_65plus_dispensing_pct": 40,
+        "efluelda_share_of_enhanced_dispensing_pct": 65,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",
@@ -3753,20 +3753,20 @@
         "source_id": "spf_vcr"
       },
       "illustrative": {
-        "cluster_id": "enhanced",
+        "cluster_id": "activation",
         "eligible_population_65plus": 107057,
         "unvaccinated_opportunity": 93675,
-        "expected_vcr_65plus": 61.0,
-        "observed_minus_expected_pp": -48.5,
+        "expected_vcr_65plus": 54.6,
+        "observed_minus_expected_pp": -42.1,
         "driver_indexes": {
-          "access_index": 76,
-          "hcp_engagement_index": 68,
-          "confidence_index": 66,
-          "availability_index": 73,
-          "recommendation_index": 46
+          "access_index": 66,
+          "hcp_engagement_index": 37,
+          "confidence_index": 64,
+          "availability_index": 77,
+          "recommendation_index": 37
         },
-        "enhanced_share_of_65plus_dispensing_pct": 40,
-        "efluelda_share_of_enhanced_dispensing_pct": 74,
+        "enhanced_share_of_65plus_dispensing_pct": 41,
+        "efluelda_share_of_enhanced_dispensing_pct": 64,
         "provenance": "synthetic",
         "source_ids": [
           "synthetic_model",

@@ -159,7 +159,7 @@
     },
     {
       "id": "synthetic_model",
-      "title": "Illustrative analytical model and clusters",
+      "title": "Demonstration model and clusters",
       "type": "simulated_model",
       "url": null,
       "owner": "OpenSky demonstrator content",
@@ -168,11 +168,11 @@
       "cadence": "Fixed through simulation",
       "provenance": "synthetic",
       "purpose": "Explain clustering, expected uptake and potential drivers",
-      "limitation": "Precomputed profiles, not a trained or validated model. Driver scores are illustrative indexes; they are not causal effects."
+      "limitation": "Profiles are assigned by an authored rule using public coverage, the age profile and area type, with designed driver scores. Not a trained or validated model; scores are not causal effects or feature importance."
     },
     {
       "id": "synthetic_commercial",
-      "title": "Illustrative local product and availability feed",
+      "title": "Demonstration product and availability feed",
       "type": "numeric_synthetic",
       "url": null,
       "owner": "OpenSky demonstrator content",
@@ -185,7 +185,7 @@
     },
     {
       "id": "synthetic_activity",
-      "title": "Illustrative engagement and intervention log",
+      "title": "Demonstration engagement and intervention log",
       "type": "numeric_synthetic",
       "url": null,
       "owner": "OpenSky demonstrator content",
@@ -198,7 +198,7 @@
     },
     {
       "id": "playbook_access",
-      "title": "Illustrative access and Public Affairs playbook",
+      "title": "Access and Public Affairs playbook (OpenSky example)",
       "type": "illustrative_reference",
       "url": null,
       "owner": "OpenSky-authored example",
@@ -211,7 +211,7 @@
     },
     {
       "id": "playbook_commercial",
-      "title": "Illustrative commercial and marketing playbook",
+      "title": "Commercial and marketing playbook (OpenSky example)",
       "type": "illustrative_reference",
       "url": null,
       "owner": "OpenSky-authored example",

@@ -1,19 +1,10 @@
 import departmentsRaw from '../data/departments.json';
 import clustersRaw from '../data/clusters.json';
 import interventionsRaw from '../data/interventions.json';
-import advisorRaw from '../data/advisor_responses.json';
 import sourcesRaw from '../data/sources.json';
 import playbooksRaw from '../data/illustrative_playbooks.json';
 import uiRaw from '../data/ui_config.json';
-import type {
-  ClusterDef,
-  ClusterId,
-  Department,
-  PackageId,
-  Pkg,
-  PreparedResponse,
-  SourceItem,
-} from './types';
+import type { ClusterDef, ClusterId, Department, PackageId, Pkg, SourceItem } from './types';
 
 export const NATIONAL = departmentsRaw.national_reference as {
   season: string;
@@ -41,9 +32,6 @@ export const SCENARIO = interventionsRaw as unknown as {
 export const PACKAGES = SCENARIO.packages;
 export const PACKAGE_BY_ID = new Map(PACKAGES.map((p) => [p.id, p]));
 
-export const RESPONSES = (advisorRaw as unknown as { responses: PreparedResponse[] }).responses;
-export const RESPONSE_BY_KEY = new Map(RESPONSES.map((r) => [r.id, r]));
-
 export const SOURCES = (sourcesRaw as unknown as { sources: SourceItem[] }).sources;
 export const SOURCE_BY_ID = new Map(SOURCES.map((s) => [s.id, s]));
 export const SOURCES_CUTOFF = (sourcesRaw as unknown as { research_cutoff: string }).research_cutoff;
@@ -55,27 +43,16 @@ export const UI = uiRaw as unknown as {
   title: string;
   subtitle: string;
   prototype_label: string;
-  advisor_footer: string;
   monitor_label: string;
   optional_free_text_fallback: string;
-  prompts: { plan: Record<string, string>; monitor: Record<string, string> };
   featured_department_codes: string[];
+  season_labels: { plan: string; monitor: string };
 };
 
 export const FEATURED_CODES = UI.featured_department_codes;
 export const FEATURED = FEATURED_CODES.map((c) => DEPT_BY_CODE.get(c)!).filter(Boolean);
 
-export const PLAN_INTENTS = ['profile', 'explain_gap', 'public_affairs', 'commercial', 'design_plan', 'sources'] as const;
-export const MONITOR_INTENTS = ['change', 'performance', 'uncertainty', 'adapt', 'commercial', 'sources'] as const;
-
 export const CLUSTER_ORDER: ClusterId[] = ['access', 'activation', 'enhanced', 'strong'];
-
-export const CLUSTER_SHORT: Record<ClusterId, string> = {
-  access: 'Access',
-  activation: 'Activation',
-  enhanced: 'Enhanced',
-  strong: 'Strong',
-};
 
 /** Non-colour cue for each cluster: letter badge. */
 export const CLUSTER_GLYPH: Record<ClusterId, string> = {
@@ -87,10 +64,16 @@ export const CLUSTER_GLYPH: Record<ClusterId, string> = {
 
 export const PACKAGE_IDS: PackageId[] = ['P1', 'P2', 'P3'];
 
+/** Order matches clusters.json `driver_template`. */
 export const DRIVER_LABELS: { key: keyof Department['illustrative']['driver_indexes']; label: string; influenceable: boolean }[] = [
   { key: 'access_index', label: 'Access', influenceable: true },
-  { key: 'availability_index', label: 'Local availability', influenceable: true },
   { key: 'hcp_engagement_index', label: 'Provider engagement', influenceable: true },
-  { key: 'recommendation_index', label: 'Recommendation', influenceable: true },
   { key: 'confidence_index', label: 'Public confidence', influenceable: false },
+  { key: 'availability_index', label: 'Local availability', influenceable: true },
+  { key: 'recommendation_index', label: 'Recommendation', influenceable: true },
 ];
+
+/** The package prepared for a department, if any. */
+export function packageForDepartment(code: string): Pkg | undefined {
+  return PACKAGES.find((p) => p.department_code === code);
+}

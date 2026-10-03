@@ -1,132 +1,143 @@
 import { useEffect, useRef, useState } from 'react';
-import { MONITOR_INTENTS, PLAN_INTENTS, UI } from '../lib/data';
+import { CLUSTER_BY_ID, DEPT_BY_CODE, PACKAGE_BY_ID } from '../lib/data';
 import { ctxLabel } from '../lib/calc';
-import type { RenderedResponse, TranscriptItem } from '../lib/types';
+import { promptsFor } from '../lib/answers';
+import type { Answer, ClusterId, PackageId, TranscriptItem } from '../lib/types';
 import { useApp, useDispatch } from '../state';
 import { SourceChips } from './ui';
 
-function ActionButtons({ r }: { r: RenderedResponse }) {
+function ActionButtons({ answer }: { answer: Answer }) {
   const s = useApp();
   const dispatch = useDispatch();
-  if (!r.actions.length) return null;
+  if (!answer.actions.length) return null;
   return (
     <div className="msg-actions">
-      {r.actions.map((a) => {
-        if (a === 'open_plan')
-          return (
-            <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'plan' })}>
-              Open plan
-            </button>
-          );
-        if (a === 'open_sources')
-          return (
-            <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'sources' })}>
-              Open sources
-            </button>
-          );
-        if (a === 'open_outcome_review')
-          return (
-            <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'review' })}>
-              Open outcome review
-            </button>
-          );
-        if (a === 'print_outcome')
-          return (
-            <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'print', target: 'outcome' })}>
-              Print outcome review
-            </button>
-          );
-        if (a.startsWith('focus_package:')) {
-          const id = a.split(':')[1] as 'P1' | 'P2' | 'P3';
-          const inPlan = s.plan.packageIds.includes(id);
-          return (
-            <button
-              key={a}
-              type="button"
-              className={`btn small${inPlan ? ' on' : ' primary'}`}
-              aria-pressed={inPlan}
-              onClick={() => dispatch({ type: 'togglePackage', id })}
-            >
-              {inPlan ? `${id} in plan ✓ (remove)` : `Add ${id} to plan`}
-            </button>
-          );
+      {answer.actions.map((a) => {
+        const [kind, arg] = a.split(':');
+        switch (kind) {
+          case 'explore_cluster': {
+            const c = CLUSTER_BY_ID.get(arg as ClusterId)!;
+            return (
+              <button key={a} type="button" className="btn small primary" onClick={() => dispatch({ type: 'setContext', ctx: { kind: 'cluster', id: c.id }, mapView: 'clusters' })}>
+                Explore {c.name}
+              </button>
+            );
+          }
+          case 'explore_department': {
+            const d = DEPT_BY_CODE.get(arg)!;
+            return (
+              <button key={a} type="button" className="btn small primary" onClick={() => dispatch({ type: 'setContext', ctx: { kind: 'department', code: d.code }, mapView: 'clusters' })}>
+                Explore {d.name}
+              </button>
+            );
+          }
+          case 'design_local':
+            return (
+              <button key={a} type="button" className="btn small primary" onClick={() => dispatch({ type: 'ask', intent: 'design' })}>
+                Design local intervention
+              </button>
+            );
+          case 'add_plan': {
+            const id = arg as PackageId;
+            const inPlan = s.plan.packageIds.includes(id);
+            return inPlan ? (
+              <button key={a} type="button" className="btn small on" aria-pressed="true" onClick={() => dispatch({ type: 'togglePackage', id })} title="Remove from plan">
+                ✓ {id} in plan (remove)
+              </button>
+            ) : (
+              <button key={a} type="button" className="btn small primary" onClick={() => dispatch({ type: 'addPackage', id })}>
+                Add to plan
+              </button>
+            );
+          }
+          case 'review_plan':
+            return (
+              <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'plan' })}>
+                Review plan
+              </button>
+            );
+          case 'open_sources':
+            return (
+              <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'sources' })}>
+                Open sources
+              </button>
+            );
+          case 'open_outcome_review':
+            return (
+              <button key={a} type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'review' })}>
+                Open outcome review
+              </button>
+            );
+          case 'print_outcome':
+            return (
+              <button key={a} type="button" className="btn small primary" onClick={() => dispatch({ type: 'print', target: 'outcome' })}>
+                Print outcome review
+              </button>
+            );
+          default:
+            return null;
         }
-        return null;
       })}
     </div>
   );
 }
 
 function AdvisorMessage({ item, focused }: { item: Extract<TranscriptItem, { kind: 'advisor' }>; focused: boolean }) {
-  const r = item.response;
+  const a = item.answer;
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (focused) ref.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   }, [focused]);
+  const hasDetail = a.evidence.length > 0 || !!a.uncertainty || a.sourceIds.length > 0;
   return (
-    <div className={`msg advisor${focused ? ' flash' : ''}`} ref={ref} data-intent={r.intent}>
+    <div className={`msg advisor${focused ? ' flash' : ''}`} ref={ref} data-intent={a.intent}>
       <div className="msg-scope">
         {item.scopeLabel} · {item.dateLabel}
       </div>
-      <h3 className="msg-title">{r.title}</h3>
-      {r.clusterNote && <p className="cluster-note">{r.clusterNote}</p>}
-      {r.localSummary && (
-        <ul className="evid local">
-          {r.localSummary.map((t) => (
-            <li key={t}>{t}</li>
+      {a.fallback ? (
+        <>
+          <h3 className="msg-title">{a.title}</h3>
+          <p className="fallback">{a.fallback}</p>
+        </>
+      ) : (
+        <>
+          <p className="recommendation">{a.recommendation}</p>
+          {a.body.map((p) => (
+            <p key={p} className="body">
+              {p}
+            </p>
           ))}
-        </ul>
+          {a.bullets && (
+            <ol className="actions-list">
+              {a.bullets.map((b) => (
+                <li key={b}>{b}</li>
+              ))}
+            </ol>
+          )}
+          {a.roles && (
+            <ul className="roles">
+              {a.roles.map((r) => (
+                <li key={r}>{r}</li>
+              ))}
+            </ul>
+          )}
+        </>
       )}
-      <p className="obs">{r.observation}</p>
-      {r.evidence.length > 0 && (
-        <ul className="evid">
-          {r.evidence.map((e) => (
-            <li key={e}>{e}</li>
-          ))}
-        </ul>
-      )}
-      {r.combinedNote && <p className="combined">{r.combinedNote}</p>}
-      {r.fallback && <p className="fallback">{r.fallback}</p>}
-      {!r.fallback && r.interpretation && (
-        <p className="interp">
-          <b>Interpretation.</b> {r.interpretation}
-        </p>
-      )}
-      {!r.fallback && (
+      <ActionButtons answer={a} />
+      {hasDetail && (
         <details className="more">
-          <summary>Ownership, action and measurement</summary>
-          {r.ownership && (
-            <p>
-              <b>Who owns what.</b> {r.ownership}
-            </p>
+          <summary>Evidence and assumptions</summary>
+          {a.evidence.length > 0 && (
+            <ul className="evid">
+              {a.evidence.map((e) => (
+                <li key={e}>{e}</li>
+              ))}
+            </ul>
           )}
-          {r.decisions.length > 0 ? (
-            <>
-              <p>
-                <b>Suggested decisions for the selected packages.</b>
-              </p>
-              <ul className="evid">
-                {r.decisions.map((d) => (
-                  <li key={d}>{d}</li>
-                ))}
-              </ul>
-            </>
-          ) : (
-            r.suggestedAction && (
-              <p>
-                <b>Suggested action.</b> {r.suggestedAction}
-              </p>
-            )
-          )}
-          {r.measurement && (
-            <p>
-              <b>Measurement.</b> {r.measurement}
-            </p>
-          )}
+          {a.uncertainty && <p>{a.uncertainty}</p>}
+          <SourceChips ids={a.sourceIds} />
         </details>
       )}
-      <ActionButtons r={r} />
-      <SourceChips ids={r.sourceIds} />
     </div>
   );
 }
@@ -146,7 +157,6 @@ function Item({ item, focusId }: { item: TranscriptItem; focusId: string | null 
           {item.paragraphs.map((p) => (
             <p key={p}>{p}</p>
           ))}
-          <SourceChips ids={item.sourceIds} />
         </div>
       );
     case 'user':
@@ -162,7 +172,6 @@ export default function Advisor() {
   const s = useApp();
   const dispatch = useDispatch();
   const [text, setText] = useState('');
-  const endRef = useRef<HTMLDivElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
 
   // Reveal a prepared answer after a short, fixed delay. Cancelled by any context change (reducer clears pending).
@@ -195,21 +204,19 @@ export default function Advisor() {
       top = d ? d.offsetTop - 4 : 0;
     }
     el.scrollTo({ top, behavior: 'smooth' });
-  }, [s.transcript.length, s.pending, s.focusId, s.transcript]);
+  }, [s.transcript, s.pending, s.focusId]);
 
-  const intents = s.mode === 'plan' ? PLAN_INTENTS : MONITOR_INTENTS;
-  const prompts = s.mode === 'plan' ? UI.prompts.plan : UI.prompts.monitor;
+  const selected = s.mode === 'monitor' && s.snapshot ? s.snapshot.packageIds : s.plan.packageIds;
+  const prompts = promptsFor(s.ctx, s.mode, selected);
   const fresh = !s.transcript.some((t) => t.kind === 'user' || t.kind === 'advisor');
 
   return (
     <aside className="advisor-panel" aria-label="Advisor">
       <div className="advisor-head">
-        <div>
-          <h2>Advisor</h2>
-          <p className="advisor-ctx">
-            Context: <b>{ctxLabel(s.ctx)}</b> · {s.mode === 'plan' ? 'Plan the season' : 'Monitor'}
-          </p>
-        </div>
+        <h2>Advisor</h2>
+        <p className="advisor-ctx">
+          <b>{ctxLabel(s.ctx)}</b> · {s.mode === 'plan' ? 'Prepare the campaign' : 'Review in-season delivery'}
+        </p>
       </div>
       <div className="transcript" ref={listRef} role="log" aria-live="polite" aria-label="Advisor conversation">
         {s.transcript.map((t) => (
@@ -218,9 +225,9 @@ export default function Advisor() {
         {fresh && !s.pending && (
           <div className="starter" role="group" aria-label="Suggested questions">
             <p className="starter-title">Start with a prepared question</p>
-            {intents.map((i) => (
-              <button key={i} type="button" className="starter-btn" onClick={() => dispatch({ type: 'ask', intent: i })}>
-                {prompts[i]}
+            {prompts.map((p) => (
+              <button key={p.intent} type="button" className="starter-btn" onClick={() => dispatch({ type: 'ask', intent: p.intent })}>
+                {p.label}
               </button>
             ))}
           </div>
@@ -235,14 +242,13 @@ export default function Advisor() {
             <span className="sr-only">Preparing response</span>
           </div>
         )}
-        <div ref={endRef} />
       </div>
       <div className="prompt-area">
         {!fresh && (
           <div className="prompts" role="group" aria-label="Suggested questions">
-            {intents.map((i) => (
-              <button key={i} type="button" className="prompt" onClick={() => dispatch({ type: 'ask', intent: i })}>
-                {prompts[i]}
+            {prompts.map((p) => (
+              <button key={p.intent} type="button" className="prompt" onClick={() => dispatch({ type: 'ask', intent: p.intent })}>
+                {p.label}
               </button>
             ))}
           </div>
@@ -263,8 +269,9 @@ export default function Advisor() {
             Ask
           </button>
         </form>
-        <p className="advisor-foot">{UI.advisor_footer}</p>
       </div>
     </aside>
   );
 }
+
+export { PACKAGE_BY_ID };

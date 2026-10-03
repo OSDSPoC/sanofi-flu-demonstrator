@@ -2,7 +2,7 @@
 
 A static, interactive demonstrator built for a Sanofi meeting with Public Affairs colleagues from France, Italy and Spain. France is the worked market and Efluelda, Sanofi's high-dose influenza vaccine, is the product anchor.
 
-**Status: demonstrator, public + synthetic data.** Official coverage, IQVIA, Medic'AM and HAS material are real public data. Populations, driver indexes, enhanced/Efluelda shares, cluster membership, activity logs and every 2026–27 monitoring value are synthetic. There is no live model, backend, database, map tiles or API key. The advisor shows prepared responses.
+**Demonstrator · public and synthetic data.** Official coverage, IQVIA, Medic'AM and HAS material are real public data. Populations, driver scores, enhanced/Efluelda shares, cluster assignments, activity logs and every 2026–27 follow-up value are synthetic. There is no live model, backend, database, map tiles or API key. The advisor gives prepared answers.
 
 ## Run it
 
@@ -11,7 +11,8 @@ npm install
 npm run dev        # development server (http://localhost:5173)
 npm run build      # type-check + production build into dist/
 npm run preview    # serve the production build locally
-npm test           # unit tests (46)
+npm test           # unit tests (64)
+npm run qa         # browser walkthrough with screenshots and PDFs (needs the app running; see below)
 ```
 
 Requires Node 18+ (built and tested on Node 24).
@@ -20,37 +21,39 @@ Requires Node 18+ (built and tested on Node 24).
 
 | Area | Where |
 |---|---|
-| State contract (mode, map view, context, checkpoint, plan draft, simulation snapshot, transcript) | `src/state.tsx` |
+| State (mode, map view, context, checkpoint, plan draft, follow-up snapshot, transcript) | `src/state.tsx` |
 | Metric formatting and calculations (single source for UI, advisor and print) | `src/lib/calc.ts` |
-| Prepared-response selection, scoping rules, free-text intent matching | `src/lib/advisor.ts` |
-| Bundled data adapters | `src/lib/data.ts`, `src/lib/history.ts`, `src/data/*.json` |
-| Map (d3-geo, local GeoJSON) | `src/components/FranceMap.tsx`, `MapPanel.tsx` |
-| Evidence, outcome review, drawers, print layouts | `EvidencePanel.tsx`, `Outcome.tsx`, `Drawers.tsx`, `PrintViews.tsx` |
-| Local assets and their provenance | `src/assets/` and `src/assets/README.md` |
+| Prepared answers, prompts per context, free-text intent matching | `src/lib/answers.ts` |
+| Bundled data | `src/data/*.json`, adapters in `src/lib/data.ts`, `src/lib/history.ts` |
+| Plan views (France, cluster, department) | `src/components/PlanViews.tsx`, `FranceMap.tsx` |
+| Follow-up views (date strip, package card) and outcome tables | `src/components/Monitor.tsx`, `Outcome.tsx` |
+| Advisor, drawers, print layouts | `Advisor.tsx`, `Drawers.tsx`, `PrintViews.tsx` |
+| Cluster rules and generator | `docs/CLUSTER_RULES.md`, `scripts/rebuild-clusters.mjs` |
+| Local assets and their provenance | `src/assets/`, `src/assets/README.md` |
 | Tests | `tests/` |
 
-The content and numbers come from the handoff pack (`data/*.json`, copied unchanged into `src/data/`). The raw MedicAM zips and the internal reference screenshots are **not** part of this project and are not shipped.
+The raw MedicAM downloads and the internal reference screenshots from the handoff pack are not part of this project and are not shipped.
 
 ## Presenting it
 
-1. Opens on **Plan** / France overview / Clusters with no packages selected. **Reset demo** (header) returns to exactly this state and clears stored session data.
-2. Route: Activation gap cluster, then Seine-Saint-Denis, advisor prompts, **Sources**, "Help us design an intervention", add P2 (then P1, P3 in **Intervention plan**), **Print plan / Save PDF**, **Start simulated follow-up**, +2 weeks, +6 weeks, "How did the package perform?", "What should the team change?", **Print outcome review**.
-3. The Monitor tab stays unavailable until a simulation has started (clicking it opens the plan).
-4. Free-text questions match a small set of deterministic keyword intents. Anything else returns the fixed fallback message.
+The primary route is the presenter walkthrough: Reset demo, Where should we focus?, Explore Activation gap, the common-traits and shared-approach questions, Explore Seine-Saint-Denis, Where is the opportunity?, What can Public Affairs do?, Help us design an intervention, Add to plan, Review plan, Print plan / Save PDF, Start follow-up, +2 weeks, How is the plan progressing?, +6 weeks, How did the intervention perform?, What should the team do next?, Print outcome review. Rhône/Efluelda is an optional two-minute branch.
 
-Print opens the browser print dialog. Adding `?printpreview` to the URL shows the print layout on screen instead, which is useful for checking pagination.
+- **Reset demo** returns to France overview, Coverage map, no packages and no follow-up, and clears stored session data.
+- The Monitor tab stays unavailable until follow-up has started (clicking it opens the plan).
+- Typed questions match a small set of keyword intents for the current context; anything else gets a fixed fallback. Use the prepared prompts to control the route.
+- Print opens the browser print dialog. Adding `?printpreview` to the URL shows the print layout on screen instead.
+
+## Quality checks
+
+`npm run qa` drives the whole walkthrough in headless Chrome (puppeteer-core, dev-only), checks that evidence and advisor are visible together at 1440×900, 1280×800 and 1920×1080, saves screenshots and the plan/outcome PDFs to `qa-output/`, and reports pass/fail. Start the app first (`npm run dev`, or serve `dist/`), then run `node scripts/qa-journey.mjs [url] [outDir]`.
+
+See `docs/VALIDATION_REPORT.md` for what was tested, what was not, and what remains unresolved.
 
 ## Deploying to GitHub Pages
 
-The build uses a **relative base** (`base: './'` in `vite.config.ts`) and has no history-router routes, so `dist/` works from any project sub-path (for example `https://<org>.github.io/<repo>/`) without configuration.
+The build uses a **relative base** (`base: './'` in `vite.config.ts`) and has no history-router routes, so `dist/` works from any project sub-path without configuration.
 
-Manual route:
-
-1. `npm run build`
-2. Publish the contents of `dist/` to the branch/folder GitHub Pages serves (for example the `gh-pages` branch root).
-3. In the repository settings, set Pages to serve that branch/folder.
-
-Workflow route (active): `.github/workflows/pages.yml` runs the tests, builds and deploys on every push to `main`. In the repository, set **Settings > Pages > Source** to **GitHub Actions** once.
+`.github/workflows/pages.yml` runs the tests, builds and deploys on every push to `main`. In the repository, **Settings > Pages > Source** must be set to **GitHub Actions** (once).
 
 Check a build under a nested path before publishing:
 
@@ -60,13 +63,9 @@ node scripts/verify-subpath.mjs          # serves dist/ under /org-site/sanofi-f
 node scripts/verify-subpath.mjs --serve  # same, but keeps the server up for a browser check
 ```
 
-If you ever need a fixed absolute base instead, set `base: '/<repo>/'` in `vite.config.ts`.
-
 ## Honest limits
 
-- Cluster assignments, expected coverage and driver indexes are designed, precomputed examples. No fit statistics, feature importance or validation claims are made or implied.
-- Dispensing proxies are not official coverage or confirmed administration. Differences between treated and comparison catchments are descriptive signals, not causal effects. No revenue, margin or ROI is shown.
+- Clusters are an authored, rule-based grouping with designed driver scores, not fitted clustering. No fit statistics, feature importance or validation claims are made.
+- Dispensing proxies are not official coverage or confirmed administration. Differences between participating and comparison catchments are signals for review, not causal effects. No revenue, margin or ROI is shown.
 - HAS positions Efluelda and Fluad equivalently for adults aged 65+. Nothing here compares them clinically.
-- Illustrative playbooks are OpenSky-authored examples, not Sanofi documents. The monitoring dates are fictional scenario checkpoints.
-
-See `docs/VALIDATION_REPORT.md` for what was tested, what was not, and observations about the supplied data.
+- Playbooks are OpenSky-authored examples, not Sanofi documents. The 2026–27 dates are scenario checkpoints.

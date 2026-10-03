@@ -44,7 +44,7 @@
         "Review availability at participating pharmacies",
         "Discuss unresolved delivery barriers with local stakeholders"
       ],
-      "rationale": "Illustrative access index 35/100 and availability index 48/100 warrant delivery investigation; historical 65+ VCR is 50.7%.",
+      "rationale": "Access index 35/100 and availability index 48/100 point to delivery conditions worth investigating. Coverage is 50.7%.",
       "primary_metric": "Pharmacy-dispensing proxy per 10,000 people aged 65+ in fixed participating catchments",
       "metric_type": "dose_rate",
       "final_decision": "Retain the delivery work, resolve the remaining site barrier, and collect administration evidence before attributing uptake gains.",
@@ -57,8 +57,8 @@
       ],
       "budget_eur": null,
       "provenance": "synthetic",
-      "comparator": "Illustrative matched, non-participating catchments; matching includes baseline trajectory and relevant characteristics, not cluster alone.",
-      "footprint_note": "Synthetic participating catchments within the department; not the entire department. Package target populations are disjoint in this scenario.",
+      "comparator": "Matched comparison catchments that are not participating. Matching uses baseline trajectory and relevant characteristics, not cluster membership alone.",
+      "footprint_note": "Defined participating catchments within the department, not the whole department. Package populations do not overlap.",
       "checkpoints": [
         {
           "week": 0,
@@ -71,7 +71,7 @@
           "comparative_change_difference": 0,
           "sites_active": 0,
           "sites_total": 12,
-          "execution": "Draft activity; no rollout has occurred."
+          "execution": "Baseline: no activity has started yet."
         },
         {
           "week": 2,
@@ -112,31 +112,37 @@
           "sites_total": 12,
           "execution": "11 sites active; one site remains delayed and availability still warrants follow-up."
         }
+      ],
+      "roles": [
+        "Market Access coordinates delivery with local providers and partners",
+        "Public Affairs supports stakeholder coordination",
+        "Commercial separately checks product availability"
       ]
     },
     {
       "id": "P2",
-      "title": "Activate eligible older adults",
+      "title": "Strengthen recommendations and follow-through",
       "department_code": "93",
       "cluster_id": "activation",
-      "lead": "Public Affairs / community partners",
+      "lead": "Public Affairs (coordination)",
       "support": [
         "Medical",
-        "Participating pharmacies and practices"
+        "Participating pharmacies and practices",
+        "Market Access (delivery barriers where relevant)"
       ],
       "target_population_65plus": 40000,
       "target_sites": 20,
-      "hypothesis": "Trusted outreach plus proactive recommendation and locally managed reminders may improve follow-through.",
+      "hypothesis": "Where access is available but recommendation and follow-through are weaker, coordinated provider recommendations, community information and reminders may help more eligible older adults complete vaccination.",
       "actions": [
-        "Adapt existing 65+ education materials with Medical input",
-        "Brief an existing local partner network",
-        "Support a consistent proactive recommendation at participating sites",
-        "Use locally managed reminders and track execution without transferring patient data to Sanofi"
+        "Medical supports a short briefing for participating pharmacies and practices on proactive recommendations to eligible adults aged 65+.",
+        "Public Affairs coordinates existing community partners to share clear information about eligibility and local vaccination access.",
+        "Participating providers use their own reminder processes to help eligible adults follow through.",
+        "The team records which sites have started the activities and reviews execution and dispensing trends fortnightly."
       ],
-      "rationale": "Historical 65+ VCR is 46.4%; synthetic engagement and recommendation indexes suggest questions for local validation, not proven causes.",
+      "rationale": "Coverage is 46.4%, with a larger gap among adults aged 65–74 than those aged 75+. Access (66) and availability (86) are relatively strong, while provider engagement (34) and recommendation (40) are weak. Local partners should validate this interpretation.",
       "primary_metric": "Pharmacy-dispensing proxy per 10,000 people aged 65+ in fixed participating catchments",
       "metric_type": "dose_rate",
-      "final_decision": "Continue the package where delivery is established; improve partner reach and examine concurrent activity before making causal claims.",
+      "final_decision": "Continue where delivery is established, complete the remaining site, and refine partner messaging or reminder execution. Whether to extend the approach to other Activation-gap departments is a decision for the team.",
       "source_ids": [
         "spf_vcr",
         "sanofi_pharmacy",
@@ -147,8 +153,8 @@
       ],
       "budget_eur": null,
       "provenance": "synthetic",
-      "comparator": "Illustrative matched, non-participating catchments; matching includes baseline trajectory and relevant characteristics, not cluster alone.",
-      "footprint_note": "Synthetic participating catchments within the department; not the entire department. Package target populations are disjoint in this scenario.",
+      "comparator": "Matched comparison catchments that are not participating. Matching uses baseline trajectory and relevant characteristics, not cluster membership alone.",
+      "footprint_note": "Defined participating catchments within the department, not the whole department. Package populations do not overlap.",
       "checkpoints": [
         {
           "week": 0,
@@ -161,7 +167,7 @@
           "comparative_change_difference": 0,
           "sites_active": 0,
           "sites_total": 20,
-          "execution": "Draft activity; no rollout has occurred."
+          "execution": "Baseline: no activity has started yet."
         },
         {
           "week": 2,
@@ -202,6 +208,13 @@
           "sites_total": 20,
           "execution": "19 sites active; directional comparative improvement is present, while one site and some audiences remain under-reached."
         }
+      ],
+      "roles": [
+        "Public Affairs coordinates partners",
+        "Medical supports accurate information",
+        "Participating providers own recommendations, reminders and vaccination delivery",
+        "Market Access supports delivery barriers where relevant",
+        "Patient-level reminder data stay with providers"
       ]
     },
     {
@@ -223,7 +236,7 @@
         "Record questions that prevent consistent implementation",
         "Investigate Efluelda account availability separately through Commercial"
       ],
-      "rationale": "Historical 65+ VCR is 59.3%; synthetic enhanced-category adoption is 40% of observed 65+ dispensing at baseline.",
+      "rationale": "Coverage is 59.3%. Enhanced vaccines account for 40% of observed 65+ flu dispensing at baseline.",
       "primary_metric": "Enhanced-vaccine share of observed 65+ flu dispensing (%)",
       "metric_type": "share_pct",
       "final_decision": "Retain useful category education; ask Commercial to investigate product availability and account execution. Category growth alone does not establish a brand-share gain.",
@@ -236,8 +249,8 @@
       ],
       "budget_eur": null,
       "provenance": "synthetic",
-      "comparator": "Illustrative matched, non-participating catchments; matching includes baseline trajectory and relevant characteristics, not cluster alone.",
-      "footprint_note": "Synthetic participating catchments within the department; not the entire department. Package target populations are disjoint in this scenario.",
+      "comparator": "Matched comparison catchments that are not participating. Matching uses baseline trajectory and relevant characteristics, not cluster membership alone.",
+      "footprint_note": "Defined participating catchments within the department, not the whole department. Package populations do not overlap.",
       "checkpoints": [
         {
           "week": 0,
@@ -250,7 +263,7 @@
           "comparative_change_difference": 0,
           "sites_active": 0,
           "sites_total": 15,
-          "execution": "Draft activity; no rollout has occurred.",
+          "execution": "Baseline: no activity has started yet.",
           "efluelda_share_within_enhanced_pct": 70
         },
         {
@@ -295,6 +308,11 @@
           "execution": "14 sites active; category implementation progresses, but Efluelda share within the category remains unchanged.",
           "efluelda_share_within_enhanced_pct": 70
         }
+      ],
+      "roles": [
+        "Medical and Market Access lead recommendation and pathway education",
+        "Public Affairs supports stakeholder implementation",
+        "Commercial separately investigates Efluelda availability and account execution"
       ]
     }
   ],

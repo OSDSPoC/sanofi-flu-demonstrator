@@ -3,7 +3,7 @@ export type MapView = 'coverage' | 'clusters' | 'opportunity';
 export type Week = 0 | 2 | 4 | 6;
 export type ClusterId = 'access' | 'activation' | 'enhanced' | 'strong';
 export type PackageId = 'P1' | 'P2' | 'P3';
-export type PlanStatus = 'draft' | 'ready' | 'simulation' | 'reviewed';
+export type PlanStatus = 'draft' | 'ready' | 'followup' | 'reviewed';
 
 export type Context =
   | { kind: 'france' }
@@ -62,6 +62,10 @@ export interface ClusterDef {
   expected_vcr: number;
   driver_template: number[];
   interpretation: string;
+  shared_approach: string[];
+  common_pattern: string;
+  featured_department: string;
+  member_count: number;
 }
 
 export interface Checkpoint {
@@ -86,6 +90,7 @@ export interface Pkg {
   cluster_id: ClusterId;
   lead: string;
   support: string[];
+  roles: string[];
   target_population_65plus: number;
   target_sites: number;
   hypothesis: string;
@@ -116,57 +121,36 @@ export interface SourceItem {
   limitation: string;
 }
 
-export interface EvidenceItem {
-  text: string;
-  package_id: PackageId | null;
-}
+/** Semantic advisor actions: `explore_cluster:<id>`, `explore_department:<code>`, `design_local`, `add_plan:<P>`,
+ *  `review_plan`, `open_sources`, `open_outcome_review`, `print_outcome`. None starts real work. */
+export type ActionId = string;
 
-export interface PreparedResponse {
-  id: string;
-  context: string;
-  mode: Mode;
-  week: Week;
-  intent: string;
-  title: string;
-  observation: string;
-  evidence: EvidenceItem[];
-  interpretation: string;
-  ownership: string;
-  suggested_action: string;
-  measurement: string;
-  source_ids: string[];
-  action_ids: string[];
-  scripted: boolean;
-  empty_selection_fallback?: string;
-  no_brand_outcome_fallback?: string;
-  package_decisions?: { package_id: PackageId; text: string }[];
-}
-
-export interface RenderedResponse {
+export interface Answer {
   key: string;
   intent: string;
   title: string;
-  observation: string;
-  localSummary?: string[];
-  clusterNote?: string;
+  /** The decision-first line, always visible. */
+  recommendation: string;
+  /** Short supporting reasoning. */
+  body: string[];
+  /** Optional bulleted content (e.g. the package actions). */
+  bullets?: string[];
+  /** Optional role list shown under the bullets. */
+  roles?: string[];
+  actions: ActionId[];
+  /** Compact expandable section. */
   evidence: string[];
-  combinedNote?: string;
-  fallback?: string;
-  interpretation: string;
-  ownership: string;
-  suggestedAction: string;
-  decisions: string[];
-  measurement: string;
+  uncertainty?: string;
   sourceIds: string[];
-  actions: string[];
-  ruleNote?: string;
+  /** Neutral explanation of an absent result. */
+  fallback?: string;
 }
 
 export type TranscriptItem =
   | { id: string; kind: 'divider'; label: string; sub: string }
-  | { id: string; kind: 'welcome'; ctxKey: string; paragraphs: string[]; sourceIds: string[] }
+  | { id: string; kind: 'welcome'; ctxKey: string; paragraphs: string[] }
   | { id: string; kind: 'user'; text: string }
-  | { id: string; kind: 'advisor'; key: string; scopeLabel: string; dateLabel: string; response: RenderedResponse }
+  | { id: string; kind: 'advisor'; key: string; scopeLabel: string; dateLabel: string; answer: Answer }
   | { id: string; kind: 'system'; text: string };
 
 export interface PlanDraft {

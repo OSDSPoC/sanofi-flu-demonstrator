@@ -1,55 +1,38 @@
-# Validation report
+# Validation report: revision 2
 
-Build date 3 October 2026. This reports what was actually run. It is not a blanket "all tested".
+Revision build, 3 October 2026, against `08_Claude_Code_Revision_Brief.md`, with `09_Sanofi_Presenter_Walkthrough.md` as the acceptance journey. This lists what was run, what was not, and what is unresolved.
 
-## Where the deployable build is
+## What changed
 
-`dist/` (run `npm run build`). It is a static site with a relative base: about 1.6 MB of JavaScript (380 kB gzipped, mostly bundled data and the boundary file), 23 kB CSS and the logo. Nothing has been deployed.
+- **One notice.** The header carries the only persistent qualification, "Demonstrator · public and synthetic data", and it opens the About explanation. Provenance badges and repeated caveats are removed from KPIs, map legends, cards, evidence, advisor messages, package descriptions and monitoring controls. They remain in About and in the Sources inventory. Exported documents carry one short notice in their header.
+- **Layout.** Plan opens on France overview with the Coverage map, three compact KPIs and an Explore clusters list. Selecting a cluster shows a compact map with members highlighted, the common driver pattern, a shared approach and a prominent Explore button for the featured department. Selecting a department shows a locator, local evidence (coverage, age split, driver profile) and the proposed intervention together; trend and category/brand detail sit under "More evidence". The breadcrumb reads France → Activation gap → Seine-Saint-Denis. Map hatching is replaced by flat colours with selection outlines; letter cues stay in legends and map labels. The four tall cluster cards are gone.
+- **Monitor.** Follow-up keeps the department context. The left workspace starts with an always-visible date strip (campaign, review date, observations-through date) and the Baseline / +2 / +4 / +6 controls, then one package card (execution, treated-versus-comparison chart, comparative difference, next decision). With several packages the card is chosen from package summaries. The map and history sit in a collapsed "Geography and history" section.
+- **Intervention.** P2 is "Strengthen recommendations and follow-through", with the agreed hypothesis, four actions shown openly, owner roles, footprint (20 sites, 40,000 adults aged 65+) and dates. The plan opens as a readable summary; title, objective, owner, budget and notes are under "Edit plan details" and package choice under "Other intervention options". Add to plan then Review plan takes two actions from the advisor or the evidence panel.
+- **Advisor.** Prepared answers are now authored per context in `src/lib/answers.ts`: a visible recommendation, short reasoning, bullet actions where relevant, visible next-action buttons, and an "Evidence and assumptions" fold. Prompt sets change with the context (France, cluster, department, monitor). The old 270-response JSON is removed (it remains in git history and in the handoff pack).
+- **Cluster story.** Memberships, driver scores, expected coverage and the dependent synthetic aggregates were rebuilt by a documented rule (`docs/CLUSTER_RULES.md`). Public data are unchanged.
+- **Copy.** "Plan status" is Draft / Ready for team review / Follow-up started / Reviewed. "Start follow-up", "Review after two weeks" and similar replace the earlier wording. No "notional", "fictional", "illustrative" or "simulated" remains in ordinary working copy (a test enforces this for every prepared answer).
 
-## Automated checks (all passing)
+## Checks completed
 
-`npm test` runs 46 tests; `npm run build` type-checks first.
+**Automated (`npm test`, 64 tests; `npm run build` type-checks first):** all passing.
+- Public department data fingerprint equals the handoff's; national 56.7% / 53.7% / 18.3 pp; featured values 50.7, 46.4, 59.3, 66.8; 96 departments join to the boundary file by string code.
+- Cluster coherence: 96 members across four clusters; featured departments in their agreed profiles; Access-constrained weakest on access and availability; Activation gap stronger on both yet weakest on engagement and recommendation; Enhanced gap lowest enhanced share with reasonable access; Strong delivery highest on all four actionable drivers with no member below 60%; templates equal member means; opportunity and residuals reconcile.
+- Arithmetic: P1, P2 and P3 at +6; P2 levels 1,500 → 1,660 → 1,880 → 2,100 against 1,500 → 1,660 → 1,780 → 1,950 with 0/10/17/19 sites; P1 + P2 weighted +133.3 (800 proxy doses); P3 never combined with dose rates.
+- Advisor copy: the main-route answers contain the agreed wording and numbers; all seven package subsets at +2, +4 and +6 across every monitor prompt show only selected packages; areas with no selected package (Finistère, ordinary departments, unselected package) return "No intervention was assigned here, so there is no intervention outcome to review."; no banned qualifier or implementation instruction appears in any answer.
+- State: defaults, pending answers cancelled by context change, scope and date kept on earlier answers, repeat-prompt focus, empty plan cannot start follow-up, printing leaves status unchanged, status lifecycle, local context kept on Start follow-up, explicit restart after a package change, Reset, free-text fallback.
 
-- **Source data:** national 56.7% (2024–25: 53.7%), gap 18.3 pp; featured values 43 = 50.7, 93 = 46.4, 69 = 59.3, 29 = 66.8; 96 metropolitan departments all join to the 96 boundary features by string code (including 01, 2A, 2B); 99 departments in total; four clusters; 270 prepared responses and every source ID in them resolves.
-- **Numbers:** P1 +400/+300/+100, P2 +600/+450/+150, P3 +8/+5/+3 pp with Efluelda share flat at 70% at +6 weeks; P2 at +2 weeks both +160 (no separation); every checkpoint reconciles (level − baseline = change; treated − comparison = difference); P1 + P2 combined at +6 = +133.3 doses/10,000 (treated 533.3, comparison 400.0), equivalent to 800 dispensing-proxy doses; P3 never enters the dose combination.
-- **Selection rules, all seven non-empty subsets of P1/P2/P3 at +2, +4 and +6 weeks, all six monitor prompts:** no unselected package's title, figure or decision appears; the Rhône brand finding (70%) never appears unless P3 is selected, otherwise the supplied no-brand-outcome fallback shows; the combined figure appears only when both P1 and P2 are selected.
-- **Context rules:** Finistère never shows a treated result; a department with no selected package shows "No selected intervention in this area"; an ordinary department uses its own numerical summary plus an explicitly labelled cluster-level response and never another area's outcome.
-- **State:** starting state; pending answers cancelled by any context change and never landing under another context; answers keep their original scope and date; repeated prompt focuses the existing answer; empty plan cannot start a simulation; printing leaves status and simulation unchanged; Draft → Ready → Simulation started → Reviewed; changing packages after starting keeps the snapshot until an explicit restart; Reset restores the starting state; unsupported free text returns the fixed fallback.
-- **Coverage of prepared content:** every context × intent × checkpoint combination resolves to a prepared response.
-- **Static delivery:** `scripts/verify-subpath.mjs` serves `dist/` under `/org-site/sanofi-flu-demonstrator/` and confirms every referenced asset returns 200 and the bundle has no root-absolute paths. Loaded in the browser from that sub-path: 96 department paths render, the logo loads, and **0 requests go outside the origin**. The built output contains no workstation paths, user names, keys or credentials.
+**Browser journey (`node scripts/qa-journey.mjs`, headless Chrome via puppeteer-core, 74 checks passing):** the full walkthrough (Reset, Where should we focus, Explore Activation gap, shared approach, Explore Seine-Saint-Denis, opportunity, Public Affairs, design, Add to plan, Review plan, Print plan, Start follow-up, +2, +4, +6, next steps, uncertainty, Print outcome review, Reset) plus the Rhône/Efluelda branch with an explicit restart, the drawers, an ordinary department and Finistère. Measured at 1440×900: local evidence, proposed intervention and its buttons are visible without scrolling the left workspace, and at +2 and +6 the result card and the latest advisor recommendation are visible together. At 1280×800 the key finding, Add to plan, result and next decision are visible. At 1920×1080 the intervention is visible. No horizontal overflow at 1280, 1440, 1920 or 390 wide. No console errors and no external requests in any session. Screenshots were inspected at 1440, 1280 and 1920 wide.
 
-## Manual checks in the browser pane (development server)
+**Print to PDF:** the plan and the +6 outcome review were exported with Chrome's print-to-PDF path (`page.pdf`, print media, A4). Each is two pages; the print layout was also inspected as an image. Selected packages only, matching values, one header notice and a blank team decision area appear. Printing left the plan status and the app state unchanged, and a reload returned the same state.
 
-Done: full route (reset → cluster → featured department → advisor → sources → plan → three packages → start follow-up → +2 → +6 → advise → restart prompt → print preview); optional text input fallback and a supported question; Monitor tab without a simulation opens the plan; empty-plan buttons disabled; reset clears session storage; header, history, sources, model, status, plan and review drawers open without console errors.
+**Static delivery:** production build succeeds; `scripts/verify-subpath.mjs` serves `dist/` from a nested path and every asset resolves; no runtime network, model or credential dependency was added. `puppeteer-core` and `@types/node` are dev-only.
 
-Layout measured by script (page width, header height, clipped or off-screen elements) at **1280×800, 1440×900, 1920×1080, 820×900 and 390×800**: no horizontal page overflow at any size, header on one row from 1280 to 1920, advisor stacks beneath the evidence below 1280. Screenshots were inspected at 1280×800 and at the pane's own size.
+## Not verified, or unresolved
 
-Print layout inspected on screen with `?printpreview`: plan page 1 and 2 (about 239 mm and 248 mm of 273 mm available with three packages selected, so two A4 pages), outcome review at +6 weeks (about two pages).
-
-## Not verified, please check before the meeting
-
-- **The browser's real print dialog and PDF output were not exercised.** Pagination was checked through the on-screen preview of the same print layout, not a print engine. Cancelling print returning to the same state is covered by the state tests and the `afterprint` handler, not by watching the dialog. Do one real "Save as PDF" of each print view.
-- **1440×900 and 1920×1080 were checked by measurement and partial screenshots only.** The pane could not show a full-size capture at those sizes, so please look at them once on the presentation display.
-- **Keyboard and screen-reader use** were designed in (focus rings, button labels, skip link, ARIA labels, non-colour cluster cues) but not tested with a screen reader or a full keyboard pass. Contrast was set by hand, not measured.
-- Browsers other than the one in the pane were not tried.
-
-## Observations about the supplied data (not changed)
-
-1. **"Strong delivery" is not uniformly strong on coverage.** Its members range 49.0–66.8% observed coverage; ten of its 26 members are below 55% (for example Haute-Corse 49.0%, Ardèche 52.1%, Var 53.1%). The card therefore shows a wide range beside "Strong delivery". This is consistent with clusters being designed from synthetic drivers rather than coverage, and is worth a sentence if asked, but a sharp audience may notice it.
-2. **The Access-constrained profile averages availability 73/100**, while its definition says "lower local availability" and Haute-Loire (the featured member) scores 48. The profile reference marker on Haute-Loire's availability bar will therefore sit well above its own value. The text is accurate for Haute-Loire, not for the cluster.
-3. One department's opportunity (Seine-Maritime, 53,034.5) differs by rounding convention from a recomputed value; the supplied value is used.
-4. `validation_report.json` in the handoff covers the handoff data only; it was not reused as evidence for the site.
-
-## Decisions taken where the brief left room
-
-- The Monitor tab is unavailable until a simulation exists (clicking it opens the plan).
-- Advisor answers for an ordinary department in Monitor mode show the "No selected intervention in this area" text rather than a cluster-level package outcome, to avoid showing another area's result.
-- The combined P1 + P2 figure is computed from fixed target populations and added to France-level answers; it is not in the prepared text.
-- Added a "Historical evidence" drawer (IQVIA cumulative 65+ dispensing and acts, kept separate; Medic'AM reimbursed packs by product family) and an "Intervention plan" header button so the plan is reachable at any time.
-- Plan and outcome prints omit the trend charts to keep within two pages; the tables carry the same values as the screen.
-- Session state is saved in `sessionStorage` only, under a versioned key, and removed whenever the app is back in its starting state.
-
-## Assets still to confirm
-
-- **Logo:** copied verbatim from the Sanofi corporate site header (source recorded in `src/assets/README.md`). Confirm you are comfortable with that source, or drop in a brand-approved file under the same name.
-- **Boundaries:** `france-geojson` (IGN Admin Express 2018, Licence Ouverte per the repository README). Source, hash and attribution are recorded in `src/assets/README.md`.
+- **The interactive print dialog's Cancel button was not exercised.** PDF export used the same print stylesheet through the browser engine, but a real dialog and its cancel action were not driven. The state-restoring `afterprint` handler is covered by reasoning and the reload check, not by watching the dialog. Do one real Save as PDF and one Cancel on the presentation machine.
+- **Keyboard and screen-reader use** are designed in (focus rings, labels, skip links, text and letter cues for clusters) but not tested with assistive technology; contrast was set by hand, not measured.
+- **Browsers:** Chrome only (headless). Edge and Safari were not tried.
+- **Synthetic populations** for non-featured departments are not realistic for some areas (see `docs/CLUSTER_RULES.md`). They affect only the Opportunity map and tooltips, and are shown rounded. Replace with a sourced dataset before any wider use.
+- **Cluster ranges still overlap** in coverage between Access-constrained and Activation gap, by design. A reviewer may ask why two profiles with similar coverage differ; the answer is area type and driver pattern, and the rural list is an authored judgement, not data.
+- **Efluelda commercial conclusion** relies on share data only, as the brief requires; no volume or revenue is inferred.
+- The brief asks to preserve the existing deployment workflow. The workflow deploys on push to `main`; this revision is committed and pushed by the same route (see the report in chat for the deployment result).

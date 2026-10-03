@@ -3,7 +3,7 @@ import { geoConicConformal, geoPath } from 'd3-geo';
 import type { FeatureCollection, Geometry } from 'geojson';
 import geoRaw from '../assets/departements.geojson?raw';
 import { DEPT_BY_CODE, CLUSTER_BY_ID, CLUSTER_GLYPH, METRO_DEPARTMENTS, PACKAGE_BY_ID } from '../lib/data';
-import { ctxKey, fmtInt, fmtPct, opportunityOf } from '../lib/calc';
+import { fmtEst, fmtPct, opportunityOf } from '../lib/calc';
 import type { ClusterId, Context, MapView, PackageId } from '../lib/types';
 
 const W = 560;
@@ -13,8 +13,10 @@ type Props = {
   view: MapView;
   ctx: Context;
   packageIds: PackageId[];
-  packageMode: 'draft' | 'simulation';
+  packageMode: 'draft' | 'followup';
   onSelectDepartment: (code: string) => void;
+  /** Compact locator: smaller footprint, no package markers. */
+  compact?: boolean;
 };
 
 const geo = JSON.parse(geoRaw) as FeatureCollection<Geometry, { code: string; nom: string }>;
@@ -61,33 +63,7 @@ export function opportunityColor(v: number | null): string {
   return lerp(OPP_LO, OPP_HI, t);
 }
 
-export const PATTERN_ID: Record<ClusterId, string> = {
-  access: 'pat-access',
-  activation: 'pat-activation',
-  enhanced: 'pat-enhanced',
-  strong: 'pat-strong',
-};
-
-export function ClusterPatternDefs() {
-  return (
-    <defs>
-      <pattern id={PATTERN_ID.access} width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-        <line x1="0" y1="0" x2="0" y2="6" stroke="#fff" strokeWidth="1.6" strokeOpacity="0.55" />
-      </pattern>
-      <pattern id={PATTERN_ID.activation} width="6" height="6" patternUnits="userSpaceOnUse">
-        <circle cx="3" cy="3" r="1.1" fill="#fff" fillOpacity="0.65" />
-      </pattern>
-      <pattern id={PATTERN_ID.enhanced} width="7" height="7" patternUnits="userSpaceOnUse">
-        <path d="M0 3.5H7M3.5 0V7" stroke="#fff" strokeWidth="1.1" strokeOpacity="0.55" />
-      </pattern>
-      <pattern id={PATTERN_ID.strong} width="6" height="6" patternUnits="userSpaceOnUse">
-        <line x1="0" y1="3" x2="6" y2="3" stroke="#fff" strokeWidth="1.4" strokeOpacity="0.55" />
-      </pattern>
-    </defs>
-  );
-}
-
-export default function FranceMap({ view, ctx, packageIds, packageMode, onSelectDepartment }: Props) {
+export default function FranceMap({ view, ctx, packageIds, packageMode, onSelectDepartment, compact = false }: Props) {
   const [hover, setHover] = useState<{ code: string; x: number; y: number } | null>(null);
   const selectedCode = ctx.kind === 'department' ? ctx.code : null;
   const activeCluster: ClusterId | null =
@@ -95,24 +71,26 @@ export default function FranceMap({ view, ctx, packageIds, packageMode, onSelect
 
   const markers = useMemo(
     () =>
-      packageIds
-        .map((id) => PACKAGE_BY_ID.get(id)!)
-        .map((p) => ({ id: p.id, f: features.find((f) => f.code === p.department_code) }))
-        .filter((m) => m.f),
-    [packageIds],
+      compact
+        ? []
+        : packageIds
+            .map((id) => PACKAGE_BY_ID.get(id)!)
+            .map((p) => ({ id: p.id, f: features.find((f) => f.code === p.department_code) }))
+            .filter((m) => m.f),
+    [packageIds, compact],
   );
 
   const hovered = hover ? DEPT_BY_CODE.get(hover.code) : null;
+  const selFeature = selectedCode ? features.find((f) => f.code === selectedCode) : null;
 
   return (
-    <div className="map-wrap">
+    <div className={`map-wrap${compact ? ' compact' : ''}`}>
       <svg
         viewBox={`0 0 ${W} ${H}`}
         className="france-map"
         role="group"
         aria-label="Map of metropolitan France by department. Select a department to update the evidence and advisor."
       >
-        <ClusterPatternDefs />
         {features.map((f) => {
           const d = DEPT_BY_CODE.get(f.code);
           if (!d) return null;
@@ -121,49 +99,41 @@ export default function FranceMap({ view, ctx, packageIds, packageMode, onSelect
           if (view === 'coverage') fill = coverageColor(d.historical.vcr_65plus);
           else if (view === 'opportunity') fill = opportunityColor(opportunityOf(d));
           else fill = CLUSTER_BY_ID.get(cid)!.color;
-          const muted = ctx.kind === 'cluster' ? cid !== ctx.id : false;
+          const muted = view === 'clusters' && activeCluster != null && cid !== activeCluster;
           const selected = selectedCode === f.code;
-          const inCluster = activeCluster === cid;
           return (
-            <g key={f.code}>
-              <path
-                d={f.d}
-                fill={fill}
-                className={`dept${selected ? ' selected' : ''}${muted ? ' muted' : ''}${d.featured ? ' featured' : ''}`}
-                tabIndex={0}
-                role="button"
-                aria-pressed={selected}
-                aria-label={`${d.name}, ${d.code}. 65+ coverage ${fmtPct(d.historical.vcr_65plus)}. Illustrative cluster: ${CLUSTER_BY_ID.get(cid)!.name}.`}
-                onClick={() => onSelectDepartment(f.code)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    onSelectDepartment(f.code);
-                  }
-                }}
-                onMouseMove={(e) => {
-                  const r = (e.currentTarget.ownerSVGElement!.parentElement as HTMLElement).getBoundingClientRect();
-                  setHover({ code: f.code, x: e.clientX - r.left, y: e.clientY - r.top });
-                }}
-                onMouseLeave={() => setHover(null)}
-                onFocus={(e) => {
-                  const r = (e.currentTarget.ownerSVGElement!.parentElement as HTMLElement).getBoundingClientRect();
-                  const b = e.currentTarget.getBoundingClientRect();
-                  setHover({ code: f.code, x: b.left - r.left + b.width / 2, y: b.top - r.top });
-                }}
-                onBlur={() => setHover(null)}
-              />
-              {view === 'clusters' && (
-                <path d={f.d} fill={`url(#${PATTERN_ID[cid]})`} className={`dept-pattern${muted ? ' muted' : ''}`} pointerEvents="none" />
-              )}
-              {inCluster && !selected && ctx.kind === 'department' && view !== 'clusters' && null}
-            </g>
+            <path
+              key={f.code}
+              d={f.d}
+              fill={fill}
+              className={`dept${selected ? ' selected' : ''}${muted ? ' muted' : ''}`}
+              tabIndex={compact ? -1 : 0}
+              role="button"
+              aria-pressed={selected}
+              aria-label={`${d.name}, ${d.code}. 65+ coverage ${fmtPct(d.historical.vcr_65plus)}. Cluster ${CLUSTER_GLYPH[cid]}: ${CLUSTER_BY_ID.get(cid)!.name}.`}
+              onClick={() => onSelectDepartment(f.code)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onSelectDepartment(f.code);
+                }
+              }}
+              onMouseMove={(e) => {
+                const r = (e.currentTarget.ownerSVGElement!.parentElement as HTMLElement).getBoundingClientRect();
+                setHover({ code: f.code, x: e.clientX - r.left, y: e.clientY - r.top });
+              }}
+              onMouseLeave={() => setHover(null)}
+              onFocus={(e) => {
+                const r = (e.currentTarget.ownerSVGElement!.parentElement as HTMLElement).getBoundingClientRect();
+                const b = e.currentTarget.getBoundingClientRect();
+                setHover({ code: f.code, x: b.left - r.left + b.width / 2, y: b.top - r.top });
+              }}
+              onBlur={() => setHover(null)}
+            />
           );
         })}
         {/* selected boundary drawn last so the outline is not covered by neighbours */}
-        {selectedCode && (
-          <path d={features.find((f) => f.code === selectedCode)?.d} className="dept-outline" pointerEvents="none" />
-        )}
+        {selFeature && <path d={selFeature.d} className="dept-outline" pointerEvents="none" />}
         {markers.map((m) => (
           <g key={m.id} transform={`translate(${m.f!.centroid[0]},${m.f!.centroid[1]})`} pointerEvents="none">
             <circle r="13" className={`pkg-marker ${packageMode}`} />
@@ -174,29 +144,26 @@ export default function FranceMap({ view, ctx, packageIds, packageMode, onSelect
         ))}
       </svg>
       {hover && hovered && (
-        <div className="map-tip" style={{ left: Math.min(hover.x + 12, 380), top: Math.max(hover.y - 8, 0) }} role="tooltip">
+        <div className="map-tip" style={{ left: Math.min(hover.x + 12, compact ? 120 : 280), top: Math.max(hover.y - 8, 0) }} role="tooltip">
           <strong>
             {hovered.name} <span className="muted">({hovered.code})</span>
           </strong>
           <div>
-            65+ coverage 2025–26: <b>{fmtPct(hovered.historical.vcr_65plus)}</b> <span className="tag public">Public</span>
+            65+ coverage 2025–26: <b>{fmtPct(hovered.historical.vcr_65plus)}</b>
           </div>
           <div>
             <span className="glyph" style={{ background: CLUSTER_BY_ID.get(hovered.illustrative.cluster_id)!.color }}>
               {CLUSTER_GLYPH[hovered.illustrative.cluster_id]}
             </span>{' '}
-            {CLUSTER_BY_ID.get(hovered.illustrative.cluster_id)!.name} <span className="tag synthetic">Illustrative</span>
+            {CLUSTER_BY_ID.get(hovered.illustrative.cluster_id)!.name}
           </div>
           {view === 'opportunity' && (
             <div>
-              Illustrative opportunity: <b>{fmtInt(opportunityOf(hovered))}</b> people
+              Unvaccinated 65+ (estimate): <b>{fmtEst(opportunityOf(hovered))}</b>
             </div>
           )}
         </div>
       )}
-      <span className="sr-only" aria-live="polite">
-        {ctxKey(ctx)}
-      </span>
     </div>
   );
 }
