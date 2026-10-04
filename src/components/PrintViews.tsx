@@ -93,17 +93,19 @@ function PlanPrint() {
             </p>
             <table className="print-table">
               <thead>
-                <tr><th>Actions</th><th>Owners</th></tr>
+                <tr><th>Action</th><th>Owner / support</th></tr>
               </thead>
               <tbody>
-                <tr>
-                  <td><ol>{k.actions.map((a) => <li key={a}>{a}</li>)}</ol></td>
-                  <td><ul>{k.roles.map((r) => <li key={r}>{r}</li>)}</ul></td>
-                </tr>
+                {k.action_rows.map((r) => (
+                  <tr key={r.action}>
+                    <td>{r.action}</td>
+                    <td>{r.owner}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
             <p className="print-note">
-              <b>Footprint.</b> {k.target_sites} participating sites; about {fmtEst(k.target_population_65plus)} adults aged 65+ in the defined catchments. {k.footprint_note}
+              <b>Footprint.</b> {k.target_sites} participating sites; about {fmtEst(k.target_population_65plus)} adults aged 65+ in the defined catchments. {k.footprint_note} {k.notes.join(' ')}
             </p>
           </div>
         ))}

@@ -7,3 +7,5 @@ qa-output
 
 qa-output-prod
 
+scripts/_*.mjs
+scratch

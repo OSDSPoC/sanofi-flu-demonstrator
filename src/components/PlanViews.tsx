@@ -12,7 +12,7 @@ import {
   UI,
   packageForDepartment,
 } from '../lib/data';
-import { GAP_TO_TARGET, NATIONAL_CHANGE_PP, clusterMembers, clusterStats, ctxClusterId, fmtEst, fmtPct, fmtPp, fmtSigned, gapTo75, metroOpportunityTotal } from '../lib/calc';
+import { opportunityOf, GAP_TO_TARGET, NATIONAL_CHANGE_PP, clusterMembers, clusterStats, ctxClusterId, fmtEst, fmtPct, fmtPp, fmtSigned, gapTo75, metroOpportunityTotal } from '../lib/calc';
 import { departmentSeries, medianSeries, seasonLabel, SEASONS } from '../lib/history';
 import type { ClusterId, MapView } from '../lib/types';
 import { useApp, useDispatch } from '../state';
@@ -111,13 +111,17 @@ function Legend({ view, small = false }: { view: MapView; small?: boolean }) {
   if (view === 'opportunity') {
     return (
       <div className="legend">
-        <h3>Unvaccinated adults 65+ (estimate)</h3>
+        <h3>Estimated unvaccinated adults aged 65+</h3>
         <div className="ramp" style={{ background: `linear-gradient(90deg, ${opportunityColor(0)}, ${opportunityColor(OPP_MAX)})` }} />
         <div className="ramp-scale">
           <span>0</span>
           <span>{fmtEst(OPP_MAX)}</span>
         </div>
-        {!small && <p className="legend-note">Estimated 65+ population × (1 − coverage). Metropolitan total about {fmtEst(metroOpportunityTotal())}.</p>}
+        {!small && (
+          <p className="legend-note">
+            Population aged 65+ at 1 January 2026 (INSEE) × (1 − 2025–26 coverage). Metropolitan departments total about {fmtEst(metroOpportunityTotal())}. An estimate of people not yet vaccinated, not a priority score.
+          </p>
+        )}
       </div>
     );
   }
@@ -432,6 +436,11 @@ function DepartmentView({ code }: { code: string }) {
               <em>{fmtPp(i.observed_minus_expected_pp)} observed vs expected</em>
             </div>
           </div>
+          {Math.abs(i.observed_minus_expected_pp ?? 0) >= 5 && (
+            <p className="note resid-note">
+              Coverage is {fmtPp(Math.abs(i.observed_minus_expected_pp ?? 0)).replace('+', '')} {(i.observed_minus_expected_pp ?? 0) < 0 ? 'below' : 'above'} what its enabling conditions suggest: a question to investigate with local partners.
+            </p>
+          )}
           <div className="dept-cols">
             <div>
               <h3 className="sub">Coverage by age</h3>
@@ -471,7 +480,7 @@ function DepartmentView({ code }: { code: string }) {
             <ValueBar label="Efluelda share of enhanced dispensing" value={i.efluelda_share_of_enhanced_dispensing_pct} display={`${i.efluelda_share_of_enhanced_dispensing_pct}%`} color="#00A6A6" />
             <p className="note">Different denominators: all 65+ flu doses, then enhanced doses only.</p>
             <p className="note">
-              Estimated 65+ population about {fmtEst(i.eligible_population_65plus)}; about {fmtEst(i.unvaccinated_opportunity)} not yet vaccinated (population × (1 − coverage)).
+              Population aged 65+ about {fmtEst(i.eligible_population_65plus)} (INSEE, 1 January 2026); an estimated {fmtEst(opportunityOf(d))} not yet vaccinated (population × (1 − 2025–26 coverage)).
             </p>
             <div className="row-actions">
               <button type="button" className="btn small" onClick={() => dispatch({ type: 'drawer', drawer: 'history' })}>

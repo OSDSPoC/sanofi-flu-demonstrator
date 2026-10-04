@@ -1,0 +1,520 @@
+{
+ "source": "INSEE, Estimation de la population au 1er janvier 2026",
+ "table": "Estimation de population au 1er janvier, par département, sexe et âge quinquennal",
+ "page_url": "https://www.insee.fr/fr/statistiques/8721456",
+ "file_url": "https://www.insee.fr/fr/statistiques/fichier/8721456/estim-pop-dep-sexe-aq-1975-2026.xlsx",
+ "file_sha256": "ca025f0e6ba84d76da4c91001d8528b0cb9ab079f7b72b094e5c185c29cda091",
+ "reference_date": "2026-01-01",
+ "data_updated": "2025-12-23 (early results to end 2025)",
+ "acquired": "2026-10-04",
+ "definition": "Population aged 65 and over = sum of the age bands 65–69, 70–74, 75–79, 80–84, 85–89, 90–94 and 95+, both sexes. Age is the age reached on 1 January.",
+ "geography": "Department codes as published by INSEE; Rhône (69) covers the whole department including the Métropole de Lyon; Corsica as 2A and 2B.",
+ "coverage_season_paired": "2025–26",
+ "departments": {
+  "10": {
+   "name": "Aube",
+   "pop_65plus": 73276,
+   "pop_total": 307946
+  },
+  "11": {
+   "name": "Aude",
+   "pop_65plus": 110543,
+   "pop_total": 381829
+  },
+  "12": {
+   "name": "Aveyron",
+   "pop_65plus": 81058,
+   "pop_total": 278384
+  },
+  "13": {
+   "name": "Bouches-du-Rhône",
+   "pop_65plus": 478203,
+   "pop_total": 2119367
+  },
+  "14": {
+   "name": "Calvados",
+   "pop_65plus": 175454,
+   "pop_total": 718525
+  },
+  "15": {
+   "name": "Cantal",
+   "pop_65plus": 45156,
+   "pop_total": 143807
+  },
+  "16": {
+   "name": "Charente",
+   "pop_65plus": 99115,
+   "pop_total": 352694
+  },
+  "17": {
+   "name": "Charente-Maritime",
+   "pop_65plus": 211881,
+   "pop_total": 686414
+  },
+  "18": {
+   "name": "Cher",
+   "pop_65plus": 82213,
+   "pop_total": 295279
+  },
+  "19": {
+   "name": "Corrèze",
+   "pop_65plus": 71822,
+   "pop_total": 241707
+  },
+  "21": {
+   "name": "Côte-d'Or",
+   "pop_65plus": 125726,
+   "pop_total": 542484
+  },
+  "22": {
+   "name": "Côtes-d'Armor",
+   "pop_65plus": 176984,
+   "pop_total": 617550
+  },
+  "23": {
+   "name": "Creuse",
+   "pop_65plus": 37513,
+   "pop_total": 114943
+  },
+  "24": {
+   "name": "Dordogne",
+   "pop_65plus": 133783,
+   "pop_total": 421332
+  },
+  "25": {
+   "name": "Doubs",
+   "pop_65plus": 118568,
+   "pop_total": 546618
+  },
+  "26": {
+   "name": "Drôme",
+   "pop_65plus": 130103,
+   "pop_total": 528418
+  },
+  "27": {
+   "name": "Eure",
+   "pop_65plus": 133194,
+   "pop_total": 603667
+  },
+  "28": {
+   "name": "Eure-et-Loir",
+   "pop_65plus": 98315,
+   "pop_total": 433197
+  },
+  "29": {
+   "name": "Finistère",
+   "pop_65plus": 247163,
+   "pop_total": 945340
+  },
+  "30": {
+   "name": "Gard",
+   "pop_65plus": 201565,
+   "pop_total": 786657
+  },
+  "31": {
+   "name": "Haute-Garonne",
+   "pop_65plus": 272495,
+   "pop_total": 1519613
+  },
+  "32": {
+   "name": "Gers",
+   "pop_65plus": 57970,
+   "pop_total": 192488
+  },
+  "33": {
+   "name": "Gironde",
+   "pop_65plus": 366796,
+   "pop_total": 1735915
+  },
+  "34": {
+   "name": "Hérault",
+   "pop_65plus": 299764,
+   "pop_total": 1264791
+  },
+  "35": {
+   "name": "Ille-et-Vilaine",
+   "pop_65plus": 224692,
+   "pop_total": 1148210
+  },
+  "36": {
+   "name": "Indre",
+   "pop_65plus": 65296,
+   "pop_total": 212712
+  },
+  "37": {
+   "name": "Indre-et-Loire",
+   "pop_65plus": 148773,
+   "pop_total": 624278
+  },
+  "38": {
+   "name": "Isère",
+   "pop_65plus": 270131,
+   "pop_total": 1316321
+  },
+  "39": {
+   "name": "Jura",
+   "pop_65plus": 66849,
+   "pop_total": 256448
+  },
+  "40": {
+   "name": "Landes",
+   "pop_65plus": 122836,
+   "pop_total": 446475
+  },
+  "41": {
+   "name": "Loir-et-Cher",
+   "pop_65plus": 88990,
+   "pop_total": 326899
+  },
+  "42": {
+   "name": "Loire",
+   "pop_65plus": 186270,
+   "pop_total": 777397
+  },
+  "43": {
+   "name": "Haute-Loire",
+   "pop_65plus": 61917,
+   "pop_total": 229372
+  },
+  "44": {
+   "name": "Loire-Atlantique",
+   "pop_65plus": 307324,
+   "pop_total": 1522543
+  },
+  "45": {
+   "name": "Loiret",
+   "pop_65plus": 154583,
+   "pop_total": 696921
+  },
+  "46": {
+   "name": "Lot",
+   "pop_65plus": 58769,
+   "pop_total": 177544
+  },
+  "47": {
+   "name": "Lot-et-Garonne",
+   "pop_65plus": 95752,
+   "pop_total": 335539
+  },
+  "48": {
+   "name": "Lozère",
+   "pop_65plus": 22011,
+   "pop_total": 76442
+  },
+  "49": {
+   "name": "Maine-et-Loire",
+   "pop_65plus": 187045,
+   "pop_total": 843530
+  },
+  "50": {
+   "name": "Manche",
+   "pop_65plus": 138746,
+   "pop_total": 498153
+  },
+  "51": {
+   "name": "Marne",
+   "pop_65plus": 125002,
+   "pop_total": 556991
+  },
+  "52": {
+   "name": "Haute-Marne",
+   "pop_65plus": 45915,
+   "pop_total": 164723
+  },
+  "53": {
+   "name": "Mayenne",
+   "pop_65plus": 73954,
+   "pop_total": 303649
+  },
+  "54": {
+   "name": "Meurthe-et-Moselle",
+   "pop_65plus": 157606,
+   "pop_total": 729051
+  },
+  "55": {
+   "name": "Meuse",
+   "pop_65plus": 46606,
+   "pop_total": 177105
+  },
+  "56": {
+   "name": "Morbihan",
+   "pop_65plus": 225539,
+   "pop_total": 798958
+  },
+  "57": {
+   "name": "Moselle",
+   "pop_65plus": 235584,
+   "pop_total": 1049746
+  },
+  "58": {
+   "name": "Nièvre",
+   "pop_65plus": 63185,
+   "pop_total": 199498
+  },
+  "59": {
+   "name": "Nord",
+   "pop_65plus": 508286,
+   "pop_total": 2613295
+  },
+  "60": {
+   "name": "Oise",
+   "pop_65plus": 159393,
+   "pop_total": 826785
+  },
+  "61": {
+   "name": "Orne",
+   "pop_65plus": 78379,
+   "pop_total": 271549
+  },
+  "62": {
+   "name": "Pas-de-Calais",
+   "pop_65plus": 314884,
+   "pop_total": 1448930
+  },
+  "63": {
+   "name": "Puy-de-Dôme",
+   "pop_65plus": 159862,
+   "pop_total": 664282
+  },
+  "64": {
+   "name": "Pyrénées-Atlantiques",
+   "pop_65plus": 191201,
+   "pop_total": 723077
+  },
+  "65": {
+   "name": "Hautes-Pyrénées",
+   "pop_65plus": 67562,
+   "pop_total": 232323
+  },
+  "66": {
+   "name": "Pyrénées-Orientales",
+   "pop_65plus": 145417,
+   "pop_total": 509332
+  },
+  "67": {
+   "name": "Bas-Rhin",
+   "pop_65plus": 245675,
+   "pop_total": 1174367
+  },
+  "68": {
+   "name": "Haut-Rhin",
+   "pop_65plus": 175637,
+   "pop_total": 771128
+  },
+  "69": {
+   "name": "Rhône",
+   "pop_65plus": 357270,
+   "pop_total": 1937017
+  },
+  "70": {
+   "name": "Haute-Saône",
+   "pop_65plus": 60312,
+   "pop_total": 231130
+  },
+  "71": {
+   "name": "Saône-et-Loire",
+   "pop_65plus": 154877,
+   "pop_total": 547965
+  },
+  "72": {
+   "name": "Sarthe",
+   "pop_65plus": 137752,
+   "pop_total": 565033
+  },
+  "73": {
+   "name": "Savoie",
+   "pop_65plus": 105327,
+   "pop_total": 455152
+  },
+  "74": {
+   "name": "Haute-Savoie",
+   "pop_65plus": 163681,
+   "pop_total": 884180
+  },
+  "75": {
+   "name": "Paris",
+   "pop_65plus": 391472,
+   "pop_total": 2047602
+  },
+  "76": {
+   "name": "Seine-Maritime",
+   "pop_65plus": 284371,
+   "pop_total": 1261832
+  },
+  "77": {
+   "name": "Seine-et-Marne",
+   "pop_65plus": 247276,
+   "pop_total": 1502094
+  },
+  "78": {
+   "name": "Yvelines",
+   "pop_65plus": 269808,
+   "pop_total": 1514418
+  },
+  "79": {
+   "name": "Deux-Sèvres",
+   "pop_65plus": 96952,
+   "pop_total": 374788
+  },
+  "80": {
+   "name": "Somme",
+   "pop_65plus": 127481,
+   "pop_total": 560761
+  },
+  "81": {
+   "name": "Tarn",
+   "pop_65plus": 111473,
+   "pop_total": 402529
+  },
+  "82": {
+   "name": "Tarn-et-Garonne",
+   "pop_65plus": 64919,
+   "pop_total": 267905
+  },
+  "83": {
+   "name": "Var",
+   "pop_65plus": 327221,
+   "pop_total": 1148634
+  },
+  "84": {
+   "name": "Vaucluse",
+   "pop_65plus": 146766,
+   "pop_total": 579423
+  },
+  "85": {
+   "name": "Vendée",
+   "pop_65plus": 202804,
+   "pop_total": 730471
+  },
+  "86": {
+   "name": "Vienne",
+   "pop_65plus": 106360,
+   "pop_total": 436529
+  },
+  "87": {
+   "name": "Haute-Vienne",
+   "pop_65plus": 100678,
+   "pop_total": 372371
+  },
+  "88": {
+   "name": "Vosges",
+   "pop_65plus": 96648,
+   "pop_total": 351794
+  },
+  "89": {
+   "name": "Yonne",
+   "pop_65plus": 89007,
+   "pop_total": 329814
+  },
+  "90": {
+   "name": "Territoire de Belfort",
+   "pop_65plus": 30843,
+   "pop_total": 140086
+  },
+  "91": {
+   "name": "Essonne",
+   "pop_65plus": 224781,
+   "pop_total": 1364840
+  },
+  "92": {
+   "name": "Hauts-de-Seine",
+   "pop_65plus": 281409,
+   "pop_total": 1675904
+  },
+  "93": {
+   "name": "Seine-Saint-Denis",
+   "pop_65plus": 242985,
+   "pop_total": 1745657
+  },
+  "94": {
+   "name": "Val-de-Marne",
+   "pop_65plus": 243606,
+   "pop_total": 1439001
+  },
+  "95": {
+   "name": "Val-d'Oise",
+   "pop_65plus": 204660,
+   "pop_total": 1304986
+  },
+  "971": {
+   "name": "Guadeloupe ",
+   "pop_65plus": 96875,
+   "pop_total": 382586
+  },
+  "972": {
+   "name": "Martinique ",
+   "pop_65plus": 95974,
+   "pop_total": 358818
+  },
+  "973": {
+   "name": "Guyane",
+   "pop_65plus": 24161,
+   "pop_total": 298554
+  },
+  "974": {
+   "name": "La Réunion",
+   "pop_65plus": 149568,
+   "pop_total": 910985
+  },
+  "976": {
+   "name": "Mayotte",
+   "pop_65plus": 9042,
+   "pop_total": 338208
+  },
+  "01": {
+   "name": "Ain",
+   "pop_65plus": 137984,
+   "pop_total": 698810
+  },
+  "02": {
+   "name": "Aisne",
+   "pop_65plus": 118949,
+   "pop_total": 515993
+  },
+  "03": {
+   "name": "Allier",
+   "pop_65plus": 98442,
+   "pop_total": 330281
+  },
+  "04": {
+   "name": "Alpes-de-Haute-Provence",
+   "pop_65plus": 48870,
+   "pop_total": 170438
+  },
+  "05": {
+   "name": "Hautes-Alpes",
+   "pop_65plus": 41265,
+   "pop_total": 145889
+  },
+  "06": {
+   "name": "Alpes-Maritimes",
+   "pop_65plus": 299370,
+   "pop_total": 1154619
+  },
+  "07": {
+   "name": "Ardèche",
+   "pop_65plus": 93082,
+   "pop_total": 338154
+  },
+  "08": {
+   "name": "Ardennes",
+   "pop_65plus": 64865,
+   "pop_total": 261420
+  },
+  "09": {
+   "name": "Ariège",
+   "pop_65plus": 45472,
+   "pop_total": 157151
+  },
+  "2A": {
+   "name": "Corse-du-Sud",
+   "pop_65plus": 45817,
+   "pop_total": 175148
+  },
+  "2B": {
+   "name": "Haute-Corse",
+   "pop_65plus": 50446,
+   "pop_total": 190488
+  }
+ }
+}

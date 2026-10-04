@@ -84,13 +84,13 @@ export function clusterStats(id: ClusterId): ClusterStats {
     min: vals.length ? Math.min(...vals) : null,
     max: vals.length ? Math.max(...vals) : null,
     medianVcr: median(vals),
-    opportunity: members.reduce((s, d) => s + (d.illustrative.unvaccinated_opportunity ?? 0), 0),
+    opportunity: members.reduce((s, d) => s + (opportunityOf(d) ?? 0), 0),
     missing: members.length - vals.length,
   };
 }
 
 export function metroOpportunityTotal(): number {
-  return METRO_DEPARTMENTS.reduce((s, d) => s + (d.illustrative.unvaccinated_opportunity ?? 0), 0);
+  return METRO_DEPARTMENTS.reduce((s, d) => s + (opportunityOf(d) ?? 0), 0);
 }
 
 /* ---------- context helpers ---------- */
@@ -189,6 +189,9 @@ export function dataThroughFor(week: Week): string {
   return checkpointDates(week).data_through;
 }
 
+/** Estimated unvaccinated adults aged 65+: population 65+ × (1 − coverage), at full precision. Null when either input is missing. */
 export function opportunityOf(d: Department): number | null {
-  return d.illustrative.unvaccinated_opportunity;
+  const pop = d.illustrative.eligible_population_65plus;
+  const v = d.historical.vcr_65plus;
+  return pop == null || v == null ? null : pop * (1 - v / 100);
 }

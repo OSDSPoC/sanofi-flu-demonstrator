@@ -444,6 +444,20 @@ input, textarea { font: inherit; color: inherit; }
 @media (max-width: 720px) {
   .tiles, .tiles.four { grid-template-columns: 1fr 1fr; }
 }
+/* action / owner table */
+.action-table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 8px 0; background: #fff; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.action-table th { text-align: left; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); background: var(--lav); padding: 6px 10px; }
+.action-table td { padding: 7px 10px; vertical-align: top; border-top: 1px solid var(--line); }
+.action-table td:first-child { width: 52%; font-weight: 600; }
+.action-table td:last-child { color: var(--ink-2); }
+.msg .action-table { font-size: 13px; }
+.resid-note { margin: 2px 0 6px; }
+@media (max-width: 720px) {
+  .action-table thead { display: none; }
+  .action-table, .action-table tbody, .action-table tr, .action-table td { display: block; width: 100%; }
+  .action-table td:first-child { width: 100%; border-top: 1px solid var(--line); padding-bottom: 2px; }
+  .action-table td:last-child { padding-top: 0; }
+}
 /* ---------- print ----------
    Rules are scoped to #print-root so the same layout can be previewed on screen
    (add class "preview-print" to <body>) and used by the browser print dialog. */

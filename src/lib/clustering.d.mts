@@ -1,0 +1,10 @@
+export type FeatureName = 'access' | 'availability' | 'engagement' | 'recommendation' | 'enhanced_adoption';
+export type ProfileId = 'access' | 'activation' | 'enhanced' | 'strong';
+export type FeatureVector = Record<FeatureName, number>;
+export const FEATURES: FeatureName[];
+export const REFERENCE_PROFILES: Record<ProfileId, FeatureVector>;
+export const FEATURE_SCALE: Record<FeatureName, number>;
+export const FEATURE_WEIGHT: Record<FeatureName, number>;
+export const PROFILE_ORDER: ProfileId[];
+export function distances(vec: FeatureVector): Record<ProfileId, number>;
+export function assignProfile(vec: FeatureVector): ProfileId;

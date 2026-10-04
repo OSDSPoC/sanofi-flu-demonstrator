@@ -1,16 +1,15 @@
 {
   "provenance": "synthetic",
-  "assignment_method": "Authored rule-based assignment (coverage, age profile and a rural flag), with synthetic driver profiles. Not fitted clustering. See docs/CLUSTER_RULES.md.",
+  "assignment_method": "Nearest reference profile by weighted Euclidean distance on five synthetic features (access, availability, engagement, recommendation, enhanced-vaccine share). Authored demonstration content, not fitted clustering. See docs/CLUSTER_RULES.md.",
   "clusters": [
     {
       "id": "access",
       "name": "Access-constrained",
       "color": "#7652C5",
-      "description": "Weaker access and availability conditions, often in lower-density areas, with provider engagement close to average.",
+      "description": "Weaker access and delivery conditions; provider engagement need not be weak.",
       "defining_features": [
         "Lower access and availability indexes",
-        "Provider engagement close to average",
-        "Coverage below the national level"
+        "Engagement and recommendation closer to average"
       ],
       "potentially_influenceable": [
         "Appointment information",
@@ -18,27 +17,34 @@
         "Availability review"
       ],
       "context": [
-        "Rurality and travel conditions",
+        "Travel and local delivery conditions",
         "Age mix of the 65+ population"
       ],
       "default_package": "P1",
-      "expected_vcr": 55,
+      "expected_vcr": 54,
       "driver_template": [
-        39,
-        62,
-        66,
-        50,
-        49
+        45,
+        54,
+        61,
+        53,
+        53
       ],
       "interpretation": "Check delivery conditions before assuming reluctance to vaccinate.",
       "shared_approach": [
-        "Confirm delivery capacity and appointment information with local providers",
+        "Coordinate delivery capacity and appointment information with local providers",
         "Review pharmacy availability and travel barriers",
         "Use existing local channels to communicate where and when to vaccinate"
       ],
       "common_pattern": "Access and availability are the weakest enabling conditions; engagement and recommendation are closer to average.",
       "featured_department": "43",
-      "member_count": 31
+      "member_count": 28,
+      "reference_profile": {
+        "access": 38,
+        "availability": 48,
+        "engagement": 62,
+        "recommendation": 50,
+        "enhanced_adoption": 46
+      }
     },
     {
       "id": "activation",
@@ -60,13 +66,13 @@
         "Previous uptake"
       ],
       "default_package": "P2",
-      "expected_vcr": 54.7,
+      "expected_vcr": 55.3,
       "driver_template": [
-        67,
-        34,
-        61,
-        83,
-        39
+        71,
+        42,
+        64,
+        76,
+        44
       ],
       "interpretation": "Access alone may not explain the gap; look at recommendation, relevance and follow-through.",
       "shared_approach": [
@@ -76,15 +82,22 @@
       ],
       "common_pattern": "Access and availability are relatively strong, while provider engagement and recommendation are weak.",
       "featured_department": "93",
-      "member_count": 21
+      "member_count": 22,
+      "reference_profile": {
+        "access": 68,
+        "availability": 82,
+        "engagement": 36,
+        "recommendation": 40,
+        "enhanced_adoption": 43
+      }
     },
     {
       "id": "enhanced",
       "name": "Enhanced-vaccine adoption gap",
       "color": "#E7A33E",
-      "description": "Reasonable coverage and delivery conditions, with lower adoption of enhanced vaccines among adults aged 65+.",
+      "description": "Reasonable delivery conditions, with lower adoption of enhanced vaccines among adults aged 65+.",
       "defining_features": [
-        "Reasonable overall coverage",
+        "Reasonable access and engagement",
         "Lower enhanced-vaccine share of dispensing",
         "Recommendation implementation uncertain"
       ],
@@ -98,33 +111,40 @@
         "Established channel patterns"
       ],
       "default_package": "P3",
-      "expected_vcr": 60.1,
+      "expected_vcr": 57.4,
       "driver_template": [
-        72,
-        65,
+        67,
         64,
-        69,
-        50
+        62,
+        72,
+        62
       ],
       "interpretation": "Separate implementation of the category recommendation from Efluelda brand performance.",
       "shared_approach": [
-        "Brief teams on the equivalent HAS positioning of Efluelda and Fluad",
+        "Implement the 65+ recommendation: brief teams on the equivalent HAS positioning of Efluelda and Fluad",
         "Review the local pathway and availability of recommended options",
         "Record what prevents consistent implementation; Commercial reviews brand questions separately"
       ],
-      "common_pattern": "Access and engagement are reasonable, but recommendation is mixed and the enhanced-vaccine share of dispensing is the lowest of the four profiles.",
+      "common_pattern": "Delivery conditions are reasonable and recommendation is mixed, while the enhanced-vaccine share of dispensing is the lowest of the four profiles.",
       "featured_department": "69",
-      "member_count": 29
+      "member_count": 30,
+      "reference_profile": {
+        "access": 72,
+        "availability": 69,
+        "engagement": 65,
+        "recommendation": 52,
+        "enhanced_adoption": 36
+      }
     },
     {
       "id": "strong",
       "name": "Strong delivery",
       "color": "#4777B6",
-      "description": "Favourable enabling conditions and generally stronger observed uptake.",
+      "description": "Stronger delivery and engagement enabling conditions. Observed coverage varies, so remaining gaps are questions to investigate.",
       "defining_features": [
         "Stronger access and availability",
         "Stronger engagement and recommendation",
-        "Coverage at or above 60%"
+        "Higher enhanced-vaccine share"
       ],
       "potentially_influenceable": [
         "Sharing delivery practices",
@@ -135,24 +155,92 @@
         "Historical uptake"
       ],
       "default_package": null,
-      "expected_vcr": 63.7,
+      "expected_vcr": 60.2,
       "driver_template": [
-        81,
-        77,
-        76,
-        90,
-        80
+        75,
+        75,
+        62,
+        79,
+        72
       ],
-      "interpretation": "Look for transferable practices, and test whether they would work in different local conditions.",
+      "interpretation": "Maintain execution, investigate remaining cohort gaps and share useful practices, checking whether they transfer to other conditions.",
       "shared_approach": [
-        "Document the delivery practices behind stronger uptake",
-        "Test whether they transfer to areas with different conditions",
-        "Monitor remaining cohort gaps"
+        "Maintain execution and document the delivery practices that are working",
+        "Investigate remaining cohort gaps with local partners",
+        "Test whether useful practices transfer to areas with different conditions"
       ],
       "common_pattern": "Access, availability, engagement and recommendation are all favourable.",
       "featured_department": "29",
-      "member_count": 15
+      "member_count": 16,
+      "reference_profile": {
+        "access": 82,
+        "availability": 90,
+        "engagement": 78,
+        "recommendation": 80,
+        "enhanced_adoption": 56
+      }
     }
   ],
-  "driver_scale": "0–100 index; higher means stronger enabling conditions"
+  "driver_scale": "0–100 index; higher means stronger enabling conditions",
+  "reference_profiles": {
+    "access": {
+      "access": 38,
+      "availability": 48,
+      "engagement": 62,
+      "recommendation": 50,
+      "enhanced_adoption": 46
+    },
+    "activation": {
+      "access": 68,
+      "availability": 82,
+      "engagement": 36,
+      "recommendation": 40,
+      "enhanced_adoption": 43
+    },
+    "enhanced": {
+      "access": 72,
+      "availability": 69,
+      "engagement": 65,
+      "recommendation": 52,
+      "enhanced_adoption": 36
+    },
+    "strong": {
+      "access": 82,
+      "availability": 90,
+      "engagement": 78,
+      "recommendation": 80,
+      "enhanced_adoption": 56
+    }
+  },
+  "feature_scale": {
+    "access": 20,
+    "availability": 20,
+    "engagement": 20,
+    "recommendation": 20,
+    "enhanced_adoption": 10
+  },
+  "feature_weight": {
+    "access": 1,
+    "availability": 1,
+    "engagement": 1,
+    "recommendation": 1,
+    "enhanced_adoption": 1
+  },
+  "expected_coverage_rule": {
+    "base": 56,
+    "centre": {
+      "access": 62,
+      "availability": 68,
+      "engagement": 56,
+      "recommendation": 55,
+      "enhanced_adoption": 44
+    },
+    "weight": {
+      "access": 0.06,
+      "availability": 0.05,
+      "engagement": 0.06,
+      "recommendation": 0.07,
+      "enhanced_adoption": 0.025
+    }
+  }
 }

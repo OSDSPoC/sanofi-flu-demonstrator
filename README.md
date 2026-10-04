@@ -2,7 +2,7 @@
 
 A static, interactive demonstrator built for a Sanofi meeting with Public Affairs colleagues from France, Italy and Spain. France is the worked market and Efluelda, Sanofi's high-dose influenza vaccine, is the product anchor.
 
-**Demonstrator · public and synthetic data.** Official coverage, IQVIA, Medic'AM and HAS material are real public data. Populations, driver scores, enhanced/Efluelda shares, cluster assignments, activity logs and every 2026–27 follow-up value are synthetic. There is no live model, backend, database, map tiles or API key. The advisor gives prepared answers.
+**Demonstrator · public and synthetic data.** Official coverage, IQVIA, Medic'AM and HAS material are real public data. Driver scores, enhanced/Efluelda shares, cluster assignments, activity logs and every 2026–27 follow-up value are synthetic. There is no live model, backend, database, map tiles or API key. The advisor gives prepared answers.
 
 ## Run it
 
@@ -11,7 +11,7 @@ npm install
 npm run dev        # development server (http://localhost:5173)
 npm run build      # type-check + production build into dist/
 npm run preview    # serve the production build locally
-npm test           # unit tests (64)
+npm test           # unit tests (73)
 npm run qa         # browser walkthrough with screenshots and PDFs (needs the app running; see below)
 ```
 
@@ -28,7 +28,7 @@ Requires Node 18+ (built and tested on Node 24).
 | Plan views (France, cluster, department) | `src/components/PlanViews.tsx`, `FranceMap.tsx` |
 | Follow-up views (date strip, package card) and outcome tables | `src/components/Monitor.tsx`, `Outcome.tsx` |
 | Advisor, drawers, print layouts | `Advisor.tsx`, `Drawers.tsx`, `PrintViews.tsx` |
-| Cluster rules and generator | `docs/CLUSTER_RULES.md`, `scripts/rebuild-clusters.mjs` |
+| Cluster features, assignment and population (INSEE) | `docs/CLUSTER_RULES.md`, `src/lib/clustering.mjs`, `scripts/rebuild-clusters.mjs`, `scripts/build-population.mjs` |
 | Local assets and their provenance | `src/assets/`, `src/assets/README.md` |
 | Tests | `tests/` |
 
@@ -65,7 +65,7 @@ node scripts/verify-subpath.mjs --serve  # same, but keeps the server up for a b
 
 ## Honest limits
 
-- Clusters are an authored, rule-based grouping with designed driver scores, not fitted clustering. No fit statistics, feature importance or validation claims are made.
+- Clusters are an authored grouping: each area goes to the nearest of four reference profiles on designed features. It is not fitted clustering. No fit statistics, feature importance or validation claims are made.
 - Dispensing proxies are not official coverage or confirmed administration. Differences between participating and comparison catchments are signals for review, not causal effects. No revenue, margin or ROI is shown.
 - HAS positions Efluelda and Fluad equivalently for adults aged 65+. Nothing here compares them clinically.
 - Playbooks are OpenSky-authored examples, not Sanofi documents. The 2026–27 dates are scenario checkpoints.

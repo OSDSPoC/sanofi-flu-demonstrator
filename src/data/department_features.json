@@ -1,0 +1,920 @@
+{
+ "provenance": "synthetic demonstration content",
+ "design": {
+  "seed": 20261004,
+  "method": "Seeded random vectors from three latent factors (delivery, engagement, adoption) with a modest tilt towards observed coverage, applied at authoring time only. Profiles are assigned afterwards from these features alone.",
+  "tilt": {
+   "delivery": 0.5,
+   "engagement": 0.5,
+   "adoption": 0.3
+  },
+  "centres": {
+   "access": 62,
+   "availability": 68,
+   "engagement": 56,
+   "recommendation": 55,
+   "enhanced_adoption": 44,
+   "confidence": 62,
+   "efluelda_share": 68
+  },
+  "featured_fixed": [
+   "29",
+   "43",
+   "69",
+   "93"
+  ]
+ },
+ "features": {
+  "10": {
+   "access": 61,
+   "availability": 69,
+   "engagement": 70,
+   "recommendation": 65,
+   "enhanced_adoption": 32,
+   "confidence": 53,
+   "efluelda_share": 64
+  },
+  "11": {
+   "access": 44,
+   "availability": 49,
+   "engagement": 51,
+   "recommendation": 47,
+   "enhanced_adoption": 38,
+   "confidence": 40,
+   "efluelda_share": 64
+  },
+  "12": {
+   "access": 74,
+   "availability": 68,
+   "engagement": 64,
+   "recommendation": 64,
+   "enhanced_adoption": 40,
+   "confidence": 58,
+   "efluelda_share": 66
+  },
+  "13": {
+   "access": 62,
+   "availability": 61,
+   "engagement": 45,
+   "recommendation": 42,
+   "enhanced_adoption": 45,
+   "confidence": 66,
+   "efluelda_share": 62
+  },
+  "14": {
+   "access": 71,
+   "availability": 75,
+   "engagement": 75,
+   "recommendation": 73,
+   "enhanced_adoption": 47,
+   "confidence": 71,
+   "efluelda_share": 65
+  },
+  "15": {
+   "access": 64,
+   "availability": 76,
+   "engagement": 62,
+   "recommendation": 63,
+   "enhanced_adoption": 51,
+   "confidence": 68,
+   "efluelda_share": 63
+  },
+  "16": {
+   "access": 57,
+   "availability": 65,
+   "engagement": 77,
+   "recommendation": 72,
+   "enhanced_adoption": 47,
+   "confidence": 69,
+   "efluelda_share": 72
+  },
+  "17": {
+   "access": 57,
+   "availability": 64,
+   "engagement": 79,
+   "recommendation": 77,
+   "enhanced_adoption": 51,
+   "confidence": 52,
+   "efluelda_share": 64
+  },
+  "18": {
+   "access": 90,
+   "availability": 97,
+   "engagement": 43,
+   "recommendation": 47,
+   "enhanced_adoption": 30,
+   "confidence": 62,
+   "efluelda_share": 68
+  },
+  "19": {
+   "access": 71,
+   "availability": 79,
+   "engagement": 48,
+   "recommendation": 44,
+   "enhanced_adoption": 41,
+   "confidence": 72,
+   "efluelda_share": 60
+  },
+  "21": {
+   "access": 53,
+   "availability": 57,
+   "engagement": 63,
+   "recommendation": 67,
+   "enhanced_adoption": 60,
+   "confidence": 69,
+   "efluelda_share": 67
+  },
+  "22": {
+   "access": 66,
+   "availability": 69,
+   "engagement": 84,
+   "recommendation": 83,
+   "enhanced_adoption": 69,
+   "confidence": 70,
+   "efluelda_share": 64
+  },
+  "23": {
+   "access": 79,
+   "availability": 84,
+   "engagement": 39,
+   "recommendation": 47,
+   "enhanced_adoption": 43,
+   "confidence": 64,
+   "efluelda_share": 65
+  },
+  "24": {
+   "access": 65,
+   "availability": 86,
+   "engagement": 73,
+   "recommendation": 59,
+   "enhanced_adoption": 42,
+   "confidence": 63,
+   "efluelda_share": 77
+  },
+  "25": {
+   "access": 75,
+   "availability": 74,
+   "engagement": 67,
+   "recommendation": 57,
+   "enhanced_adoption": 40,
+   "confidence": 65,
+   "efluelda_share": 66
+  },
+  "26": {
+   "access": 43,
+   "availability": 52,
+   "engagement": 77,
+   "recommendation": 76,
+   "enhanced_adoption": 34,
+   "confidence": 64,
+   "efluelda_share": 70
+  },
+  "27": {
+   "access": 67,
+   "availability": 74,
+   "engagement": 53,
+   "recommendation": 58,
+   "enhanced_adoption": 51,
+   "confidence": 67,
+   "efluelda_share": 69
+  },
+  "28": {
+   "access": 73,
+   "availability": 72,
+   "engagement": 49,
+   "recommendation": 48,
+   "enhanced_adoption": 54,
+   "confidence": 59,
+   "efluelda_share": 78
+  },
+  "29": {
+   "access": 83,
+   "availability": 90,
+   "engagement": 81,
+   "recommendation": 82,
+   "enhanced_adoption": 65,
+   "confidence": 73,
+   "efluelda_share": 71
+  },
+  "30": {
+   "access": 72,
+   "availability": 78,
+   "engagement": 97,
+   "recommendation": 91,
+   "enhanced_adoption": 38,
+   "confidence": 65,
+   "efluelda_share": 78
+  },
+  "31": {
+   "access": 67,
+   "availability": 77,
+   "engagement": 55,
+   "recommendation": 56,
+   "enhanced_adoption": 27,
+   "confidence": 54,
+   "efluelda_share": 72
+  },
+  "32": {
+   "access": 49,
+   "availability": 59,
+   "engagement": 50,
+   "recommendation": 42,
+   "enhanced_adoption": 35,
+   "confidence": 70,
+   "efluelda_share": 63
+  },
+  "33": {
+   "access": 69,
+   "availability": 76,
+   "engagement": 68,
+   "recommendation": 78,
+   "enhanced_adoption": 25,
+   "confidence": 55,
+   "efluelda_share": 70
+  },
+  "34": {
+   "access": 46,
+   "availability": 57,
+   "engagement": 55,
+   "recommendation": 57,
+   "enhanced_adoption": 38,
+   "confidence": 66,
+   "efluelda_share": 64
+  },
+  "35": {
+   "access": 73,
+   "availability": 84,
+   "engagement": 91,
+   "recommendation": 89,
+   "enhanced_adoption": 33,
+   "confidence": 62,
+   "efluelda_share": 68
+  },
+  "36": {
+   "access": 43,
+   "availability": 56,
+   "engagement": 39,
+   "recommendation": 39,
+   "enhanced_adoption": 38,
+   "confidence": 59,
+   "efluelda_share": 71
+  },
+  "37": {
+   "access": 66,
+   "availability": 76,
+   "engagement": 68,
+   "recommendation": 61,
+   "enhanced_adoption": 58,
+   "confidence": 50,
+   "efluelda_share": 73
+  },
+  "38": {
+   "access": 84,
+   "availability": 76,
+   "engagement": 65,
+   "recommendation": 66,
+   "enhanced_adoption": 55,
+   "confidence": 64,
+   "efluelda_share": 72
+  },
+  "39": {
+   "access": 40,
+   "availability": 55,
+   "engagement": 42,
+   "recommendation": 43,
+   "enhanced_adoption": 33,
+   "confidence": 63,
+   "efluelda_share": 70
+  },
+  "40": {
+   "access": 74,
+   "availability": 84,
+   "engagement": 78,
+   "recommendation": 76,
+   "enhanced_adoption": 51,
+   "confidence": 56,
+   "efluelda_share": 70
+  },
+  "41": {
+   "access": 57,
+   "availability": 71,
+   "engagement": 59,
+   "recommendation": 60,
+   "enhanced_adoption": 41,
+   "confidence": 71,
+   "efluelda_share": 64
+  },
+  "42": {
+   "access": 70,
+   "availability": 77,
+   "engagement": 70,
+   "recommendation": 66,
+   "enhanced_adoption": 43,
+   "confidence": 51,
+   "efluelda_share": 74
+  },
+  "43": {
+   "access": 35,
+   "availability": 48,
+   "engagement": 62,
+   "recommendation": 45,
+   "enhanced_adoption": 44,
+   "confidence": 67,
+   "efluelda_share": 69
+  },
+  "44": {
+   "access": 68,
+   "availability": 68,
+   "engagement": 48,
+   "recommendation": 57,
+   "enhanced_adoption": 60,
+   "confidence": 72,
+   "efluelda_share": 73
+  },
+  "45": {
+   "access": 64,
+   "availability": 60,
+   "engagement": 82,
+   "recommendation": 84,
+   "enhanced_adoption": 50,
+   "confidence": 56,
+   "efluelda_share": 71
+  },
+  "46": {
+   "access": 37,
+   "availability": 49,
+   "engagement": 51,
+   "recommendation": 47,
+   "enhanced_adoption": 48,
+   "confidence": 59,
+   "efluelda_share": 67
+  },
+  "47": {
+   "access": 52,
+   "availability": 60,
+   "engagement": 64,
+   "recommendation": 68,
+   "enhanced_adoption": 35,
+   "confidence": 59,
+   "efluelda_share": 72
+  },
+  "48": {
+   "access": 62,
+   "availability": 80,
+   "engagement": 49,
+   "recommendation": 57,
+   "enhanced_adoption": 43,
+   "confidence": 45,
+   "efluelda_share": 71
+  },
+  "49": {
+   "access": 83,
+   "availability": 97,
+   "engagement": 40,
+   "recommendation": 47,
+   "enhanced_adoption": 36,
+   "confidence": 57,
+   "efluelda_share": 69
+  },
+  "50": {
+   "access": 56,
+   "availability": 66,
+   "engagement": 94,
+   "recommendation": 77,
+   "enhanced_adoption": 46,
+   "confidence": 52,
+   "efluelda_share": 61
+  },
+  "51": {
+   "access": 89,
+   "availability": 91,
+   "engagement": 60,
+   "recommendation": 57,
+   "enhanced_adoption": 62,
+   "confidence": 63,
+   "efluelda_share": 71
+  },
+  "52": {
+   "access": 46,
+   "availability": 63,
+   "engagement": 68,
+   "recommendation": 56,
+   "enhanced_adoption": 45,
+   "confidence": 51,
+   "efluelda_share": 71
+  },
+  "53": {
+   "access": 45,
+   "availability": 54,
+   "engagement": 44,
+   "recommendation": 49,
+   "enhanced_adoption": 45,
+   "confidence": 59,
+   "efluelda_share": 65
+  },
+  "54": {
+   "access": 83,
+   "availability": 88,
+   "engagement": 71,
+   "recommendation": 66,
+   "enhanced_adoption": 55,
+   "confidence": 63,
+   "efluelda_share": 74
+  },
+  "55": {
+   "access": 68,
+   "availability": 64,
+   "engagement": 74,
+   "recommendation": 69,
+   "enhanced_adoption": 33,
+   "confidence": 75,
+   "efluelda_share": 64
+  },
+  "56": {
+   "access": 71,
+   "availability": 69,
+   "engagement": 60,
+   "recommendation": 69,
+   "enhanced_adoption": 39,
+   "confidence": 72,
+   "efluelda_share": 72
+  },
+  "57": {
+   "access": 59,
+   "availability": 67,
+   "engagement": 49,
+   "recommendation": 48,
+   "enhanced_adoption": 35,
+   "confidence": 74,
+   "efluelda_share": 67
+  },
+  "58": {
+   "access": 66,
+   "availability": 62,
+   "engagement": 59,
+   "recommendation": 55,
+   "enhanced_adoption": 54,
+   "confidence": 63,
+   "efluelda_share": 66
+  },
+  "59": {
+   "access": 50,
+   "availability": 44,
+   "engagement": 77,
+   "recommendation": 71,
+   "enhanced_adoption": 58,
+   "confidence": 68,
+   "efluelda_share": 58
+  },
+  "60": {
+   "access": 70,
+   "availability": 79,
+   "engagement": 45,
+   "recommendation": 46,
+   "enhanced_adoption": 42,
+   "confidence": 69,
+   "efluelda_share": 69
+  },
+  "61": {
+   "access": 49,
+   "availability": 63,
+   "engagement": 48,
+   "recommendation": 51,
+   "enhanced_adoption": 57,
+   "confidence": 49,
+   "efluelda_share": 70
+  },
+  "62": {
+   "access": 73,
+   "availability": 79,
+   "engagement": 73,
+   "recommendation": 78,
+   "enhanced_adoption": 37,
+   "confidence": 65,
+   "efluelda_share": 69
+  },
+  "63": {
+   "access": 28,
+   "availability": 31,
+   "engagement": 47,
+   "recommendation": 40,
+   "enhanced_adoption": 46,
+   "confidence": 76,
+   "efluelda_share": 75
+  },
+  "64": {
+   "access": 47,
+   "availability": 65,
+   "engagement": 73,
+   "recommendation": 72,
+   "enhanced_adoption": 44,
+   "confidence": 44,
+   "efluelda_share": 72
+  },
+  "65": {
+   "access": 94,
+   "availability": 95,
+   "engagement": 53,
+   "recommendation": 43,
+   "enhanced_adoption": 46,
+   "confidence": 62,
+   "efluelda_share": 66
+  },
+  "66": {
+   "access": 46,
+   "availability": 47,
+   "engagement": 56,
+   "recommendation": 55,
+   "enhanced_adoption": 37,
+   "confidence": 63,
+   "efluelda_share": 72
+  },
+  "67": {
+   "access": 41,
+   "availability": 54,
+   "engagement": 32,
+   "recommendation": 39,
+   "enhanced_adoption": 28,
+   "confidence": 65,
+   "efluelda_share": 71
+  },
+  "68": {
+   "access": 54,
+   "availability": 53,
+   "engagement": 53,
+   "recommendation": 51,
+   "enhanced_adoption": 43,
+   "confidence": 66,
+   "efluelda_share": 72
+  },
+  "69": {
+   "access": 73,
+   "availability": 69,
+   "engagement": 66,
+   "recommendation": 49,
+   "enhanced_adoption": 40,
+   "confidence": 62,
+   "efluelda_share": 70
+  },
+  "70": {
+   "access": 47,
+   "availability": 55,
+   "engagement": 27,
+   "recommendation": 26,
+   "enhanced_adoption": 37,
+   "confidence": 59,
+   "efluelda_share": 72
+  },
+  "71": {
+   "access": 77,
+   "availability": 71,
+   "engagement": 46,
+   "recommendation": 51,
+   "enhanced_adoption": 37,
+   "confidence": 65,
+   "efluelda_share": 65
+  },
+  "72": {
+   "access": 82,
+   "availability": 84,
+   "engagement": 44,
+   "recommendation": 47,
+   "enhanced_adoption": 53,
+   "confidence": 62,
+   "efluelda_share": 72
+  },
+  "73": {
+   "access": 35,
+   "availability": 49,
+   "engagement": 68,
+   "recommendation": 64,
+   "enhanced_adoption": 28,
+   "confidence": 65,
+   "efluelda_share": 72
+  },
+  "74": {
+   "access": 51,
+   "availability": 62,
+   "engagement": 38,
+   "recommendation": 37,
+   "enhanced_adoption": 36,
+   "confidence": 58,
+   "efluelda_share": 65
+  },
+  "75": {
+   "access": 97,
+   "availability": 97,
+   "engagement": 25,
+   "recommendation": 36,
+   "enhanced_adoption": 44,
+   "confidence": 47,
+   "efluelda_share": 61
+  },
+  "76": {
+   "access": 97,
+   "availability": 97,
+   "engagement": 51,
+   "recommendation": 54,
+   "enhanced_adoption": 60,
+   "confidence": 65,
+   "efluelda_share": 69
+  },
+  "77": {
+   "access": 69,
+   "availability": 65,
+   "engagement": 45,
+   "recommendation": 41,
+   "enhanced_adoption": 43,
+   "confidence": 72,
+   "efluelda_share": 60
+  },
+  "78": {
+   "access": 83,
+   "availability": 96,
+   "engagement": 66,
+   "recommendation": 58,
+   "enhanced_adoption": 53,
+   "confidence": 70,
+   "efluelda_share": 65
+  },
+  "79": {
+   "access": 97,
+   "availability": 97,
+   "engagement": 63,
+   "recommendation": 62,
+   "enhanced_adoption": 33,
+   "confidence": 49,
+   "efluelda_share": 65
+  },
+  "80": {
+   "access": 55,
+   "availability": 60,
+   "engagement": 51,
+   "recommendation": 55,
+   "enhanced_adoption": 52,
+   "confidence": 62,
+   "efluelda_share": 74
+  },
+  "81": {
+   "access": 63,
+   "availability": 73,
+   "engagement": 62,
+   "recommendation": 65,
+   "enhanced_adoption": 57,
+   "confidence": 62,
+   "efluelda_share": 75
+  },
+  "82": {
+   "access": 74,
+   "availability": 64,
+   "engagement": 51,
+   "recommendation": 58,
+   "enhanced_adoption": 52,
+   "confidence": 74,
+   "efluelda_share": 68
+  },
+  "83": {
+   "access": 71,
+   "availability": 73,
+   "engagement": 54,
+   "recommendation": 46,
+   "enhanced_adoption": 27,
+   "confidence": 67,
+   "efluelda_share": 64
+  },
+  "84": {
+   "access": 60,
+   "availability": 71,
+   "engagement": 71,
+   "recommendation": 77,
+   "enhanced_adoption": 43,
+   "confidence": 54,
+   "efluelda_share": 77
+  },
+  "85": {
+   "access": 50,
+   "availability": 63,
+   "engagement": 71,
+   "recommendation": 71,
+   "enhanced_adoption": 47,
+   "confidence": 59,
+   "efluelda_share": 63
+  },
+  "86": {
+   "access": 89,
+   "availability": 83,
+   "engagement": 94,
+   "recommendation": 87,
+   "enhanced_adoption": 50,
+   "confidence": 67,
+   "efluelda_share": 74
+  },
+  "87": {
+   "access": 96,
+   "availability": 95,
+   "engagement": 55,
+   "recommendation": 54,
+   "enhanced_adoption": 41,
+   "confidence": 69,
+   "efluelda_share": 67
+  },
+  "88": {
+   "access": 75,
+   "availability": 71,
+   "engagement": 44,
+   "recommendation": 47,
+   "enhanced_adoption": 36,
+   "confidence": 64,
+   "efluelda_share": 69
+  },
+  "89": {
+   "access": 67,
+   "availability": 70,
+   "engagement": 32,
+   "recommendation": 36,
+   "enhanced_adoption": 43,
+   "confidence": 55,
+   "efluelda_share": 67
+  },
+  "90": {
+   "access": 42,
+   "availability": 46,
+   "engagement": 48,
+   "recommendation": 38,
+   "enhanced_adoption": 28,
+   "confidence": 54,
+   "efluelda_share": 66
+  },
+  "91": {
+   "access": 51,
+   "availability": 68,
+   "engagement": 65,
+   "recommendation": 59,
+   "enhanced_adoption": 29,
+   "confidence": 48,
+   "efluelda_share": 71
+  },
+  "92": {
+   "access": 57,
+   "availability": 53,
+   "engagement": 59,
+   "recommendation": 52,
+   "enhanced_adoption": 35,
+   "confidence": 43,
+   "efluelda_share": 66
+  },
+  "93": {
+   "access": 66,
+   "availability": 86,
+   "engagement": 34,
+   "recommendation": 40,
+   "enhanced_adoption": 43,
+   "confidence": 62,
+   "efluelda_share": 66
+  },
+  "94": {
+   "access": 57,
+   "availability": 57,
+   "engagement": 44,
+   "recommendation": 43,
+   "enhanced_adoption": 34,
+   "confidence": 65,
+   "efluelda_share": 66
+  },
+  "95": {
+   "access": 41,
+   "availability": 54,
+   "engagement": 64,
+   "recommendation": 68,
+   "enhanced_adoption": 55,
+   "confidence": 60,
+   "efluelda_share": 70
+  },
+  "971": {
+   "access": 8,
+   "availability": 8,
+   "engagement": 8,
+   "recommendation": 8,
+   "enhanced_adoption": 25,
+   "confidence": 69,
+   "efluelda_share": 61
+  },
+  "972": {
+   "access": 8,
+   "availability": 8,
+   "engagement": 8,
+   "recommendation": 8,
+   "enhanced_adoption": 25,
+   "confidence": 65,
+   "efluelda_share": 65
+  },
+  "973": {
+   "access": 8,
+   "availability": 8,
+   "engagement": 8,
+   "recommendation": 8,
+   "enhanced_adoption": 25,
+   "confidence": 72,
+   "efluelda_share": 68
+  },
+  "01": {
+   "access": 62,
+   "availability": 72,
+   "engagement": 57,
+   "recommendation": 46,
+   "enhanced_adoption": 39,
+   "confidence": 71,
+   "efluelda_share": 68
+  },
+  "02": {
+   "access": 53,
+   "availability": 55,
+   "engagement": 41,
+   "recommendation": 53,
+   "enhanced_adoption": 36,
+   "confidence": 61,
+   "efluelda_share": 71
+  },
+  "03": {
+   "access": 38,
+   "availability": 56,
+   "engagement": 30,
+   "recommendation": 38,
+   "enhanced_adoption": 46,
+   "confidence": 61,
+   "efluelda_share": 66
+  },
+  "04": {
+   "access": 61,
+   "availability": 59,
+   "engagement": 37,
+   "recommendation": 31,
+   "enhanced_adoption": 38,
+   "confidence": 82,
+   "efluelda_share": 60
+  },
+  "05": {
+   "access": 57,
+   "availability": 52,
+   "engagement": 77,
+   "recommendation": 66,
+   "enhanced_adoption": 36,
+   "confidence": 43,
+   "efluelda_share": 67
+  },
+  "06": {
+   "access": 52,
+   "availability": 46,
+   "engagement": 52,
+   "recommendation": 64,
+   "enhanced_adoption": 47,
+   "confidence": 55,
+   "efluelda_share": 72
+  },
+  "07": {
+   "access": 52,
+   "availability": 62,
+   "engagement": 52,
+   "recommendation": 56,
+   "enhanced_adoption": 36,
+   "confidence": 54,
+   "efluelda_share": 58
+  },
+  "08": {
+   "access": 72,
+   "availability": 71,
+   "engagement": 62,
+   "recommendation": 69,
+   "enhanced_adoption": 40,
+   "confidence": 76,
+   "efluelda_share": 78
+  },
+  "09": {
+   "access": 64,
+   "availability": 71,
+   "engagement": 43,
+   "recommendation": 34,
+   "enhanced_adoption": 37,
+   "confidence": 73,
+   "efluelda_share": 70
+  },
+  "2A": {
+   "access": 41,
+   "availability": 44,
+   "engagement": 30,
+   "recommendation": 35,
+   "enhanced_adoption": 31,
+   "confidence": 62,
+   "efluelda_share": 68
+  },
+  "2B": {
+   "access": 81,
+   "availability": 89,
+   "engagement": 61,
+   "recommendation": 56,
+   "enhanced_adoption": 44,
+   "confidence": 66,
+   "efluelda_share": 72
+  }
+ }
+}

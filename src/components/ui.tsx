@@ -95,3 +95,24 @@ export function ValueBar({ value, max = 100, color, label, display, marker }: { 
     </div>
   );
 }
+
+export function ActionOwnerTable({ rows, className = '' }: { rows: { action: string; owner: string }[]; className?: string }) {
+  return (
+    <table className={`action-table ${className}`}>
+      <thead>
+        <tr>
+          <th scope="col">Action</th>
+          <th scope="col">Owner / support</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr key={r.action}>
+            <td data-label="Action">{r.action}</td>
+            <td data-label="Owner / support">{r.owner}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+}

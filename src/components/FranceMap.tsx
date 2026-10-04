@@ -39,7 +39,7 @@ const features = geo.features.map((f) => ({
 const vcrValues = METRO_DEPARTMENTS.map((d) => d.historical.vcr_65plus).filter((v): v is number => v != null);
 export const VCR_MIN = Math.floor(Math.min(...vcrValues));
 export const VCR_MAX = Math.ceil(Math.max(...vcrValues));
-const oppValues = METRO_DEPARTMENTS.map((d) => d.illustrative.unvaccinated_opportunity ?? 0);
+const oppValues = METRO_DEPARTMENTS.map((d) => opportunityOf(d) ?? 0);
 export const OPP_MAX = Math.max(...oppValues);
 
 function lerp(a: number[], b: number[], t: number): string {
@@ -159,7 +159,7 @@ export default function FranceMap({ view, ctx, packageIds, packageMode, onSelect
           </div>
           {view === 'opportunity' && (
             <div>
-              Unvaccinated 65+ (estimate): <b>{fmtEst(opportunityOf(hovered))}</b>
+              Estimated unvaccinated adults 65+: <b>{fmtEst(opportunityOf(hovered))}</b>
             </div>
           )}
         </div>

@@ -40,9 +40,9 @@
       "hypothesis": "Coordinating existing capacity and making vaccination access clearer may improve uptake in participating catchments.",
       "actions": [
         "Confirm appointment capacity with participating providers",
-        "Distribute clear local appointment information through existing channels",
+        "Share clear local appointment information through existing channels",
         "Review availability at participating pharmacies",
-        "Discuss unresolved delivery barriers with local stakeholders"
+        "Record site activation and review execution and dispensing trends fortnightly"
       ],
       "rationale": "Access index 35/100 and availability index 48/100 point to delivery conditions worth investigating. Coverage is 50.7%.",
       "primary_metric": "Pharmacy-dispensing proxy per 10,000 people aged 65+ in fixed participating catchments",
@@ -113,11 +113,25 @@
           "execution": "11 sites active; one site remains delayed and availability still warrants follow-up."
         }
       ],
-      "roles": [
-        "Market Access coordinates delivery with local providers and partners",
-        "Public Affairs supports stakeholder coordination",
-        "Commercial separately checks product availability"
-      ]
+      "action_rows": [
+        {
+          "action": "Confirm appointment capacity with participating providers",
+          "owner": "Market Access coordinates with providers"
+        },
+        {
+          "action": "Share clear local appointment information through existing channels",
+          "owner": "Public Affairs supports partners and local stakeholders"
+        },
+        {
+          "action": "Review availability at participating pharmacies",
+          "owner": "Participating pharmacies, with Market Access; Commercial separately checks product availability"
+        },
+        {
+          "action": "Record site activation and review execution and dispensing trends fortnightly",
+          "owner": "Public Affairs coordinates the team review; participating sites record execution; Market Access supports delivery issues"
+        }
+      ],
+      "notes": []
     },
     {
       "id": "P2",
@@ -134,10 +148,10 @@
       "target_sites": 20,
       "hypothesis": "Where access is available but recommendation and follow-through are weaker, coordinated provider recommendations, community information and reminders may help more eligible older adults complete vaccination.",
       "actions": [
-        "Medical supports a short briefing for participating pharmacies and practices on proactive recommendations to eligible adults aged 65+.",
-        "Public Affairs coordinates existing community partners to share clear information about eligibility and local vaccination access.",
-        "Participating providers use their own reminder processes to help eligible adults follow through.",
-        "The team records which sites have started the activities and reviews execution and dispensing trends fortnightly."
+        "Brief participating pharmacies and practices on proactive recommendations to eligible adults aged 65+",
+        "Share clear eligibility and local vaccination-access information through existing community partners",
+        "Use providers’ existing reminder processes to help eligible adults follow through",
+        "Record site activation and review execution and dispensing trends fortnightly"
       ],
       "rationale": "Coverage is 46.4%, with a larger gap among adults aged 65–74 than those aged 75+. Access (66) and availability (86) are relatively strong, while provider engagement (34) and recommendation (40) are weak. Local partners should validate this interpretation.",
       "primary_metric": "Pharmacy-dispensing proxy per 10,000 people aged 65+ in fixed participating catchments",
@@ -209,12 +223,26 @@
           "execution": "19 sites active; directional comparative improvement is present, while one site and some audiences remain under-reached."
         }
       ],
-      "roles": [
-        "Public Affairs coordinates partners",
-        "Medical supports accurate information",
-        "Participating providers own recommendations, reminders and vaccination delivery",
-        "Market Access supports delivery barriers where relevant",
-        "Patient-level reminder data stay with providers"
+      "action_rows": [
+        {
+          "action": "Brief participating pharmacies and practices on proactive recommendations to eligible adults aged 65+",
+          "owner": "Medical supports the briefing; participating providers implement recommendations"
+        },
+        {
+          "action": "Share clear eligibility and local vaccination-access information through existing community partners",
+          "owner": "Public Affairs coordinates partners, with Medical input"
+        },
+        {
+          "action": "Use providers’ existing reminder processes to help eligible adults follow through",
+          "owner": "Participating providers"
+        },
+        {
+          "action": "Record site activation and review execution and dispensing trends fortnightly",
+          "owner": "Public Affairs coordinates the team review; participating sites record execution; Market Access supports delivery issues"
+        }
+      ],
+      "notes": [
+        "Patient-level reminder data stay with providers."
       ]
     },
     {
@@ -231,10 +259,10 @@
       "target_sites": 15,
       "hypothesis": "Clearer implementation of the French recommendation may increase enhanced-category adoption; brand performance needs a separate assessment.",
       "actions": [
-        "Brief participating teams on equivalent HAS positioning of Efluelda and Fluad",
+        "Brief participating teams on the equivalent HAS positioning of Efluelda and Fluad",
         "Review the local pathway and availability of recommended options",
         "Record questions that prevent consistent implementation",
-        "Investigate Efluelda account availability separately through Commercial"
+        "Investigate Efluelda account availability separately"
       ],
       "rationale": "Coverage is 59.3%. Enhanced vaccines account for 40% of observed 65+ flu dispensing at baseline.",
       "primary_metric": "Enhanced-vaccine share of observed 65+ flu dispensing (%)",
@@ -309,10 +337,26 @@
           "efluelda_share_within_enhanced_pct": 70
         }
       ],
-      "roles": [
-        "Medical and Market Access lead recommendation and pathway education",
-        "Public Affairs supports stakeholder implementation",
-        "Commercial separately investigates Efluelda availability and account execution"
+      "action_rows": [
+        {
+          "action": "Brief participating teams on the equivalent HAS positioning of Efluelda and Fluad",
+          "owner": "Medical leads; Market Access supports"
+        },
+        {
+          "action": "Review the local pathway and availability of recommended options",
+          "owner": "Market Access leads, with participating sites"
+        },
+        {
+          "action": "Record questions that prevent consistent implementation",
+          "owner": "Participating sites record; Public Affairs supports stakeholder follow-up"
+        },
+        {
+          "action": "Investigate Efluelda account availability separately",
+          "owner": "Commercial, separate from the Public Affairs implementation work"
+        }
+      ],
+      "notes": [
+        "Efluelda availability and account execution are Commercial questions; Public Affairs is not assigned sales execution."
       ]
     }
   ],

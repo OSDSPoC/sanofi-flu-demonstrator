@@ -124,7 +124,10 @@ async function session(width, height, tag, withPdf) {
   await s.ask('What can Public Affairs do?');
   await s.ask('Help us design an intervention');
   const design = await s.lastAnswer();
-  check('Design answer: four actions open (no accordion) and owners', (await s.page.evaluate(() => [...document.querySelectorAll('.msg.advisor:not(.welcome)')].pop().querySelectorAll('.actions-list li').length)) === 4 && /Patient-level reminder data stay with providers/.test(design));
+  const rowsInfo = await s.page.evaluate(() => { const m = [...document.querySelectorAll('.msg.advisor:not(.welcome)')].pop(); const rows = [...m.querySelectorAll('.action-table tbody tr')].map((r) => r.innerText); const det = m.querySelector('details.more'); return { rows, cols: m.querySelectorAll('.action-table thead th').length, detailsOpen: det ? det.open : null, tableText: m.querySelector('.action-table')?.innerText ?? '' }; });
+  check('Design answer: four Action / Owner rows shown openly (no accordion), two columns', rowsInfo.rows.length === 4 && rowsInfo.cols === 2 && /Medical supports the briefing; participating providers implement recommendations/.test(rowsInfo.tableText), JSON.stringify(rowsInfo.rows.length));
+  await s.page.evaluate(() => { [...document.querySelectorAll('.msg.advisor:not(.welcome)')].pop().querySelector('details.more').open = true; });
+  check('Patient-level data note is in the details, not an action row', !/Patient-level/.test(rowsInfo.tableText) && /Patient-level reminder data stay with providers/.test(await s.lastAnswer()));
   check('Design answer advisor content visible', await s.advisorVisible());
   await s.shot('06-design');
   await s.click('.msg-actions .btn', 'Add to plan');
@@ -132,7 +135,7 @@ async function session(width, height, tag, withPdf) {
   await s.click('.msg-actions .btn', 'Review plan');
   await s.shot('07-plan');
   const planText = await s.text('.drawer');
-  check('Plan summary shows P2 title, actions, owners, footprint, dates', /Strengthen recommendations and follow-through/.test(planText) && /20 participating sites/.test(planText) && /Medical supports a short briefing/.test(planText) && /Patient-level reminder data stay with providers/.test(planText) && /27 Oct 2026/.test(planText));
+  check('Plan summary shows P2 title, actions, owners, footprint, dates', /Strengthen recommendations and follow-through/.test(planText) && /20 participating sites/.test(planText) && /Brief participating pharmacies and practices/.test(planText) && /Medical supports the briefing/.test(planText) && /Patient-level reminder data stay with providers/.test(planText) && /27 Oct 2026/.test(planText));
   check('Only P2 selected; budget blank', (await page.evaluate(() => document.querySelectorAll('.plan-pkg').length)) === 1 && /Budget: not set/.test(planText));
   check('Edit plan details and Other options are secondary', (await page.evaluate(() => [...document.querySelectorAll('details.fold')].every((d) => !d.open))));
 

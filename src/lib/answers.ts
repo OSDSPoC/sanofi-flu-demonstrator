@@ -198,12 +198,12 @@ function clusterAnswer(id: ClusterId, intent: string): Answer {
       enhanced:
         'These areas have reasonable coverage and delivery conditions, but enhanced vaccines account for a lower share of 65+ dispensing. That points to how the recommendation is being implemented locally. Efluelda’s own performance is a separate question for Commercial.',
       strong:
-        'These areas combine favourable access, engagement and recommendation with generally stronger uptake. They are a source of delivery practices to examine, not an automatic comparator for other areas.',
+        'These areas combine stronger access, availability, engagement and recommendation. Their observed coverage varies, so any remaining gap is a question to investigate, and useful practices are worth sharing rather than assuming they transfer.',
     };
     return {
       ...base,
       title: 'What do these areas have in common?',
-      recommendation: id === 'strong' ? 'Look at what is working before looking for gaps.' : `Start from a shared approach, then check it locally.`,
+      recommendation: id === 'strong' ? 'Maintain execution and look at what is working.' : `Start from a shared approach, then check it locally.`,
       body: [body[id]],
     };
   }
@@ -216,7 +216,7 @@ function clusterAnswer(id: ClusterId, intent: string): Answer {
       enhanced:
         'Use a common implementation framework: brief teams on the equivalent HAS positioning of Efluelda and Fluad, review the local pathway and availability, and record what prevents consistent implementation. Medical and Market Access lead; Commercial examines brand questions separately.',
       strong:
-        'No intervention package is proposed here. Document the practices behind stronger uptake, test whether they transfer to areas with different conditions, and keep monitoring remaining cohort gaps.',
+        'No intervention package is proposed here. Maintain execution, investigate remaining cohort gaps, and document the practices that are working so the team can test whether they transfer.',
     };
     return {
       ...base,
@@ -232,7 +232,7 @@ function clusterAnswer(id: ClusterId, intent: string): Answer {
     title: 'Which evidence informs this?',
     recommendation: `Coverage ranges are public; the ${c.name} profile is a designed grouping.`,
     body: [
-      `Membership follows an authored rule using public coverage, the age profile and area type. Driver scores and the shared approach are demonstration inputs, not fitted results. ${fd.name} is the worked example.`,
+      `Each area is placed in the nearest of four reference profiles by comparing its designed driver scores; public coverage is shown alongside but is not used to assign membership. ${fd.name} is the worked example.`,
     ],
     actions: ['open_sources'],
   };
@@ -250,7 +250,12 @@ function departmentAnswer(code: string, intent: string, selected: PackageId[]): 
     `Expected coverage ${fmtPct(d.illustrative.expected_vcr_65plus)}; observed ${fmtSigned(d.illustrative.observed_minus_expected_pp ?? 0, 1)} pp against it.`,
   ];
   const base = { key, intent, evidence, sourceIds: ['spf_vcr', 'synthetic_model'], actions: ['design_local'] as string[] };
-  const withTail = (b: string[]) => (tail ? [...b, tail] : b);
+  const resid = d.illustrative.observed_minus_expected_pp ?? 0;
+  const residNote =
+    Math.abs(resid) >= 5
+      ? `Coverage is ${Math.abs(resid).toFixed(1)} pp ${resid < 0 ? 'below' : 'above'} what its enabling conditions suggest: a question to investigate with local partners.`
+      : '';
+  const withTail = (b: string[]) => [...b, ...(tail ? [tail] : [])];
 
   if (intent === 'opportunity') {
     const focus: Record<ClusterId, string> = {
@@ -275,7 +280,7 @@ function departmentAnswer(code: string, intent: string, selected: PackageId[]): 
       ...base,
       title: 'Where is the opportunity?',
       recommendation: focus[d.illustrative.cluster_id],
-      body: withTail([`${ageLine(d)} ${reading[d.illustrative.cluster_id]}`, next[d.illustrative.cluster_id]]),
+      body: withTail([`${ageLine(d)} ${reading[d.illustrative.cluster_id]}`, next[d.illustrative.cluster_id], ...(residNote ? [residNote] : [])]),
       actions: pkg ? ['design_local'] : ['design_local'],
     };
   }
@@ -305,10 +310,9 @@ function departmentAnswer(code: string, intent: string, selected: PackageId[]): 
         title: 'Help us design an intervention',
         recommendation: g.rec,
         body: withTail([g.body]),
-        bullets: pkg.actions,
-        roles: pkg.roles,
+        rows: pkg.action_rows,
         actions: [`add_plan:${pkg.id}`, 'review_plan'],
-        evidence: [`${pkg.target_sites} participating sites; ${fmtEst(pkg.target_population_65plus)} adults aged 65+ in the defined catchments. Start 27 October 2026; reviews on 10 November, 24 November and 8 December.`, ...evidence],
+        evidence: [`${pkg.target_sites} participating sites; ${fmtEst(pkg.target_population_65plus)} adults aged 65+ in the defined catchments. Start 27 October 2026; reviews on 10 November, 24 November and 8 December.`, ...pkg.notes, ...evidence],
         sourceIds: pkg.source_ids,
       };
     }

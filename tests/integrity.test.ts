@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import {
   CLUSTERS,
@@ -11,15 +12,18 @@ import {
   PACKAGE_BY_ID,
   SOURCE_BY_ID,
 } from '../src/lib/data';
-import { clusterStats, combinedDoseDifference, fmtEst, GAP_TO_TARGET, packageAt, scopedPackages } from '../src/lib/calc';
+import { clusterStats, combinedDoseDifference, fmtEst, GAP_TO_TARGET, metroOpportunityTotal, opportunityOf, packageAt, scopedPackages } from '../src/lib/calc';
 import { buildAnswer, matchIntent, promptsFor } from '../src/lib/answers';
 import type { Answer, ClusterId, Context, PackageId, Week } from '../src/lib/types';
 import geoRaw from '../src/assets/departements.geojson?raw';
+import features from '../src/data/department_features.json';
+import population from '../src/data/population_65plus.json';
+import { FEATURES, REFERENCE_PROFILES, assignProfile, type FeatureVector } from '../src/lib/clustering.mjs';
 
 const WEEKS: Week[] = [0, 2, 4, 6];
 const SUBSETS: PackageId[][] = [['P1'], ['P2'], ['P3'], ['P1', 'P2'], ['P1', 'P3'], ['P2', 'P3'], ['P1', 'P2', 'P3']];
 const FRANCE: Context = { kind: 'france' };
-const answerText = (a: Answer) => [a.title, a.recommendation, ...a.body, ...(a.bullets ?? []), ...(a.roles ?? []), a.fallback ?? '', ...a.evidence, a.uncertainty ?? ''].join(' ');
+const answerText = (a: Answer) => [a.title, a.recommendation, ...a.body, ...(a.bullets ?? []), ...(a.rows ?? []).flatMap((r) => [r.action, r.owner]), a.fallback ?? '', ...a.evidence, a.uncertainty ?? ''].join(' ');
 
 describe('source data', () => {
   it('national figures and featured public values', () => {
@@ -47,65 +51,157 @@ describe('source data', () => {
   });
 });
 
-describe('cluster story is coherent', () => {
+describe('cluster membership follows features, not coverage', () => {
+  type D = (typeof METRO_DEPARTMENTS)[number];
   const members = (id: ClusterId) => METRO_DEPARTMENTS.filter((d) => d.illustrative.cluster_id === id);
-  const mean = (id: ClusterId, f: (d: (typeof METRO_DEPARTMENTS)[number]) => number) => members(id).reduce((s, d) => s + f(d), 0) / members(id).length;
-  const drv = (k: keyof (typeof METRO_DEPARTMENTS)[number]['illustrative']['driver_indexes']) => (d: (typeof METRO_DEPARTMENTS)[number]) => d.illustrative.driver_indexes[k];
+  const mean = (id: ClusterId, f: (d: D) => number) => members(id).reduce((s, d) => s + f(d), 0) / members(id).length;
+  const drv = (k: keyof D['illustrative']['driver_indexes']) => (d: D) => d.illustrative.driver_indexes[k];
+  const table = (features as { features: Record<string, FeatureVector & { confidence: number; efluelda_share: number }> }).features;
+  const vec = (code: string): FeatureVector => ({ ...table[code] });
 
-  it('four clusters cover all 96 metropolitan departments', () => {
+  it('every department has exactly one profile and the assignment reproduces from the stored features', () => {
+    for (const d of DEPARTMENTS) expect(d.illustrative.cluster_id, d.code).toBe(assignProfile(vec(d.code)));
     expect(CLUSTERS.map((c) => c.id).sort()).toEqual(['access', 'activation', 'enhanced', 'strong']);
     expect(CLUSTERS.reduce((n, c) => n + members(c.id).length, 0)).toBe(96);
-    for (const c of CLUSTERS) expect(clusterStats(c.id).count).toBe(c.member_count);
+    for (const c of CLUSTERS) {
+      expect(members(c.id).length).toBeGreaterThanOrEqual(8);
+      expect(clusterStats(c.id).count).toBe(c.member_count);
+    }
   });
-  it('featured departments keep their agreed profiles', () => {
+  it('the assignment function reads only the five features', () => {
+    const src = readFileSync(new URL('../src/lib/clustering.mjs', import.meta.url), 'utf8').replace(/\/\/.*$/gm, '');
+    for (const banned of ['vcr', 'historical', 'rural', 'cluster_id', 'code', 'hash']) expect(src.toLowerCase().includes(banned), banned).toBe(false);
+    expect(FEATURES).toEqual(['access', 'availability', 'engagement', 'recommendation', 'enhanced_adoption']);
+  });
+  it('changing only historical coverage leaves every assignment unchanged', () => {
+    for (const d of METRO_DEPARTMENTS) {
+      const withCoverage = { ...vec(d.code), vcr_65plus: 10, vcr_65_74: 90, vcr_75plus: 99, historical: { vcr_65plus: 1 } } as unknown as FeatureVector;
+      expect(assignProfile(withCoverage)).toBe(d.illustrative.cluster_id);
+    }
+  });
+  it('changing enabling and adoption features moves the assignment in the expected direction', () => {
+    const base93 = vec('93'); // Activation gap: strong access, weak engagement and recommendation
+    expect(assignProfile(base93)).toBe('activation');
+    expect(assignProfile({ ...base93, engagement: 80, recommendation: 80, enhanced_adoption: 56 })).toBe('strong');
+    expect(assignProfile({ ...base93, access: 36, availability: 46 })).toBe('access');
+    const base43 = vec('43'); // Access-constrained
+    expect(assignProfile({ ...base43, access: 84, availability: 90, engagement: 36, recommendation: 40 })).toBe('activation');
+    const base69 = vec('69'); // Enhanced adoption gap: reasonable delivery, low enhanced share
+    expect(assignProfile({ ...base69, enhanced_adoption: 58, recommendation: 80, engagement: 78, availability: 90, access: 82 })).toBe('strong');
+  });
+  it('featured departments receive their agreed profiles from the same method, with their agreed values', () => {
     const cl = (c: string) => DEPT_BY_CODE.get(c)!.illustrative.cluster_id;
     expect([cl('43'), cl('93'), cl('69'), cl('29')]).toEqual(['access', 'activation', 'enhanced', 'strong']);
+    expect(DEPT_BY_CODE.get('93')!.illustrative.driver_indexes).toMatchObject({ access_index: 66, hcp_engagement_index: 34, availability_index: 86, recommendation_index: 40 });
+    expect(DEPT_BY_CODE.get('93')!.illustrative.expected_vcr_65plus).toBe(54);
+    expect([DEPT_BY_CODE.get('69')!.illustrative.enhanced_share_of_65plus_dispensing_pct, DEPT_BY_CODE.get('69')!.illustrative.efluelda_share_of_enhanced_dispensing_pct]).toEqual([40, 70]);
     for (const c of CLUSTERS) expect(DEPT_BY_CODE.get(c.featured_department)!.illustrative.cluster_id).toBe(c.id);
   });
+  it('profile summaries equal member aggregates', () => {
+    const keys = ['access_index', 'hcp_engagement_index', 'confidence_index', 'availability_index', 'recommendation_index'] as const;
+    for (const c of CLUSTERS) keys.forEach((k, i) => expect(c.driver_template[i]).toBe(Math.round(mean(c.id, drv(k)))));
+    for (const d of DEPARTMENTS) {
+      const f = vec(d.code);
+      expect(d.illustrative.driver_indexes.access_index).toBe(f.access);
+      expect(d.illustrative.enhanced_share_of_65plus_dispensing_pct).toBe(f.enhanced_adoption);
+    }
+  });
   it('profiles match their descriptions', () => {
-    // Access-constrained: weakest access and availability.
-    for (const other of ['activation', 'enhanced', 'strong'] as ClusterId[]) {
-      expect(mean('access', drv('access_index'))).toBeLessThan(mean(other, drv('access_index')));
-      expect(mean('access', drv('availability_index'))).toBeLessThan(mean(other, drv('availability_index')));
+    for (const o of ['activation', 'enhanced', 'strong'] as ClusterId[]) {
+      expect(mean('access', drv('access_index'))).toBeLessThan(mean(o, drv('access_index')));
+      expect(mean('access', drv('availability_index'))).toBeLessThan(mean(o, drv('availability_index')));
     }
-    // Activation gap: stronger access than Access-constrained, weakest engagement and recommendation.
+    for (const o of ['access', 'enhanced', 'strong'] as ClusterId[]) {
+      expect(mean('activation', drv('hcp_engagement_index'))).toBeLessThan(mean(o, drv('hcp_engagement_index')));
+      expect(mean('activation', drv('recommendation_index'))).toBeLessThan(mean(o, drv('recommendation_index')));
+    }
     expect(mean('activation', drv('access_index'))).toBeGreaterThan(mean('access', drv('access_index')) + 15);
-    expect(mean('activation', drv('availability_index'))).toBeGreaterThan(mean('access', drv('availability_index')) + 15);
-    for (const other of ['access', 'enhanced', 'strong'] as ClusterId[]) {
-      expect(mean('activation', drv('hcp_engagement_index'))).toBeLessThan(mean(other, drv('hcp_engagement_index')));
-      expect(mean('activation', drv('recommendation_index'))).toBeLessThan(mean(other, drv('recommendation_index')));
-    }
-    // Enhanced-vaccine adoption gap: lowest enhanced share, with reasonable delivery conditions.
-    for (const other of ['access', 'activation', 'strong'] as ClusterId[])
-      expect(mean('enhanced', (d) => d.illustrative.enhanced_share_of_65plus_dispensing_pct)).toBeLessThan(mean(other, (d) => d.illustrative.enhanced_share_of_65plus_dispensing_pct));
-    expect(mean('enhanced', drv('access_index'))).toBeGreaterThan(65);
-    // Strong delivery: highest on every driver and on observed coverage; no low-coverage exceptions.
+    for (const o of ['access', 'activation', 'strong'] as ClusterId[])
+      expect(mean('enhanced', (d) => d.illustrative.enhanced_share_of_65plus_dispensing_pct)).toBeLessThan(mean(o, (d) => d.illustrative.enhanced_share_of_65plus_dispensing_pct));
     for (const k of ['access_index', 'hcp_engagement_index', 'availability_index', 'recommendation_index'] as const)
-      for (const other of ['access', 'activation', 'enhanced'] as ClusterId[]) expect(mean('strong', drv(k))).toBeGreaterThan(mean(other, drv(k)));
-    for (const d of members('strong')) expect(d.historical.vcr_65plus!).toBeGreaterThanOrEqual(60);
+      for (const o of ['access', 'activation', 'enhanced'] as ClusterId[]) expect(mean('strong', drv(k))).toBeGreaterThan(mean(o, drv(k)));
+    expect(REFERENCE_PROFILES.strong.access).toBeGreaterThan(REFERENCE_PROFILES.access.access);
   });
-  it('clusters are not simple coverage bins (ranges overlap across profiles)', () => {
-    const r = (id: ClusterId) => [clusterStats(id).min!, clusterStats(id).max!];
-    expect(r('access')[1]).toBeGreaterThan(r('activation')[0]);
-    expect(r('activation')[0]).toBeLessThan(r('access')[1]);
+  it('coverage overlaps between profiles, especially Enhanced and Strong, with similar-coverage areas in different profiles', () => {
+    const lo = (id: ClusterId) => clusterStats(id).min!;
+    const hi = (id: ClusterId) => clusterStats(id).max!;
+    expect(Math.min(hi('enhanced'), hi('strong')) - Math.max(lo('enhanced'), lo('strong'))).toBeGreaterThan(4);
+    expect(Math.min(hi('access'), hi('activation')) - Math.max(lo('access'), lo('activation'))).toBeGreaterThan(4);
+    let pairs = 0;
+    for (const a of members('enhanced')) for (const b of members('strong')) if (Math.abs(a.historical.vcr_65plus! - b.historical.vcr_65plus!) <= 0.5) pairs++;
+    expect(pairs).toBeGreaterThanOrEqual(5);
   });
-  it('profile templates equal member means and expected coverage follows', () => {
-    for (const c of CLUSTERS) {
-      const keys = ['access_index', 'hcp_engagement_index', 'confidence_index', 'availability_index', 'recommendation_index'] as const;
-      keys.forEach((k, i) => expect(c.driver_template[i]).toBe(Math.round(mean(c.id, drv(k)))));
+  it('expected coverage follows the documented feature rule (featured fixed) and residuals are not extreme', () => {
+    const rule = { base: 56, c: { access: 62, availability: 68, engagement: 56, recommendation: 55, enhanced_adoption: 44 }, w: { access: 0.06, availability: 0.05, engagement: 0.06, recommendation: 0.07, enhanced_adoption: 0.025 } };
+    for (const d of METRO_DEPARTMENTS) {
+      if (['43', '93', '69', '29'].includes(d.code)) continue;
+      const f = vec(d.code);
+      const e = rule.base + FEATURES.reduce((s, k) => s + rule.w[k] * (f[k] - rule.c[k]), 0);
+      expect(d.illustrative.expected_vcr_65plus).toBeCloseTo(e, 1);
     }
     for (const d of METRO_DEPARTMENTS) {
       expect(d.illustrative.observed_minus_expected_pp).toBeCloseTo(d.historical.vcr_65plus! - d.illustrative.expected_vcr_65plus, 1);
-      expect(Math.abs(d.illustrative.unvaccinated_opportunity! - d.illustrative.eligible_population_65plus * (1 - d.historical.vcr_65plus! / 100))).toBeLessThanOrEqual(1);
+      expect(Math.abs(d.illustrative.observed_minus_expected_pp!)).toBeLessThan(12);
     }
-  });
-  it('estimated figures are displayed to a sensible precision', () => {
-    expect(fmtEst(96480)).toBe('96,000');
-    expect(fmtEst(40000)).toBe('40,000');
-    expect(fmtEst(5234)).toBe('5,200');
+    expect(METRO_DEPARTMENTS.filter((d) => Math.abs(d.illustrative.observed_minus_expected_pp!) > 6).length).toBeLessThanOrEqual(10);
   });
 });
 
+describe('opportunity uses INSEE population', () => {
+  const p = (population as { departments: Record<string, { pop_65plus: number | null; pop_total: number }>; reference_date: string }).departments;
+  it('every metropolitan department joins by code, is positive, and is smaller than the total population', () => {
+    for (const d of METRO_DEPARTMENTS) {
+      const r = p[d.code];
+      expect(r, d.code).toBeTruthy();
+      expect(r.pop_65plus!).toBeGreaterThan(0);
+      expect(r.pop_65plus!).toBeLessThan(r.pop_total);
+      expect(d.illustrative.eligible_population_65plus).toBe(r.pop_65plus);
+      expect(r.pop_65plus! / r.pop_total).toBeGreaterThan(0.1);
+      expect(r.pop_65plus! / r.pop_total).toBeLessThan(0.4);
+    }
+    expect((population as { reference_date: string }).reference_date).toBe('2026-01-01');
+  });
+  it('plausible scale and ordering for Paris, Nord, Lozère, Creuse and the featured departments', () => {
+    const v = (c: string) => DEPT_BY_CODE.get(c)!.illustrative.eligible_population_65plus!;
+    expect(v('48')).toBeLessThan(30000); // Lozère
+    expect(v('23')).toBeLessThan(v('75')); // Creuse < Paris
+    expect(v('48')).toBeLessThan(v('23'));
+    expect(v('59')).toBeGreaterThan(v('75')); // Nord > Paris
+    expect(v('69')).toBeGreaterThan(v('93'));
+    expect(v('93')).toBeGreaterThan(v('29') * 0.8);
+    expect(v('43')).toBeLessThan(v('29'));
+  });
+  it('opportunity = population × (1 − coverage); aggregates reconcile', () => {
+    let total = 0;
+    for (const d of METRO_DEPARTMENTS) {
+      const o = opportunityOf(d)!;
+      expect(o).toBeCloseTo(d.illustrative.eligible_population_65plus! * (1 - d.historical.vcr_65plus! / 100), 6);
+      total += o;
+    }
+    expect(CLUSTERS.reduce((n, c) => n + clusterStats(c.id).opportunity, 0)).toBeCloseTo(total, 3);
+    expect(metroOpportunityTotal()).toBeCloseTo(total, 3);
+  });
+  it('missing values are unavailable, never zero', () => {
+    const d = structuredClone(DEPT_BY_CODE.get('93')!);
+    d.historical.vcr_65plus = null;
+    expect(opportunityOf(d)).toBeNull();
+    d.historical.vcr_65plus = 46.4;
+    d.illustrative.eligible_population_65plus = null as unknown as number;
+    expect(opportunityOf(d)).toBeNull();
+  });
+  it('intervention catchment populations and sites are unchanged', () => {
+    expect(PACKAGE_BY_ID.get('P1')!.target_population_65plus).toBe(20000);
+    expect(PACKAGE_BY_ID.get('P2')!.target_population_65plus).toBe(40000);
+    expect(PACKAGE_BY_ID.get('P3')!.target_population_65plus).toBe(30000);
+    expect(PACKAGES.map((x) => x.target_sites)).toEqual([12, 20, 15]);
+  });
+  it('INSEE is documented as an acquired public source', () => {
+    const s = SOURCE_BY_ID.get('insee')!;
+    expect(s.provenance).toBe('public');
+    expect(s.period).toMatch(/1 January 2026/);
+    expect(s.url).toMatch(/insee\.fr/);
+  });
+});
 describe('numerical reconciliation', () => {
   it('P1/P2/P3 at +6 weeks', () => {
     const [p1, p2, p3] = PACKAGES;
@@ -176,9 +272,12 @@ describe('advisor: main-path copy', () => {
     expect(plan(D93, 'public_affairs').body.join(' ')).toMatch(/Convene existing community partners/);
     const d = plan(D93, 'design');
     expect(d.recommendation).toMatch(/six-week package through 20 participating sites/);
-    expect(d.bullets).toHaveLength(4);
-    expect(d.bullets![0]).toMatch(/Medical supports a short briefing/);
-    expect(d.roles!.join(' ')).toMatch(/Patient-level reminder data stay with providers/);
+    expect(d.rows).toHaveLength(4);
+    expect(d.rows![0].action).toMatch(/Brief participating pharmacies and practices on proactive recommendations/);
+    expect(d.rows![0].owner).toBe('Medical supports the briefing; participating providers implement recommendations');
+    expect(d.rows![3].owner).toMatch(/Public Affairs coordinates the team review; participating sites record execution; Market Access supports delivery issues/);
+    expect(d.rows!.map((r) => r.action + r.owner).join(' ')).not.toMatch(/Patient-level/);
+    expect(d.evidence.join(' ')).toMatch(/Patient-level reminder data stay with providers/);
     expect(d.actions).toEqual(['add_plan:P2', 'review_plan']);
   });
   it('P2 at +2 and +6 weeks uses the agreed wording and numbers', () => {

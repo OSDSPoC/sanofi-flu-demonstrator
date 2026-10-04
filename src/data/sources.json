@@ -133,16 +133,16 @@
     },
     {
       "id": "insee",
-      "title": "INSEE population estimates",
-      "type": "potential_public_source",
+      "title": "INSEE population estimates by department, sex and age, 1 January 2026",
+      "type": "numeric_public",
       "url": "https://www.insee.fr/fr/statistiques/8721456",
       "owner": "INSEE",
-      "geography": "Region/department by age",
-      "period": "2026 series identified, not acquired",
-      "cadence": "Annual estimates",
-      "provenance": "not_acquired",
-      "purpose": "Production eligible-population denominators",
-      "limitation": "Population fields in this demonstrator are synthetic, not INSEE figures."
+      "geography": "Department (96 metropolitan departments used; Rhône includes the Métropole de Lyon; Corsica as 2A and 2B)",
+      "period": "Population at 1 January 2026 (early results to end 2025, updated 23 December 2025); acquired 4 October 2026; file estim-pop-dep-sexe-aq-1975-2026.xlsx",
+      "cadence": "Annual estimate",
+      "provenance": "public",
+      "purpose": "Population aged 65 and over by department, for the Opportunity map: estimated unvaccinated adults aged 65+ = population 65+ × (1 − 2025–26 coverage)",
+      "limitation": "65+ is the sum of the 65–69 to 95+ bands, age reached on 1 January. It is a population estimate, not an eligible or addressable population, and it is paired with the 2025–26 coverage season. Intervention catchment populations are separate fixed scenario figures."
     },
     {
       "id": "drees",
@@ -167,8 +167,8 @@
       "period": "Planning baseline for 2026–27",
       "cadence": "Fixed through simulation",
       "provenance": "synthetic",
-      "purpose": "Explain clustering, expected uptake and potential drivers",
-      "limitation": "Profiles are assigned by an authored rule using public coverage, the age profile and area type, with designed driver scores. Not a trained or validated model; scores are not causal effects or feature importance."
+      "purpose": "Designed enabling-condition features, profile assignment and expected coverage for the demonstration",
+      "limitation": "Features are authored demonstration content. Each area is assigned to the nearest of four reference profiles by distance on five features; public coverage is not used to assign. Expected coverage is an authored, unvalidated rule on the same features (featured areas fixed). Not a trained model; not feature importance or causal effects."
     },
     {
       "id": "synthetic_commercial",

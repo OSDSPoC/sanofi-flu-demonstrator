@@ -90,7 +90,8 @@ export interface Pkg {
   cluster_id: ClusterId;
   lead: string;
   support: string[];
-  roles: string[];
+  action_rows: { action: string; owner: string }[];
+  notes: string[];
   target_population_65plus: number;
   target_sites: number;
   hypothesis: string;
@@ -135,8 +136,10 @@ export interface Answer {
   body: string[];
   /** Optional bulleted content (e.g. the package actions). */
   bullets?: string[];
-  /** Optional role list shown under the bullets. */
-  roles?: string[];
+  /** Optional Action / Owner rows (the intervention table). */
+  rows?: { action: string; owner: string }[];
+  /** Short notes shown with the rows or in the details. */
+  notes?: string[];
   actions: ActionId[];
   /** Compact expandable section. */
   evidence: string[];

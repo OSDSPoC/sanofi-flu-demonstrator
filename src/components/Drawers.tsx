@@ -7,7 +7,7 @@ import type { PlanStatus } from '../lib/types';
 import { LineChart } from './charts';
 import { planDiffers } from './Monitor';
 import { LIMITATIONS, OutcomeBlock } from './Outcome';
-import { Drawer, Glyph, Tag } from './ui';
+import { ActionOwnerTable, Drawer, Glyph, Tag } from './ui';
 
 /* ---------------- about this demonstrator ---------------- */
 export function StatusDrawer({ onClose }: { onClose: () => void }) {
@@ -57,7 +57,7 @@ export function ModelDrawer({ onClose }: { onClose: () => void }) {
           A production version would combine five families of evidence: <b>outcomes</b> (official coverage), <b>population and context</b>, <b>access and delivery</b>, <b>product and supply</b>, and <b>activity</b>. From these it would estimate expected coverage for each area and group similar areas into clusters.
         </p>
         <p className="callout">
-          In this demonstrator that step is <b>authored and precomputed</b>. Cluster membership follows a documented rule using public coverage, the age profile and area type; driver scores and expected coverage are designed values. No feature-importance, accuracy or validation statistics are claimed.
+          In this demonstrator that step is <b>authored and precomputed</b>. Each area is assigned to the nearest of four reference profiles by distance on five designed features; driver scores and expected coverage are designed values, and public coverage is not used to assign membership. No feature-importance, accuracy or validation statistics are claimed.
         </p>
       </section>
       <section className="model-part">
@@ -296,21 +296,11 @@ export function PlanDrawer({ onClose }: { onClose: () => void }) {
               <p>
                 <b>Hypothesis.</b> {pk.hypothesis}
               </p>
-              <h5>Actions</h5>
-              <ol className="actions-list">
-                {pk.actions.map((a) => (
-                  <li key={a}>{a}</li>
-                ))}
-              </ol>
-              <h5>Owners</h5>
-              <ul className="roles">
-                {pk.roles.map((r) => (
-                  <li key={r}>{r}</li>
-                ))}
-              </ul>
+              <ActionOwnerTable rows={pk.action_rows} />
               <p>
                 <b>Measure.</b> {pk.primary_metric}. Review execution after two weeks, then comparative signals at four and six weeks.
               </p>
+              {pk.notes.length > 0 && <p className="note">{pk.notes.join(' ')}</p>}
             </section>
           );
         })

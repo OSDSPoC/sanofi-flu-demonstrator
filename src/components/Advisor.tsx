@@ -4,7 +4,7 @@ import { ctxLabel } from '../lib/calc';
 import { promptsFor } from '../lib/answers';
 import type { Answer, ClusterId, PackageId, TranscriptItem } from '../lib/types';
 import { useApp, useDispatch } from '../state';
-import { SourceChips } from './ui';
+import { ActionOwnerTable, SourceChips } from './ui';
 
 function ActionButtons({ answer }: { answer: Answer }) {
   const s = useApp();
@@ -114,13 +114,7 @@ function AdvisorMessage({ item, focused }: { item: Extract<TranscriptItem, { kin
               ))}
             </ol>
           )}
-          {a.roles && (
-            <ul className="roles">
-              {a.roles.map((r) => (
-                <li key={r}>{r}</li>
-              ))}
-            </ul>
-          )}
+          {a.rows && <ActionOwnerTable rows={a.rows} />}
         </>
       )}
       <ActionButtons answer={a} />
