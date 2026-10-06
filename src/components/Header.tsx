@@ -1,4 +1,4 @@
-import logo from '../assets/sanofi-logo.svg';
+import logo from '../assets/opensky-logo.jpg';
 import { UI } from '../lib/data';
 import { useApp, useDispatch } from '../state';
 
@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="app-header">
       <div className="brand">
-        <img src={logo} alt="Sanofi" className="logo" width={96} height={26} />
+        <img src={logo} alt="OpenSky" className="logo" width={94} height={38} />
         <div className="titles">
           <h1>{UI.title}</h1>
           <p>{UI.subtitle}</p>

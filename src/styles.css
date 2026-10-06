@@ -33,7 +33,7 @@ input, textarea { font: inherit; color: inherit; }
 /* ---------- header ---------- */
 .app-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px 24px; background: var(--white); border-bottom: 1px solid var(--line); flex: 0 0 auto; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
-.logo { height: 26px; width: auto; display: block; }
+.logo { height: 38px; width: auto; display: block; }
 .titles h1 { font-size: 19px; font-weight: 650; line-height: 1.15; }
 .titles p { font-size: 13px; color: var(--ink-2); }
 .header-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
@@ -302,7 +302,7 @@ input, textarea { font: inherit; color: inherit; }
   .titles h1 { font-size: 16.5px; }
   .titles p { font-size: 12px; }
   .brand { gap: 12px; }
-  .logo { height: 22px; }
+  .logo { height: 34px; }
   .header-actions { gap: 6px; flex-wrap: nowrap; }
   .header-actions .btn { padding: 6px 9px; font-size: 13px; }
   .seg button { padding: 6px 11px; font-size: 13.5px; }

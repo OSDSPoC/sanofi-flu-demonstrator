@@ -2,7 +2,11 @@
 
 Both assets are vendored so the demonstrator makes no runtime network requests.
 
-## `sanofi-logo.svg`
+## `opensky-logo.jpg`
+
+- The OpenSky logo supplied by the project owner (4–6 October 2026). It is the logo shown in the header and on printed documents. Replace the file, keeping the name, to update it.
+
+## `sanofi-logo.svg` (no longer used in the app)
 
 - **Source:** the Sanofi wordmark as served inline on the official corporate site header, `https://www.sanofi.com/en` (SVG element labelled "Sanofi", viewBox 0 0 80 22). Retrieved 3 October 2026 by copying the element verbatim into a standalone file. Only the framework CSS class and the `focusable` attribute were removed; the paths and fills are unchanged.
 - **Not reconstructed or redrawn.** If Sanofi supplies a brand-approved asset, replace this file and keep the filename.

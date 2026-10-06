@@ -1,4 +1,4 @@
-# France Influenza Uptake Intelligence: Sanofi demonstrator
+# France Influenza Uptake Intelligence: Sanofi demonstrator (OpenSky)
 
 A static, interactive demonstrator built for a Sanofi meeting with Public Affairs colleagues from France, Italy and Spain. France is the worked market and Efluelda, Sanofi's high-dose influenza vaccine, is the product anchor.
 

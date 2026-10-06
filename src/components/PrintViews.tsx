@@ -1,4 +1,4 @@
-import logo from '../assets/sanofi-logo.svg';
+import logo from '../assets/opensky-logo.jpg';
 import { CLUSTER_BY_ID, DEPT_BY_CODE, NATIONAL, PACKAGE_BY_ID, SCENARIO, SOURCE_BY_ID, UI } from '../lib/data';
 import { checkpointDates, fmtDate, fmtEst, fmtPct, fmtInt, gapTo75, packageAt, weekLabel } from '../lib/calc';
 import { STATUS_LABEL, useApp } from '../state';
@@ -8,7 +8,7 @@ import { DEFINITIONS, LIMITATIONS, OutcomeBlock } from './Outcome';
 function PrintHeader({ title, status }: { title: string; status: string }) {
   return (
     <header className="ph">
-      <img src={logo} alt="Sanofi" width={84} height={23} />
+      <img src={logo} alt="OpenSky" width={99} height={40} />
       <div>
         <h1>{title}</h1>
         <p>
